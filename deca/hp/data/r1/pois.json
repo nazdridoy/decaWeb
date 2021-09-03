@@ -1,0 +1,1212 @@
+{
+  "hunting_blind": [
+    [
+      [
+        -1095.407470703125,
+        15281.9140625
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        9380.0302734375,
+        11177.380859375
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        7568.70458984375,
+        11058.9453125
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        6281.80859375,
+        10369.8662109375
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        7845.0185546875,
+        9858.3662109375
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        11409.3935546875,
+        10065.3017578125
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        9475.8076171875,
+        9121.2294921875
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        6327.8701171875,
+        9516.34765625
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        11465.7666015625,
+        8909.6083984375
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        8848.787109375,
+        7814.982421875
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        13069.896484375,
+        8499.962890625
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        10557.5078125,
+        7242.69091796875
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        6919.5205078125,
+        7438.06298828125
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        8901.6943359375,
+        6012.84619140625
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        10710.6611328125,
+        6171.9580078125
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        9297.361328125,
+        5195.9150390625
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        8854.9482421875,
+        10050.232421875
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        9752.7548828125,
+        7864.12841796875
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        9576.0029296875,
+        10649.2890625
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        10324.0703125,
+        10694.0087890625
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        8514.3369140625,
+        11422.1201171875
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        9025.9833984375,
+        9737.5732421875
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        10732.0546875,
+        9978.755859375
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        10954.119140625,
+        9043.3408203125
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        9218.75,
+        8461.0400390625
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        8215.1484375,
+        8209.912109375
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        7185.73828125,
+        9356.2529296875
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        7496.44775390625,
+        10728.37890625
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        7832.623046875,
+        6981.8779296875
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        7396.16552734375,
+        6618.73974609375
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        7011.63330078125,
+        6175.009765625
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        7232.30615234375,
+        5124.58056640625
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        11199.0390625,
+        6876.3115234375
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        8158.84228515625,
+        3942.254638671875
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        8035.51611328125,
+        6387.5927734375
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        9241.5986328125,
+        6943.5771484375
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        10303.3544921875,
+        5604.7724609375
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        10083.5654296875,
+        4979.24462890625
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        11355.0537109375,
+        4981.89453125
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        9901.994140625,
+        7635.2041015625
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        11364.88671875,
+        8161.52197265625
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        12143.0859375,
+        7681.00439453125
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        8580.9697265625,
+        10195.9560546875
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        12279.0908203125,
+        8859.2421875
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        8191.44287109375,
+        9191.7197265625
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        8415.5048828125,
+        5077.5673828125
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        6368.17578125,
+        6551.12890625
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        6788.66015625,
+        8552.8232421875
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        8677.9423828125,
+        7337.181640625
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        9462.0078125,
+        6157.72607421875
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        10273.2333984375,
+        9101.6015625
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        10567.9462890625,
+        11094.69921875
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        10914.6376953125,
+        8394.37109375
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        10805.5263671875,
+        7932.923828125
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        8644.7109375,
+        4556.16064453125
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        12719.2548828125,
+        9181.37890625
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        9865.267578125,
+        9799.0107421875
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        10887.8291015625,
+        4547.36083984375
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        13386.6103515625,
+        5433.041015625
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        12844.650390625,
+        4247.9072265625
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        11909.392578125,
+        4526.25830078125
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        6705.35791015625,
+        11113.7587890625
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        5651.14013671875,
+        9943.4853515625
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        5417.12353515625,
+        11268.564453125
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        12843.7587890625,
+        7191.92236328125
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        5791.822265625,
+        4752.216796875
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        13030.62109375,
+        10450.8564453125
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        11250.1279296875,
+        10703.3251953125
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        7515.96728515625,
+        8056.775390625
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        7260.7802734375,
+        4058.797607421875
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ]
+  ],
+  "lookout_point": [
+    [
+      [
+        9846.4091796875,
+        10813.720703125
+      ],
+      "lookoutpoint_balmont_east_name",
+      "Balmont Eastern Lookout Point"
+    ],
+    [
+      [
+        11447.115234375,
+        11119.0419921875
+      ],
+      "lookoutpoint_leviathan_name",
+      "Mount Leviathan Lookout Point"
+    ],
+    [
+      [
+        11896.9638671875,
+        8973.3046875
+      ],
+      "lookoutpoint_cheelah_name",
+      "Cheelah Lookout Point"
+    ],
+    [
+      [
+        9762.65625,
+        8265.8173828125
+      ],
+      "lookoutpoint_highlake_south_name",
+      "High Lake Southern Lookout Point"
+    ],
+    [
+      [
+        10983.5078125,
+        7205.125
+      ],
+      "lookoutpoint_norden_west_name",
+      "Norden Western Lookout Point"
+    ],
+    [
+      [
+        8757.8115234375,
+        6524.1552734375
+      ],
+      "lookoutpoint_highlake_north_name",
+      "High Lake Northern Lookout Point"
+    ],
+    [
+      [
+        9762.7607421875,
+        4970.890625
+      ],
+      "lookoutpoint_calburn_west_name",
+      "Calburn Western Lookout Point"
+    ],
+    [
+      [
+        8094.0302734375,
+        4357.03076171875
+      ],
+      "lookoutpoint_chopeeka_east_name",
+      "Chopeeka Eastern Lookout Point"
+    ],
+    [
+      [
+        6794.82763671875,
+        5879.30810546875
+      ],
+      "lookoutpoint_willipeg_name",
+      "Willipeg Lookout Point"
+    ],
+    [
+      [
+        7627.5537109375,
+        7544.02734375
+      ],
+      "lookoutpoint_mountkraken_name",
+      "Mount Kraken Lookout Point"
+    ],
+    [
+      [
+        8307.8125,
+        9511.7177734375
+      ],
+      "lookoutpoint_balmont_north_name",
+      "Balmont Northern Lookout Point"
+    ],
+    [
+      [
+        8297.7783203125,
+        11106.49609375
+      ],
+      "lookoutpoint_balmont_west_name",
+      "Balmont Western Lookout Point"
+    ],
+    [
+      [
+        6595.919921875,
+        10073.62890625
+      ],
+      "lookoutpoint_roonachee_name",
+      "Roonachee Lookout Point"
+    ],
+    [
+      [
+        5895.93505859375,
+        4393.587890625
+      ],
+      "lookoutpoint_chopeeka_west_name",
+      "Chopeeka Western Lookout Point"
+    ],
+    [
+      [
+        12340.9931640625,
+        7509.5107421875
+      ],
+      "lookoutpoint_norden_east_name",
+      "Norden Eastern Lookout Point"
+    ],
+    [
+      [
+        11534.5869140625,
+        4763.2216796875
+      ],
+      "lookoutpoint_calburn_east_name",
+      "Calburn Eastern Lookout Point"
+    ]
+  ],
+  "outpost": [
+    [
+      [
+        9919.2255859375,
+        10264.7255859375
+      ],
+      "outpost_balmont_name",
+      "Balmont Outpost"
+    ],
+    [
+      [
+        11228.529296875,
+        10107.859375
+      ],
+      "outpost_mountleviathan_name",
+      "Mount Leviathan Outpost"
+    ],
+    [
+      [
+        10810.919921875,
+        8337.025390625
+      ],
+      "outpost_cheelah_name",
+      "Cheelah Outpost"
+    ],
+    [
+      [
+        7416.80224609375,
+        10160.904296875
+      ],
+      "outpost_roonachee_name",
+      "Roonachee Outpost"
+    ],
+    [
+      [
+        7393.1953125,
+        7962.0830078125
+      ],
+      "outpost_mountkraken_name",
+      "Mount Kraken Outpost"
+    ],
+    [
+      [
+        11629.44921875,
+        7719.4306640625
+      ],
+      "outpost_norden_name",
+      "Norden Outpost"
+    ],
+    [
+      [
+        8874.484375,
+        6168.8974609375
+      ],
+      "outpost_highlake_name",
+      "High Lake Outpost"
+    ],
+    [
+      [
+        10956.3505859375,
+        5642.998046875
+      ],
+      "outpost_calburn_name",
+      "Calburn Outpost"
+    ],
+    [
+      [
+        6722.712890625,
+        5208.859375
+      ],
+      "outpost_willipeg_name",
+      "Willipeg Outpost"
+    ],
+    [
+      [
+        8867.0244140625,
+        4421.94287109375
+      ],
+      "outpost_chopeeka_name",
+      "Chopeeka Outpost"
+    ],
+    [
+      [
+        6004.8828125,
+        10737.6513671875
+      ],
+      "outpost_roonachee_west_name",
+      "Roonachee Western Outpost"
+    ],
+    [
+      [
+        8689.0732421875,
+        9039.833984375
+      ],
+      "outpost_balmont_north_name",
+      "Balmont Northern Outpost"
+    ],
+    [
+      [
+        9270.7958984375,
+        7636.4326171875
+      ],
+      "outpost_highlake_south_name",
+      "Highlake Southern Outpost"
+    ],
+    [
+      [
+        6666.630859375,
+        6600.873046875
+      ],
+      "outpost_willipeg_south_name",
+      "Willipeg Southern Outpost"
+    ],
+    [
+      [
+        12650.6826171875,
+        4185.81494140625
+      ],
+      "outpost_norden_north_name",
+      "Norden Northern Outpost"
+    ],
+    [
+      [
+        12815.4033203125,
+        7067.6630859375
+      ],
+      "outpost_norden_east_name",
+      "Norden Eastern Outpost"
+    ],
+    [
+      [
+        12400.9228515625,
+        9051.162109375
+      ],
+      "outpost_cheelah_south_name",
+      "Cheelah Southern Outpost"
+    ],
+    [
+      [
+        9557.099609375,
+        10759.87109375
+      ],
+      "outpost_balmont_railroad_name",
+      "Balmont Railroad Outpost"
+    ]
+  ],
+  "landmark": [
+    [
+      [
+        6249.42138671875,
+        6514.79443359375
+      ],
+      "landmark_willipeg_cave_name",
+      "Willipeg Caves"
+    ],
+    [
+      [
+        6952.0146484375,
+        9055.625
+      ],
+      "landmark_kraken_rope_bridge_name",
+      "Kraken Rope Bridge"
+    ],
+    [
+      [
+        6796.74560546875,
+        11216.294921875
+      ],
+      "landmark_roonachee_church_name",
+      "Roonachee Church"
+    ],
+    [
+      [
+        7824.087890625,
+        10279.5087890625
+      ],
+      "landmark_lake_district_railroad_name",
+      "Lake District Railway"
+    ],
+    [
+      [
+        7794.0947265625,
+        5422.30126953125
+      ],
+      "landmark_chopeeka_remains_name",
+      "Chopeeka Natives Grounds"
+    ],
+    [
+      [
+        8506.9228515625,
+        5864.64794921875
+      ],
+      "landmark_highlake_mountain_lake_name",
+      "High Lake Mountain Lake"
+    ],
+    [
+      [
+        8837.34765625,
+        10060.3994140625
+      ],
+      "landmark_lake_district_camp_name",
+      "Lake District Survival Camp"
+    ],
+    [
+      [
+        9626.62109375,
+        8043.857421875
+      ],
+      "landmark_high_lake_rocks_name",
+      "High Lake Rock Formations"
+    ],
+    [
+      [
+        10701.5478515625,
+        6595.0166015625
+      ],
+      "landmark_norden_mines_name",
+      "Norden Mining Structures"
+    ],
+    [
+      [
+        11094.697265625,
+        4569.39208984375
+      ],
+      "landmark_calburn_accident_name",
+      "Calburn Accident Site"
+    ],
+    [
+      [
+        11962.4931640625,
+        9461.2041015625
+      ],
+      "landmark_cheelah_hiking_village_name",
+      "Cheelah Hiking Village"
+    ],
+    [
+      [
+        12052.7294921875,
+        11240.2705078125
+      ],
+      "landmark_mount_leviathan_cave_name",
+      "Leviathan Cave"
+    ]
+  ],
+  "lore": [
+    [
+      [
+        6624.615234375,
+        6810.28564453125
+      ],
+      "lore_01_willipeg_name",
+      "The Moose"
+    ],
+    [
+      [
+        7123.8466796875,
+        8122.3837890625
+      ],
+      "lore_03_mountkraken_name",
+      "Note by J. Trampfine"
+    ],
+    [
+      [
+        6969.10595703125,
+        9137.671875
+      ],
+      "lore_02_mountkraken_name",
+      "About the Black Bear"
+    ],
+    [
+      [
+        7148.751953125,
+        9970.2119140625
+      ],
+      "lore_02_roonachee_name",
+      "The Oregon Trail"
+    ],
+    [
+      [
+        6867.54638671875,
+        10995.353515625
+      ],
+      "lore_01_roonachee_name",
+      "Hunting Tip"
+    ],
+    [
+      [
+        7234.71435546875,
+        4154.39697265625
+      ],
+      "lore_03_chopeeka_name",
+      "Old World Diseases"
+    ],
+    [
+      [
+        7174.75830078125,
+        5082.17919921875
+      ],
+      "lore_02_chopeeka_name",
+      "Note by P. Beatty"
+    ],
+    [
+      [
+        7895.3779296875,
+        8148.56201171875
+      ],
+      "lore_01_mountkraken_name",
+      "Bear Cabbage"
+    ],
+    [
+      [
+        8116.791015625,
+        10996.31640625
+      ],
+      "lore_02_balmont_name",
+      "The Hummingbird"
+    ],
+    [
+      [
+        8352.4970703125,
+        5058.1962890625
+      ],
+      "lore_01_chopeeka_name",
+      "A Written Note"
+    ],
+    [
+      [
+        8197.876953125,
+        6683.00341796875
+      ],
+      "lore_04_highlake_name",
+      "About the Blacktail"
+    ],
+    [
+      [
+        8371.8779296875,
+        9050.369140625
+      ],
+      "lore_09_balmont_name",
+      "The Balmont Poem"
+    ],
+    [
+      [
+        8265.5283203125,
+        10011.705078125
+      ],
+      "lore_08_balmont_name",
+      "About the Whitetail"
+    ],
+    [
+      [
+        8834.9521484375,
+        8015.84130859375
+      ],
+      "lore_03_highlake_name",
+      "A Written Note"
+    ],
+    [
+      [
+        9003.9619140625,
+        10096.7841796875
+      ],
+      "lore_07_balmont_name",
+      "The Deer Antlers"
+    ],
+    [
+      [
+        8675.892578125,
+        10982.3505859375
+      ],
+      "lore_06_balmont_name",
+      "The Bad Water"
+    ],
+    [
+      [
+        9256.7919921875,
+        4626.79345703125
+      ],
+      "lore_03_calburn_name",
+      "The Conservationist President"
+    ],
+    [
+      [
+        9253.6396484375,
+        7045.841796875
+      ],
+      "lore_02_highlake_name",
+      "The Land of Volcanos"
+    ],
+    [
+      [
+        9305.998046875,
+        9166.95703125
+      ],
+      "lore_05_balmont_name",
+      "The Lake District Hiking Trail"
+    ],
+    [
+      [
+        10170.0908203125,
+        5813.49951171875
+      ],
+      "lore_02_calburn_name",
+      "The Calburn Poem"
+    ],
+    [
+      [
+        10121.9912109375,
+        8056.69677734375
+      ],
+      "lore_01_highlake_name",
+      "About the Whitetail"
+    ],
+    [
+      [
+        10242.3759765625,
+        9131.0400390625
+      ],
+      "lore_04_balmont_name",
+      "The Game Warden"
+    ],
+    [
+      [
+        10181.5791015625,
+        10195.466796875
+      ],
+      "lore_03_balmont_name",
+      "Note by R. Hope"
+    ],
+    [
+      [
+        9934.568359375,
+        10996.7236328125
+      ],
+      "lore_01_balmont_name",
+      "A Written Note"
+    ],
+    [
+      [
+        10489.0654296875,
+        6800.88916015625
+      ],
+      "lore_04_norden_name",
+      "Coal Mining"
+    ],
+    [
+      [
+        11099.9111328125,
+        4400.4326171875
+      ],
+      "lore_01_calburn_name",
+      "Survivor's Camp"
+    ],
+    [
+      [
+        10661.400390625,
+        11062.7470703125
+      ],
+      "lore_02_mountleviathan_name",
+      "Wildlife Varmint Control"
+    ],
+    [
+      [
+        11281.814453125,
+        6782.1337890625
+      ],
+      "lore_03_norden_name",
+      "Fire Watch"
+    ],
+    [
+      [
+        11626.716796875,
+        8156.38525390625
+      ],
+      "lore_02_cheelah_name",
+      "The Trickster"
+    ],
+    [
+      [
+        11628.0302734375,
+        9293.3896484375
+      ],
+      "lore_01_cheelah_name",
+      "Camping Guidelines"
+    ],
+    [
+      [
+        11328.1728515625,
+        10290.06640625
+      ],
+      "lore_01_mountleviathan_name",
+      "Leviathan Volcano"
+    ],
+    [
+      [
+        12976.9384765625,
+        4576.74169921875
+      ],
+      "lore_02_norden_name",
+      "Layton River"
+    ],
+    [
+      [
+        13232.6513671875,
+        6606.6962890625
+      ],
+      "lore_01_norden_name",
+      "Layton Canyon"
+    ],
+    [
+      [
+        12992.970703125,
+        8822.673828125
+      ],
+      "lore_03_cheelah_name",
+      "The Coywolf"
+    ]
+  ]
+}

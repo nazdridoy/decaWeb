@@ -1,0 +1,643 @@
+[
+    {
+        "layer_type": "tile_map",
+        "overlay": false,
+        "name": "Topographic",
+        "active": true,
+        "attribution": "Parque Fernando map from theHunter:COTW",
+        "id": "t_topo",
+        "url": "data/r4/t_topo/{z}/{x}/{y}.png",
+        "max_zoom": 5,
+        "opacity": 1.0,
+        "bounds": [
+            [
+                -16384.0,
+                0.0
+            ],
+            [
+                0.0,
+                16384.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Axis Deer: spawn",
+        "active": false,
+        "attribution": "Parque Fernando bitmaps from theHunter:COTW",
+        "id": "axis_deer_spawn",
+        "url": "data/r4/t_axis_deer_spawn/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12280.0,
+                4096.0
+            ],
+            [
+                -4096.0,
+                12280.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Axis Deer: drinking",
+        "active": false,
+        "attribution": "Parque Fernando bitmaps from theHunter:COTW",
+        "id": "axis_deer_drinking",
+        "url": "data/r4/t_axis_deer_drinking/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12280.0,
+                4096.0
+            ],
+            [
+                -4096.0,
+                12280.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Axis Deer: feeding",
+        "active": false,
+        "attribution": "Parque Fernando bitmaps from theHunter:COTW",
+        "id": "axis_deer_feeding",
+        "url": "data/r4/t_axis_deer_feeding/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12280.0,
+                4096.0
+            ],
+            [
+                -4096.0,
+                12280.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Axis Deer: resting",
+        "active": false,
+        "attribution": "Parque Fernando bitmaps from theHunter:COTW",
+        "id": "axis_deer_resting",
+        "url": "data/r4/t_axis_deer_resting/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12280.0,
+                4096.0
+            ],
+            [
+                -4096.0,
+                12280.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Blackbuck: spawn",
+        "active": false,
+        "attribution": "Parque Fernando bitmaps from theHunter:COTW",
+        "id": "blackbuck_spawn",
+        "url": "data/r4/t_blackbuck_spawn/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12280.0,
+                4096.0
+            ],
+            [
+                -4096.0,
+                12280.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Blackbuck: drinking",
+        "active": false,
+        "attribution": "Parque Fernando bitmaps from theHunter:COTW",
+        "id": "blackbuck_drinking",
+        "url": "data/r4/t_blackbuck_drinking/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12280.0,
+                4096.0
+            ],
+            [
+                -4096.0,
+                12280.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Blackbuck: feeding",
+        "active": false,
+        "attribution": "Parque Fernando bitmaps from theHunter:COTW",
+        "id": "blackbuck_feeding",
+        "url": "data/r4/t_blackbuck_feeding/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12280.0,
+                4096.0
+            ],
+            [
+                -4096.0,
+                12280.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Blackbuck: resting",
+        "active": false,
+        "attribution": "Parque Fernando bitmaps from theHunter:COTW",
+        "id": "blackbuck_resting",
+        "url": "data/r4/t_blackbuck_resting/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12280.0,
+                4096.0
+            ],
+            [
+                -4096.0,
+                12280.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Cinnamon Teal: spawn",
+        "active": false,
+        "attribution": "Parque Fernando bitmaps from theHunter:COTW",
+        "id": "cinnamon_teal_spawn",
+        "url": "data/r4/t_cinnamon_teal_spawn/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12280.0,
+                4096.0
+            ],
+            [
+                -4096.0,
+                12280.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Cinnamon Teal: drinking",
+        "active": false,
+        "attribution": "Parque Fernando bitmaps from theHunter:COTW",
+        "id": "cinnamon_teal_drinking",
+        "url": "data/r4/t_cinnamon_teal_drinking/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12280.0,
+                4096.0
+            ],
+            [
+                -4096.0,
+                12280.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Cinnamon Teal: feeding",
+        "active": false,
+        "attribution": "Parque Fernando bitmaps from theHunter:COTW",
+        "id": "cinnamon_teal_feeding",
+        "url": "data/r4/t_cinnamon_teal_feeding/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12280.0,
+                4096.0
+            ],
+            [
+                -4096.0,
+                12280.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Cinnamon Teal: resting",
+        "active": false,
+        "attribution": "Parque Fernando bitmaps from theHunter:COTW",
+        "id": "cinnamon_teal_resting",
+        "url": "data/r4/t_cinnamon_teal_resting/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12280.0,
+                4096.0
+            ],
+            [
+                -4096.0,
+                12280.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Mule Deer: spawn",
+        "active": false,
+        "attribution": "Parque Fernando bitmaps from theHunter:COTW",
+        "id": "mule_deer_spawn",
+        "url": "data/r4/t_mule_deer_spawn/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12280.0,
+                4096.0
+            ],
+            [
+                -4096.0,
+                12280.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Mule Deer: drinking",
+        "active": false,
+        "attribution": "Parque Fernando bitmaps from theHunter:COTW",
+        "id": "mule_deer_drinking",
+        "url": "data/r4/t_mule_deer_drinking/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12280.0,
+                4096.0
+            ],
+            [
+                -4096.0,
+                12280.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Mule Deer: feeding",
+        "active": false,
+        "attribution": "Parque Fernando bitmaps from theHunter:COTW",
+        "id": "mule_deer_feeding",
+        "url": "data/r4/t_mule_deer_feeding/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12280.0,
+                4096.0
+            ],
+            [
+                -4096.0,
+                12280.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Mule Deer: resting",
+        "active": false,
+        "attribution": "Parque Fernando bitmaps from theHunter:COTW",
+        "id": "mule_deer_resting",
+        "url": "data/r4/t_mule_deer_resting/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12280.0,
+                4096.0
+            ],
+            [
+                -4096.0,
+                12280.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Puma: spawn",
+        "active": false,
+        "attribution": "Parque Fernando bitmaps from theHunter:COTW",
+        "id": "puma_spawn",
+        "url": "data/r4/t_puma_spawn/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12280.0,
+                4096.0
+            ],
+            [
+                -4096.0,
+                12280.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Puma: drinking",
+        "active": false,
+        "attribution": "Parque Fernando bitmaps from theHunter:COTW",
+        "id": "puma_drinking",
+        "url": "data/r4/t_puma_drinking/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12280.0,
+                4096.0
+            ],
+            [
+                -4096.0,
+                12280.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Puma: feeding",
+        "active": false,
+        "attribution": "Parque Fernando bitmaps from theHunter:COTW",
+        "id": "puma_feeding",
+        "url": "data/r4/t_puma_feeding/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12280.0,
+                4096.0
+            ],
+            [
+                -4096.0,
+                12280.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Puma: resting",
+        "active": false,
+        "attribution": "Parque Fernando bitmaps from theHunter:COTW",
+        "id": "puma_resting",
+        "url": "data/r4/t_puma_resting/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12280.0,
+                4096.0
+            ],
+            [
+                -4096.0,
+                12280.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Red Deer: spawn",
+        "active": false,
+        "attribution": "Parque Fernando bitmaps from theHunter:COTW",
+        "id": "red_deer_spawn",
+        "url": "data/r4/t_red_deer_spawn/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12280.0,
+                4096.0
+            ],
+            [
+                -4096.0,
+                12280.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Red Deer: drinking",
+        "active": false,
+        "attribution": "Parque Fernando bitmaps from theHunter:COTW",
+        "id": "red_deer_drinking",
+        "url": "data/r4/t_red_deer_drinking/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12280.0,
+                4096.0
+            ],
+            [
+                -4096.0,
+                12280.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Red Deer: feeding",
+        "active": false,
+        "attribution": "Parque Fernando bitmaps from theHunter:COTW",
+        "id": "red_deer_feeding",
+        "url": "data/r4/t_red_deer_feeding/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12280.0,
+                4096.0
+            ],
+            [
+                -4096.0,
+                12280.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Red Deer: resting",
+        "active": false,
+        "attribution": "Parque Fernando bitmaps from theHunter:COTW",
+        "id": "red_deer_resting",
+        "url": "data/r4/t_red_deer_resting/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12280.0,
+                4096.0
+            ],
+            [
+                -4096.0,
+                12280.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Water Buffalo: spawn",
+        "active": false,
+        "attribution": "Parque Fernando bitmaps from theHunter:COTW",
+        "id": "water_buffalo_spawn",
+        "url": "data/r4/t_water_buffalo_spawn/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12280.0,
+                4096.0
+            ],
+            [
+                -4096.0,
+                12280.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Water Buffalo: drinking",
+        "active": false,
+        "attribution": "Parque Fernando bitmaps from theHunter:COTW",
+        "id": "water_buffalo_drinking",
+        "url": "data/r4/t_water_buffalo_drinking/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12280.0,
+                4096.0
+            ],
+            [
+                -4096.0,
+                12280.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Water Buffalo: feeding",
+        "active": false,
+        "attribution": "Parque Fernando bitmaps from theHunter:COTW",
+        "id": "water_buffalo_feeding",
+        "url": "data/r4/t_water_buffalo_feeding/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12280.0,
+                4096.0
+            ],
+            [
+                -4096.0,
+                12280.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Water Buffalo: resting",
+        "active": false,
+        "attribution": "Parque Fernando bitmaps from theHunter:COTW",
+        "id": "water_buffalo_resting",
+        "url": "data/r4/t_water_buffalo_resting/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12280.0,
+                4096.0
+            ],
+            [
+                -4096.0,
+                12280.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Animal Forbidden Map: forbidden",
+        "active": false,
+        "attribution": "Parque Fernando bitmaps from theHunter:COTW",
+        "id": "animal_forbidden_map_forbidden",
+        "url": "data/r4/t_animal_forbidden_map_forbidden/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12280.0,
+                4096.0
+            ],
+            [
+                -4096.0,
+                12280.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Flee Map: flee",
+        "active": false,
+        "attribution": "Parque Fernando bitmaps from theHunter:COTW",
+        "id": "flee_map_flee",
+        "url": "data/r4/t_flee_map_flee/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12280.0,
+                4096.0
+            ],
+            [
+                -4096.0,
+                12280.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Water Map: water",
+        "active": false,
+        "attribution": "Parque Fernando bitmaps from theHunter:COTW",
+        "id": "water_map_water",
+        "url": "data/r4/t_water_map_water/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12280.0,
+                4096.0
+            ],
+            [
+                -4096.0,
+                12280.0
+            ]
+        ]
+    }
+]

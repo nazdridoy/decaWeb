@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NKDVN2L');</script>
+    <!-- End Google Tag Manager -->
+
+    <script data-ad-client="ca-pub-9852507806031654" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+    <meta charset='utf-8' />
+
+    <title>DECA: ADF Utilities</title>
+    <link rel="stylesheet" href="../lib/deca.css" />
+
+    <script src="../lib/deca_adf.js"></script>
+    <script src="../lib/deca_file_loader.js"></script>
+    <script src="../lib/3rd/pako.js"></script>
+    <script src="../lib/3rd/jszip/jszip.min.js"></script>
+    <script src="../lib/3rd/FileSaver.js"></script>
+
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+
+    <style>
+        body {overflow: hidden; width: 100%; position: absolute; top: 0; bottom: 0; margin:0; padding:0; display: flex; flex-direction: column; }
+        #dropzone {
+            border: 1px solid black;
+            flex-grow: 1;
+            overflow: scroll;
+            font-family: monospace;
+            white-space: pre;
+        }
+    </style>
+
+</head>
+
+<body>
+
+<div id="dropzone">
+    DROPZONE
+</div>
+<table id="site-nav">
+    <tr>
+        <td><a href="../../">Home</a></td>
+        <td><script type='text/javascript' src='https://ko-fi.com/widgets/widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support Me on Ko-fi', '#29abe0', 'R5R6PKC4');kofiwidget2.draw();</script></td>
+    </tr>
+</table>
+
+
+
+<script>
+    const initial_message = 'Drop save directory here...\n'
+        + '(...\\My Documents\\Avalanche Studios\\COTW\\Saves)\n';
+
+    // handle dropping files onto page
+    function dropzoneActivate()
+    {
+        let dropzone = document.getElementById('dropzone')
+        dropzone.addEventListener('dragenter', handlerDropzone, false)
+        dropzone.addEventListener('dragleave', handlerDropzone, false)
+        dropzone.addEventListener('dragover', handlerDropzone, false)
+        dropzone.addEventListener('drop', handlerDropzoneDrop, false)
+        dropzone.innerText = initial_message;
+    }
+
+    function handlerDropzone(e) {
+        e.preventDefault()
+        e.stopPropagation()
+        // console.log(e)
+    }
+
+    function handlerDropzoneDrop(e) {
+        e.preventDefault()
+        e.stopPropagation()
+
+        // console.log(e)
+        user_populations = {};
+        user_hunting_pressure = {};
+
+        let items = e.dataTransfer.items;
+        let entries = []
+        const length = items.length;
+        for (let i = 0; i < length; ++i) {
+            let item = items[i];
+            let entry = item.webkitGetAsEntry();
+            entries.push(entry);
+        }
+
+        processDropItems(entries);
+    }
+
+    let results = [];
+    let todo = new Set();
+    function processDropItems(entries)
+    {
+        const length = entries.length;
+
+        results = [];
+        todo.clear();
+        let file_entries = [];
+        for (let i = 0; i < length; ++i) {
+            let entry = entries[i];
+            if (entry.isFile) {
+                let full_path = entry.fullPath;
+
+                if(full_path[0] === '/')
+                    full_path = full_path.slice(1);
+
+                console.log(full_path);
+                todo.add(full_path);
+                file_entries.push([full_path, entry])
+            }
+            else if (entry.isDirectory) {
+                entry.createReader().readEntries((entries) => { processDropItems(entries); });
+            }
+        }
+
+        file_entries.forEach((fe) => {
+            let full_path = fe[0];
+            let entry = fe[1];
+            entry.file((file) => { loadFileBinary(file, full_path); });
+        });
+    }
+
+    function loadFileBinary(file, full_path) {
+        let reader = new FileReader();
+
+        reader.onloadend = function() {
+            let adf_raw = new Uint8Array(reader.result);
+
+            if(compareArray(adf_raw, 'SAVE', 4)) {
+                adf_raw = adf_raw.slice(34);  // TODO this is a hack to skip the header
+                adf_raw = pako.inflate(adf_raw, {windowBits: -15});
+            }
+
+            results.push([full_path,adf_raw]);
+            todo.delete(full_path);
+
+            if(todo.size === 0)
+            {
+                if(compareArray(adf_raw,'\001\001\000\000\000 FDA', 9))
+                    adf_raw = adf_raw.slice(5);
+
+                if(compareArray(adf_raw, ' FDA', 4))
+                {
+                    const adf_json = adfProcess(adf_raw);
+                    let dropzone = document.getElementById('dropzone');
+                    dropzone.innerText = JSON.stringify(adf_json, null, '  ')
+                }
+                else
+                {
+                    console.error('UNKNOWN FORMAT');
+                }
+            }
+
+
+        }
+
+        reader.readAsArrayBuffer(file);
+    }
+
+    // function saveResults() {
+    //     let dropzone = document.getElementById('dropzone')
+    //
+    //     let zip = JSZip();
+    //
+    //     results.forEach((fe) => {
+    //         let full_path = fe[0];
+    //         let contents = fe[1];
+    //         zip.file(full_path, contents);
+    //     });
+    //
+    //     dropzone.innerText = 'PROCESSING\n';
+    //     zip.generateAsync({type:"blob"}).then(function (blob) {
+    //         saveAs(blob, "hp_save_decompressed.zip");
+    //         dropzone.innerText = 'COMPLETE!\n\n' + initial_message;
+    //     });
+    // }
+
+
+    dropzoneActivate();
+</script>
+
+</body>
+
+</html>

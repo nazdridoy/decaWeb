@@ -1,0 +1,772 @@
+{
+  "hunting_blind": [
+    [
+      [
+        5041.80908203125,
+        -14688.48828125
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        7498.21044921875,
+        -7709.40576171875
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        7335.6875,
+        -9565.2353515625
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        8786.98828125,
+        -11493.1484375
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        10382.8642578125,
+        -10824.7021484375
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        9696.931640625,
+        -9464.626953125
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        8956.6240234375,
+        -9204.6142578125
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        9087.5302734375,
+        -7999.19580078125
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        9669.861328125,
+        -8047.248046875
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        10485.5439453125,
+        -7627.89794921875
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        9264.7998046875,
+        -6931.2890625
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        9050.3896484375,
+        -5531.98583984375
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        8091.7568359375,
+        -5340.24072265625
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        7012.29638671875,
+        -6008.06494140625
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        10522.19140625,
+        -8932.43359375
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        9420.984375,
+        -8775.1005859375
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        8503.46875,
+        -9545.6826171875
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        10041.37109375,
+        -10421.505859375
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        9091.666015625,
+        -10355.64453125
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        7824.24560546875,
+        -9819.7841796875
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        7062.63720703125,
+        -11005.4677734375
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        6390.87841796875,
+        -10231.39453125
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        7942.42822265625,
+        -8372.46875
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        7279.24267578125,
+        -7582.32763671875
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        7257.9296875,
+        -6408.96630859375
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        8591.7587890625,
+        -7330.994140625
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        10247.328125,
+        -9323.8125
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        11294.173828125,
+        -7987.38916015625
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        10531.87890625,
+        -7024.4169921875
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        9918.443359375,
+        -6010.6064453125
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        8761.2880859375,
+        -6419.10693359375
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ]
+  ],
+  "lookout_point": [
+    [
+      [
+        6497.12548828125,
+        -10904.0
+      ],
+      "africa_lookout01_name",
+      "Xigalo Lookout"
+    ],
+    [
+      [
+        9074.8740234375,
+        -10713.0439453125
+      ],
+      "africa_lookout02_name",
+      "Mbhokota Lookout"
+    ],
+    [
+      [
+        10785.6640625,
+        -10331.55078125
+      ],
+      "africa_lookout03_name",
+      "Rikhotso Lookout"
+    ],
+    [
+      [
+        6233.08251953125,
+        -7636.66162109375
+      ],
+      "africa_lookout04_name",
+      "Nukeri Lookout"
+    ],
+    [
+      [
+        8328.5576171875,
+        -7482.09228515625
+      ],
+      "africa_lookout05_name",
+      "Xirimani Lookout"
+    ],
+    [
+      [
+        10177.4306640625,
+        -9005.9140625
+      ],
+      "africa_lookout06_name",
+      "Bilankulu Lookout"
+    ],
+    [
+      [
+        7051.4501953125,
+        -5517.61181640625
+      ],
+      "africa_lookout07_name",
+      "Hlungwani Lookout"
+    ],
+    [
+      [
+        8780.498046875,
+        -5193.43603515625
+      ],
+      "africa_lookout08_name",
+      "Makasela Lookout"
+    ],
+    [
+      [
+        11404.8251953125,
+        -6782.9560546875
+      ],
+      "africa_lookout09_name",
+      "Maceke Lookout"
+    ]
+  ],
+  "landmark": [
+    [
+      [
+        4866.62890625,
+        -8443.2529296875
+      ],
+      "africa_lore01_name",
+      "Weeping Face"
+    ],
+    [
+      [
+        4331.01708984375,
+        -7072.0625
+      ],
+      "africa_lore02_name",
+      "Potholes"
+    ],
+    [
+      [
+        5281.318359375,
+        -8060.8271484375
+      ],
+      "africa_lore03_name",
+      "The Grand Escarpment"
+    ],
+    [
+      [
+        5407.50830078125,
+        -9421.6552734375
+      ],
+      "africa_lore04_name",
+      "Lonely Road"
+    ],
+    [
+      [
+        8871.060546875,
+        -12546.8369140625
+      ],
+      "africa_lore05_name",
+      "Gorgeous Hiking"
+    ],
+    [
+      [
+        11840.33984375,
+        -6747.42431640625
+      ],
+      "africa_lore06_name",
+      "Swamped"
+    ],
+    [
+      [
+        7822.1171875,
+        -5263.66455078125
+      ],
+      "africa_lore07_name",
+      "Beyond Vurhonga"
+    ],
+    [
+      [
+        9500.7373046875,
+        -5201.15576171875
+      ],
+      "africa_lore08_name",
+      "Poacher Routes"
+    ],
+    [
+      [
+        6626.189453125,
+        -5930.03759765625
+      ],
+      "africa_lore09_name",
+      "Vachellia Xanthophloea"
+    ],
+    [
+      [
+        10840.224609375,
+        -11598.19140625
+      ],
+      "africa_lore10_name",
+      "Theron Gorge"
+    ],
+    [
+      [
+        10490.974609375,
+        -7385.79931640625
+      ],
+      "africa_lore11_name",
+      "Twin Lakes"
+    ],
+    [
+      [
+        9126.93359375,
+        -8490.509765625
+      ],
+      "africa_lore12_name",
+      "Adansonia Digitata"
+    ],
+    [
+      [
+        6860.35888671875,
+        -8354.1083984375
+      ],
+      "africa_lore13_name",
+      "East African Rift"
+    ],
+    [
+      [
+        7629.37890625,
+        -7835.234375
+      ],
+      "africa_lore14_name",
+      "Water Sources"
+    ],
+    [
+      [
+        7841.64794921875,
+        -7465.39794921875
+      ],
+      "africa_lore15_name",
+      "Foot of the Mountain"
+    ],
+    [
+      [
+        8669.685546875,
+        -7666.265625
+      ],
+      "africa_lore16_name",
+      "Vurhonga Heights"
+    ],
+    [
+      [
+        5504.97216796875,
+        -5927.80517578125
+      ],
+      "africa_lore17_name",
+      "The Eloko"
+    ],
+    [
+      [
+        7736.75341796875,
+        -11646.826171875
+      ],
+      "africa_lore18_name",
+      "Nyaminyami"
+    ],
+    [
+      [
+        10337.4599609375,
+        -6231.044921875
+      ],
+      "africa_lore19_name",
+      "Sangomas & Inyangas"
+    ],
+    [
+      [
+        11082.0224609375,
+        -5413.11083984375
+      ],
+      "africa_lore20_name",
+      "Jedidiah's Wall"
+    ],
+    [
+      [
+        10136.2802734375,
+        -10216.6884765625
+      ],
+      "africa_lore21_name",
+      "San Folklore I"
+    ],
+    [
+      [
+        8436.9150390625,
+        -10901.2783203125
+      ],
+      "africa_lore22_name",
+      "San Folklore II"
+    ],
+    [
+      [
+        7748.34521484375,
+        -9099.8388671875
+      ],
+      "africa_lore23_name",
+      "San Folklore III"
+    ],
+    [
+      [
+        8918.41015625,
+        -9894.6494140625
+      ],
+      "africa_lore24_name",
+      "Lightning Bird"
+    ],
+    [
+      [
+        11923.4521484375,
+        -8495.6435546875
+      ],
+      "africa_lore25_name",
+      "Prehistoric Art"
+    ],
+    [
+      [
+        6858.75830078125,
+        -10330.798828125
+      ],
+      "africa_lore26_name",
+      "Diamphidia"
+    ],
+    [
+      [
+        6283.23779296875,
+        -8453.287109375
+      ],
+      "africa_lore27_name",
+      "Bounder Cave"
+    ],
+    [
+      [
+        4986.55224609375,
+        -10555.93359375
+      ],
+      "africa_lore28_name",
+      "The First People"
+    ],
+    [
+      [
+        12247.7158203125,
+        -6445.1572265625
+      ],
+      "africa_lore29_name",
+      "Tstetse Problems"
+    ]
+  ],
+  "outpost": [
+    [
+      [
+        5885.25537109375,
+        -11145.28515625
+      ],
+      "africa_outpost01_name",
+      "Nambu Tlhelo"
+    ],
+    [
+      [
+        6198.24560546875,
+        -9836.3603515625
+      ],
+      "africa_outpost02_name",
+      "Henhla Ndhawu"
+    ],
+    [
+      [
+        8189.22314453125,
+        -10277.923828125
+      ],
+      "africa_outpost03_name",
+      "Kule Rila"
+    ],
+    [
+      [
+        8753.216796875,
+        -11652.0517578125
+      ],
+      "africa_outpost04_name",
+      "Xikwembu Yimelo"
+    ],
+    [
+      [
+        10100.0537109375,
+        -11332.115234375
+      ],
+      "africa_outpost05_name",
+      "Nsuku Nyeleti"
+    ],
+    [
+      [
+        11304.4169921875,
+        -10875.123046875
+      ],
+      "africa_outpost06_name",
+      "Fisherman's Outpost"
+    ],
+    [
+      [
+        4690.54248046875,
+        -8128.02734375
+      ],
+      "africa_outpost07_name",
+      "Mbali's Place"
+    ],
+    [
+      [
+        5673.4150390625,
+        -7402.0244140625
+      ],
+      "africa_outpost08_name",
+      "Xikarhi Outpost"
+    ],
+    [
+      [
+        8532.6474609375,
+        -7685.23388671875
+      ],
+      "africa_outpost09_name",
+      "Sungula Place"
+    ],
+    [
+      [
+        8599.5185546875,
+        -8654.9970703125
+      ],
+      "africa_outpost10_name",
+      "Rhilaza Byanyi"
+    ],
+    [
+      [
+        10037.458984375,
+        -8053.84033203125
+      ],
+      "africa_outpost11_name",
+      "Ximixweni Yimelo"
+    ],
+    [
+      [
+        11061.7509765625,
+        -9248.3125
+      ],
+      "africa_outpost12_name",
+      "Navelela Mpfula"
+    ],
+    [
+      [
+        6104.01708984375,
+        -6017.29248046875
+      ],
+      "africa_outpost13_name",
+      "Dari Dari Hollow"
+    ],
+    [
+      [
+        7231.65478515625,
+        -6045.09228515625
+      ],
+      "africa_outpost14_name",
+      "Ndzhuti Hollow"
+    ],
+    [
+      [
+        8734.96875,
+        -5787.255859375
+      ],
+      "africa_outpost15_name",
+      "Xibodlo Ehenhla"
+    ],
+    [
+      [
+        9998.0849609375,
+        -5575.61669921875
+      ],
+      "africa_outpost16_name",
+      "Oma Vona"
+    ],
+    [
+      [
+        11319.83203125,
+        -5767.4208984375
+      ],
+      "africa_outpost17_name",
+      "Xipembele Rila"
+    ],
+    [
+      [
+        11902.75,
+        -7240.12548828125
+      ],
+      "africa_outpost18_name",
+      "Khensani N'wana"
+    ]
+  ],
+  "lore": [
+    [
+      [
+        4918.55322265625,
+        -10097.3779296875
+      ],
+      "localregion_41x12_warden_hut_name_uppercase",
+      "BLUE STALK GARDENS"
+    ],
+    [
+      [
+        5437.42333984375,
+        -6100.78759765625
+      ],
+      "localregion_42x20_warden_hut_name_uppercase",
+      "AMUKELANI'S HEALING HUT"
+    ],
+    [
+      [
+        6494.3916015625,
+        -9164.5791015625
+      ],
+      "localregion_44x14_warden_hut_name_uppercase",
+      "RHANGANI'S HIDEAWAY"
+    ],
+    [
+      [
+        6799.76416015625,
+        -5126.8291015625
+      ],
+      "localregion_45x21_warden_hut_name_uppercase",
+      "SOL PLAATJE HUT"
+    ],
+    [
+      [
+        9108.935546875,
+        -6495.5517578125
+      ],
+      "localregion_49x19_warden_hut_name_uppercase",
+      "XITSHEMBHISO"
+    ],
+    [
+      [
+        9463.4736328125,
+        -9155.9482421875
+      ],
+      "localregion_50x14_warden_hut_name_uppercase",
+      "MEMORIES OF 2010"
+    ],
+    [
+      [
+        10847.34375,
+        -11746.9443359375
+      ],
+      "localregion_53x09_warden_hut_name_uppercase",
+      "MADIBA'S FREEDOM"
+    ],
+    [
+      [
+        11407.1220703125,
+        -7258.41455078125
+      ],
+      "localregion_53x17_warden_hut_name_uppercase",
+      "SERPENT PLAYERS PLAYHOUSE"
+    ]
+  ]
+}

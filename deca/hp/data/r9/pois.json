@@ -1,0 +1,682 @@
+{
+  "hunting_blind": [
+    [
+      [
+        -2586.052978515625,
+        -9655.7509765625
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -1914.3671875,
+        -8052.44287109375
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -430.5752258300781,
+        -9226.8623046875
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -4057.35791015625,
+        -9197.58984375
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -3113.713134765625,
+        -11964.4306640625
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -2725.029052734375,
+        -10879.8505859375
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -2320.35693359375,
+        -8132.0419921875
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -534.5910034179688,
+        -6238.93359375
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -3056.721923828125,
+        -7656.73486328125
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -574.560791015625,
+        -6918.849609375
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -1364.1822509765625,
+        -7600.84619140625
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -870.7203369140625,
+        -8524.8525390625
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -888.3326416015625,
+        -9155.8857421875
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -549.6604614257812,
+        -9602.580078125
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -1678.6807861328125,
+        -6352.365234375
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -2505.756103515625,
+        -8073.7802734375
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -1703.604248046875,
+        -8029.291015625
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -1825.8656005859375,
+        -8787.40234375
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -3469.271484375,
+        -6361.263671875
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -5035.98779296875,
+        -6877.66455078125
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -3667.474609375,
+        -9429.3115234375
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -5909.5751953125,
+        -9612.1923828125
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -7584.091796875,
+        -8647.42578125
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -7572.38134765625,
+        -10419.666015625
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -7181.75830078125,
+        -11959.080078125
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -8318.7353515625,
+        -12305.2197265625
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -5937.1943359375,
+        -12973.765625
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -4003.303466796875,
+        -12663.5703125
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -4262.52978515625,
+        -11255.853515625
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -8234.0302734375,
+        -6804.556640625
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -6554.19970703125,
+        -7661.7529296875
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -7755.0615234375,
+        -11492.6669921875
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ]
+  ],
+  "landmark": [
+    [
+      [
+        -7078.7978515625,
+        -8136.7451171875
+      ],
+      "lore_rockies_01_name",
+      "Prosperity Pass"
+    ],
+    [
+      [
+        -5142.09716796875,
+        -6984.09375
+      ],
+      "lore_rockies_10_name",
+      "Colorado's Last Grizzly"
+    ],
+    [
+      [
+        -4122.6923828125,
+        -8111.93017578125
+      ],
+      "lore_rockies_11_name",
+      "The Water's Perfect"
+    ],
+    [
+      [
+        -1439.7059326171875,
+        -7727.4814453125
+      ],
+      "lore_rockies_12_name",
+      "Traces of History"
+    ],
+    [
+      [
+        -583.0819091796875,
+        -8960.8291015625
+      ],
+      "lore_rockies_13_name",
+      "The Bear Dance"
+    ],
+    [
+      [
+        -978.3560791015625,
+        -10432.1943359375
+      ],
+      "lore_rockies_14_name",
+      "Frontier Service"
+    ],
+    [
+      [
+        -6786.7314453125,
+        -7190.5888671875
+      ],
+      "lore_rockies_15_name",
+      "Take a Hike"
+    ],
+    [
+      [
+        -4638.82373046875,
+        -11339.24609375
+      ],
+      "lore_rockies_16_name",
+      "Burnt into Memory"
+    ],
+    [
+      [
+        -4701.5908203125,
+        -10864.0341796875
+      ],
+      "lore_rockies_17_name",
+      "Balanced Rock"
+    ],
+    [
+      [
+        -5758.53173828125,
+        -9516.509765625
+      ],
+      "lore_rockies_18_name",
+      "The Ute People"
+    ],
+    [
+      [
+        -4306.99755859375,
+        -9087.578125
+      ],
+      "lore_rockies_19_name",
+      "Go Wild Outside"
+    ],
+    [
+      [
+        -9019.2646484375,
+        -6901.26416015625
+      ],
+      "lore_rockies_02_name",
+      "Haunted by History"
+    ],
+    [
+      [
+        -2575.467041015625,
+        -8192.1171875
+      ],
+      "lore_rockies_20_name",
+      "A Painful Legacy"
+    ],
+    [
+      [
+        -3230.473388671875,
+        -10508.3056640625
+      ],
+      "lore_rockies_21_name",
+      "Ticker Lake"
+    ],
+    [
+      [
+        -3355.912841796875,
+        -10005.5234375
+      ],
+      "lore_rockies_03_name",
+      "Pitchblende Pit"
+    ],
+    [
+      [
+        -2301.61474609375,
+        -6267.74462890625
+      ],
+      "lore_rockies_01_name",
+      "Prosperity Pass"
+    ],
+    [
+      [
+        -6913.3212890625,
+        -12187.8173828125
+      ],
+      "lore_rockies_05_name",
+      "Shot on Sight"
+    ],
+    [
+      [
+        -7885.916015625,
+        -9177.8828125
+      ],
+      "lore_rockies_06_name",
+      "A Mammoth Discovery"
+    ],
+    [
+      [
+        -1356.4835205078125,
+        -10520.5947265625
+      ],
+      "lore_rockies_07_name",
+      "Frozen in Time"
+    ],
+    [
+      [
+        -6233.9033203125,
+        -12122.7109375
+      ],
+      "lore_rockies_08_name",
+      "Wandering Fathers"
+    ],
+    [
+      [
+        -3930.6220703125,
+        -9649.78125
+      ],
+      "lore_rockies_09_name",
+      "Miner Threat"
+    ]
+  ],
+  "lookout_point": [
+    [
+      [
+        -6672.0869140625,
+        -13079.7705078125
+      ],
+      "lookout_rockies_01_name",
+      "Post One"
+    ],
+    [
+      [
+        -1966.0772705078125,
+        -10625.810546875
+      ],
+      "lookout_rockies_02_name",
+      "Post Two"
+    ],
+    [
+      [
+        -3729.7509765625,
+        -11644.583984375
+      ],
+      "lookout_rockies_03_name",
+      "Post Three"
+    ],
+    [
+      [
+        -5942.18603515625,
+        -10267.466796875
+      ],
+      "lookout_rockies_04_name",
+      "Post Four"
+    ],
+    [
+      [
+        -8309.7666015625,
+        -9560.6513671875
+      ],
+      "lookout_rockies_05_name",
+      "Post Five"
+    ],
+    [
+      [
+        -448.065185546875,
+        -7694.5322265625
+      ],
+      "lookout_rockies_06_name",
+      "Post Six"
+    ],
+    [
+      [
+        -2716.79296875,
+        -6524.9892578125
+      ],
+      "lookout_rockies_07_name",
+      "Post Seven"
+    ],
+    [
+      [
+        -3631.835693359375,
+        -9032.29296875
+      ],
+      "lookout_rockies_08_name",
+      "Post Eight"
+    ],
+    [
+      [
+        -6500.88818359375,
+        -7941.9892578125
+      ],
+      "lookout_rockies_09_name",
+      "Post Nine"
+    ],
+    [
+      [
+        -8222.65625,
+        -6687.00537109375
+      ],
+      "lookout_rockies_10_name",
+      "Post Ten"
+    ]
+  ],
+  "outpost": [
+    [
+      [
+        -6075.095703125,
+        -10003.6953125
+      ],
+      "outpost_rockies_01",
+      "Uncompahgre Outpost"
+    ],
+    [
+      [
+        -3722.815185546875,
+        -9611.5615234375
+      ],
+      "outpost_rockies_02",
+      "Ouray Outpost"
+    ],
+    [
+      [
+        -5174.16064453125,
+        -11332.4462890625
+      ],
+      "outpost_rockies_03",
+      "Uintah Outpost"
+    ],
+    [
+      [
+        -6842.71435546875,
+        -12491.24609375
+      ],
+      "outpost_rockies_04",
+      "Mountain Lion Outpost"
+    ],
+    [
+      [
+        -5847.6748046875,
+        -13088.5556640625
+      ],
+      "outpost_rockies_05",
+      "Bighorn Sheep Outpost"
+    ],
+    [
+      [
+        -2999.333984375,
+        -12757.8544921875
+      ],
+      "outpost_rockies_06",
+      "Mountain Goat Outpost"
+    ],
+    [
+      [
+        -3631.178466796875,
+        -10756.9765625
+      ],
+      "outpost_rockies_07",
+      "Hunter Outpost"
+    ],
+    [
+      [
+        -4540.9541015625,
+        -8897.3154296875
+      ],
+      "outpost_rockies_08",
+      "Silver Outpost"
+    ],
+    [
+      [
+        -6027.9375,
+        -8395.1455078125
+      ],
+      "outpost_rockies_09",
+      "Colorado Outpost"
+    ],
+    [
+      [
+        -6393.15673828125,
+        -7386.73974609375
+      ],
+      "outpost_rockies_10",
+      "Mule Deer Outpost"
+    ],
+    [
+      [
+        -8272.1123046875,
+        -7009.587890625
+      ],
+      "outpost_rockies_11",
+      "Utah Outpost"
+    ],
+    [
+      [
+        -7839.3369140625,
+        -8867.23046875
+      ],
+      "outpost_rockies_12",
+      "San Juan Outpost"
+    ],
+    [
+      [
+        -7344.712890625,
+        -10419.3603515625
+      ],
+      "outpost_rockies_13",
+      "Climber Outpost"
+    ],
+    [
+      [
+        -7977.23388671875,
+        -11333.49609375
+      ],
+      "outpost_rockies_14",
+      "Sneffels Outpost"
+    ],
+    [
+      [
+        -1107.7027587890625,
+        -5618.03271484375
+      ],
+      "outpost_rockies_15",
+      "Pronghorn Outpost"
+    ],
+    [
+      [
+        -649.3384399414062,
+        -8552.4580078125
+      ],
+      "outpost_rockies_16",
+      "Wild Turkey Outpost"
+    ],
+    [
+      [
+        -2185.74169921875,
+        -7137.37548828125
+      ],
+      "outpost_rockies_17",
+      "Chipeta Outpost"
+    ],
+    [
+      [
+        -1872.263671875,
+        -9283.1396484375
+      ],
+      "outpost_rockies_18",
+      "Rocky Mountain Elk Outpost"
+    ],
+    [
+      [
+        -1355.42822265625,
+        -11300.73046875
+      ],
+      "outpost_rockies_19",
+      "Tabeguache Outpost"
+    ],
+    [
+      [
+        -4106.42626953125,
+        -6663.384765625
+      ],
+      "outpost_rockies_20",
+      "Black Bear Outpost"
+    ],
+    [
+      [
+        -1089.927978515625,
+        -7478.521484375
+      ],
+      "outpost_rockies_21",
+      "Plains Bison Outpost"
+    ]
+  ]
+}

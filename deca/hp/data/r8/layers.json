@@ -1,0 +1,883 @@
+[
+    {
+        "layer_type": "tile_map",
+        "overlay": false,
+        "name": "Topographic",
+        "active": true,
+        "attribution": "Cuatro Colinas Game Reserve map from theHunter:COTW",
+        "id": "t_topo",
+        "url": "data/r8/t_topo/{z}/{x}/{y}.png",
+        "max_zoom": 5,
+        "opacity": 1.0,
+        "bounds": [
+            [
+                -16384.0,
+                0.0
+            ],
+            [
+                0.0,
+                16384.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Beceite Ibex: spawn",
+        "active": false,
+        "attribution": "Cuatro Colinas Game Reserve bitmaps from theHunter:COTW",
+        "id": "beceite_ibex_spawn",
+        "url": "data/r8/t_beceite_ibex_spawn/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12280.0,
+                4096.0
+            ],
+            [
+                -4096.0,
+                12280.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Beceite Ibex: drinking",
+        "active": false,
+        "attribution": "Cuatro Colinas Game Reserve bitmaps from theHunter:COTW",
+        "id": "beceite_ibex_drinking",
+        "url": "data/r8/t_beceite_ibex_drinking/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12280.0,
+                4096.0
+            ],
+            [
+                -4096.0,
+                12280.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Beceite Ibex: feeding",
+        "active": false,
+        "attribution": "Cuatro Colinas Game Reserve bitmaps from theHunter:COTW",
+        "id": "beceite_ibex_feeding",
+        "url": "data/r8/t_beceite_ibex_feeding/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12280.0,
+                4096.0
+            ],
+            [
+                -4096.0,
+                12280.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Beceite Ibex: resting",
+        "active": false,
+        "attribution": "Cuatro Colinas Game Reserve bitmaps from theHunter:COTW",
+        "id": "beceite_ibex_resting",
+        "url": "data/r8/t_beceite_ibex_resting/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12280.0,
+                4096.0
+            ],
+            [
+                -4096.0,
+                12280.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "European Hare: spawn",
+        "active": false,
+        "attribution": "Cuatro Colinas Game Reserve bitmaps from theHunter:COTW",
+        "id": "european_hare_spawn",
+        "url": "data/r8/t_european_hare_spawn/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12280.0,
+                4096.0
+            ],
+            [
+                -4096.0,
+                12280.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "European Hare: drinking",
+        "active": false,
+        "attribution": "Cuatro Colinas Game Reserve bitmaps from theHunter:COTW",
+        "id": "european_hare_drinking",
+        "url": "data/r8/t_european_hare_drinking/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12280.0,
+                4096.0
+            ],
+            [
+                -4096.0,
+                12280.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "European Hare: feeding",
+        "active": false,
+        "attribution": "Cuatro Colinas Game Reserve bitmaps from theHunter:COTW",
+        "id": "european_hare_feeding",
+        "url": "data/r8/t_european_hare_feeding/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12280.0,
+                4096.0
+            ],
+            [
+                -4096.0,
+                12280.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "European Hare: resting",
+        "active": false,
+        "attribution": "Cuatro Colinas Game Reserve bitmaps from theHunter:COTW",
+        "id": "european_hare_resting",
+        "url": "data/r8/t_european_hare_resting/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12280.0,
+                4096.0
+            ],
+            [
+                -4096.0,
+                12280.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Gredos Ibex: spawn",
+        "active": false,
+        "attribution": "Cuatro Colinas Game Reserve bitmaps from theHunter:COTW",
+        "id": "gredos_ibex_spawn",
+        "url": "data/r8/t_gredos_ibex_spawn/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12280.0,
+                4096.0
+            ],
+            [
+                -4096.0,
+                12280.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Gredos Ibex: drinking",
+        "active": false,
+        "attribution": "Cuatro Colinas Game Reserve bitmaps from theHunter:COTW",
+        "id": "gredos_ibex_drinking",
+        "url": "data/r8/t_gredos_ibex_drinking/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12280.0,
+                4096.0
+            ],
+            [
+                -4096.0,
+                12280.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Gredos Ibex: feeding",
+        "active": false,
+        "attribution": "Cuatro Colinas Game Reserve bitmaps from theHunter:COTW",
+        "id": "gredos_ibex_feeding",
+        "url": "data/r8/t_gredos_ibex_feeding/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12280.0,
+                4096.0
+            ],
+            [
+                -4096.0,
+                12280.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Gredos Ibex: resting",
+        "active": false,
+        "attribution": "Cuatro Colinas Game Reserve bitmaps from theHunter:COTW",
+        "id": "gredos_ibex_resting",
+        "url": "data/r8/t_gredos_ibex_resting/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12280.0,
+                4096.0
+            ],
+            [
+                -4096.0,
+                12280.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Iberian Mouflon: spawn",
+        "active": false,
+        "attribution": "Cuatro Colinas Game Reserve bitmaps from theHunter:COTW",
+        "id": "iberian_mouflon_spawn",
+        "url": "data/r8/t_iberian_mouflon_spawn/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12280.0,
+                4096.0
+            ],
+            [
+                -4096.0,
+                12280.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Iberian Mouflon: drinking",
+        "active": false,
+        "attribution": "Cuatro Colinas Game Reserve bitmaps from theHunter:COTW",
+        "id": "iberian_mouflon_drinking",
+        "url": "data/r8/t_iberian_mouflon_drinking/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12280.0,
+                4096.0
+            ],
+            [
+                -4096.0,
+                12280.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Iberian Mouflon: feeding",
+        "active": false,
+        "attribution": "Cuatro Colinas Game Reserve bitmaps from theHunter:COTW",
+        "id": "iberian_mouflon_feeding",
+        "url": "data/r8/t_iberian_mouflon_feeding/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12280.0,
+                4096.0
+            ],
+            [
+                -4096.0,
+                12280.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Iberian Mouflon: resting",
+        "active": false,
+        "attribution": "Cuatro Colinas Game Reserve bitmaps from theHunter:COTW",
+        "id": "iberian_mouflon_resting",
+        "url": "data/r8/t_iberian_mouflon_resting/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12280.0,
+                4096.0
+            ],
+            [
+                -4096.0,
+                12280.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Iberian Wolf: spawn",
+        "active": false,
+        "attribution": "Cuatro Colinas Game Reserve bitmaps from theHunter:COTW",
+        "id": "iberian_wolf_spawn",
+        "url": "data/r8/t_iberian_wolf_spawn/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12280.0,
+                4096.0
+            ],
+            [
+                -4096.0,
+                12280.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Iberian Wolf: drinking",
+        "active": false,
+        "attribution": "Cuatro Colinas Game Reserve bitmaps from theHunter:COTW",
+        "id": "iberian_wolf_drinking",
+        "url": "data/r8/t_iberian_wolf_drinking/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12280.0,
+                4096.0
+            ],
+            [
+                -4096.0,
+                12280.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Iberian Wolf: feeding",
+        "active": false,
+        "attribution": "Cuatro Colinas Game Reserve bitmaps from theHunter:COTW",
+        "id": "iberian_wolf_feeding",
+        "url": "data/r8/t_iberian_wolf_feeding/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12280.0,
+                4096.0
+            ],
+            [
+                -4096.0,
+                12280.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Iberian Wolf: resting",
+        "active": false,
+        "attribution": "Cuatro Colinas Game Reserve bitmaps from theHunter:COTW",
+        "id": "iberian_wolf_resting",
+        "url": "data/r8/t_iberian_wolf_resting/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12280.0,
+                4096.0
+            ],
+            [
+                -4096.0,
+                12280.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Red Deer: spawn",
+        "active": false,
+        "attribution": "Cuatro Colinas Game Reserve bitmaps from theHunter:COTW",
+        "id": "red_deer_spawn",
+        "url": "data/r8/t_red_deer_spawn/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12280.0,
+                4096.0
+            ],
+            [
+                -4096.0,
+                12280.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Red Deer: drinking",
+        "active": false,
+        "attribution": "Cuatro Colinas Game Reserve bitmaps from theHunter:COTW",
+        "id": "red_deer_drinking",
+        "url": "data/r8/t_red_deer_drinking/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12280.0,
+                4096.0
+            ],
+            [
+                -4096.0,
+                12280.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Red Deer: feeding",
+        "active": false,
+        "attribution": "Cuatro Colinas Game Reserve bitmaps from theHunter:COTW",
+        "id": "red_deer_feeding",
+        "url": "data/r8/t_red_deer_feeding/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12280.0,
+                4096.0
+            ],
+            [
+                -4096.0,
+                12280.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Red Deer: resting",
+        "active": false,
+        "attribution": "Cuatro Colinas Game Reserve bitmaps from theHunter:COTW",
+        "id": "red_deer_resting",
+        "url": "data/r8/t_red_deer_resting/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12280.0,
+                4096.0
+            ],
+            [
+                -4096.0,
+                12280.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Roe_Deer: spawn",
+        "active": false,
+        "attribution": "Cuatro Colinas Game Reserve bitmaps from theHunter:COTW",
+        "id": "roe_deer_spawn",
+        "url": "data/r8/t_roe_deer_spawn/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12280.0,
+                4096.0
+            ],
+            [
+                -4096.0,
+                12280.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Roe_Deer: drinking",
+        "active": false,
+        "attribution": "Cuatro Colinas Game Reserve bitmaps from theHunter:COTW",
+        "id": "roe_deer_drinking",
+        "url": "data/r8/t_roe_deer_drinking/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12280.0,
+                4096.0
+            ],
+            [
+                -4096.0,
+                12280.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Roe_Deer: feeding",
+        "active": false,
+        "attribution": "Cuatro Colinas Game Reserve bitmaps from theHunter:COTW",
+        "id": "roe_deer_feeding",
+        "url": "data/r8/t_roe_deer_feeding/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12280.0,
+                4096.0
+            ],
+            [
+                -4096.0,
+                12280.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Roe_Deer: resting",
+        "active": false,
+        "attribution": "Cuatro Colinas Game Reserve bitmaps from theHunter:COTW",
+        "id": "roe_deer_resting",
+        "url": "data/r8/t_roe_deer_resting/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12280.0,
+                4096.0
+            ],
+            [
+                -4096.0,
+                12280.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Ronda Ibex: spawn",
+        "active": false,
+        "attribution": "Cuatro Colinas Game Reserve bitmaps from theHunter:COTW",
+        "id": "ronda_ibex_spawn",
+        "url": "data/r8/t_ronda_ibex_spawn/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12280.0,
+                4096.0
+            ],
+            [
+                -4096.0,
+                12280.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Ronda Ibex: drinking",
+        "active": false,
+        "attribution": "Cuatro Colinas Game Reserve bitmaps from theHunter:COTW",
+        "id": "ronda_ibex_drinking",
+        "url": "data/r8/t_ronda_ibex_drinking/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12280.0,
+                4096.0
+            ],
+            [
+                -4096.0,
+                12280.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Ronda Ibex: feeding",
+        "active": false,
+        "attribution": "Cuatro Colinas Game Reserve bitmaps from theHunter:COTW",
+        "id": "ronda_ibex_feeding",
+        "url": "data/r8/t_ronda_ibex_feeding/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12280.0,
+                4096.0
+            ],
+            [
+                -4096.0,
+                12280.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Ronda Ibex: resting",
+        "active": false,
+        "attribution": "Cuatro Colinas Game Reserve bitmaps from theHunter:COTW",
+        "id": "ronda_ibex_resting",
+        "url": "data/r8/t_ronda_ibex_resting/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12280.0,
+                4096.0
+            ],
+            [
+                -4096.0,
+                12280.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Southeastern Ibex: spawn",
+        "active": false,
+        "attribution": "Cuatro Colinas Game Reserve bitmaps from theHunter:COTW",
+        "id": "southeastern_ibex_spawn",
+        "url": "data/r8/t_southeastern_ibex_spawn/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12280.0,
+                4096.0
+            ],
+            [
+                -4096.0,
+                12280.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Southeastern Ibex: drinking",
+        "active": false,
+        "attribution": "Cuatro Colinas Game Reserve bitmaps from theHunter:COTW",
+        "id": "southeastern_ibex_drinking",
+        "url": "data/r8/t_southeastern_ibex_drinking/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12280.0,
+                4096.0
+            ],
+            [
+                -4096.0,
+                12280.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Southeastern Ibex: feeding",
+        "active": false,
+        "attribution": "Cuatro Colinas Game Reserve bitmaps from theHunter:COTW",
+        "id": "southeastern_ibex_feeding",
+        "url": "data/r8/t_southeastern_ibex_feeding/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12280.0,
+                4096.0
+            ],
+            [
+                -4096.0,
+                12280.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Southeastern Ibex: resting",
+        "active": false,
+        "attribution": "Cuatro Colinas Game Reserve bitmaps from theHunter:COTW",
+        "id": "southeastern_ibex_resting",
+        "url": "data/r8/t_southeastern_ibex_resting/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12280.0,
+                4096.0
+            ],
+            [
+                -4096.0,
+                12280.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Wild Boar: spawn",
+        "active": false,
+        "attribution": "Cuatro Colinas Game Reserve bitmaps from theHunter:COTW",
+        "id": "wild_boar_spawn",
+        "url": "data/r8/t_wild_boar_spawn/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12280.0,
+                4096.0
+            ],
+            [
+                -4096.0,
+                12280.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Wild Boar: drinking",
+        "active": false,
+        "attribution": "Cuatro Colinas Game Reserve bitmaps from theHunter:COTW",
+        "id": "wild_boar_drinking",
+        "url": "data/r8/t_wild_boar_drinking/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12280.0,
+                4096.0
+            ],
+            [
+                -4096.0,
+                12280.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Wild Boar: feeding",
+        "active": false,
+        "attribution": "Cuatro Colinas Game Reserve bitmaps from theHunter:COTW",
+        "id": "wild_boar_feeding",
+        "url": "data/r8/t_wild_boar_feeding/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12280.0,
+                4096.0
+            ],
+            [
+                -4096.0,
+                12280.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Wild Boar: resting",
+        "active": false,
+        "attribution": "Cuatro Colinas Game Reserve bitmaps from theHunter:COTW",
+        "id": "wild_boar_resting",
+        "url": "data/r8/t_wild_boar_resting/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12280.0,
+                4096.0
+            ],
+            [
+                -4096.0,
+                12280.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Animal Forbidden Map: forbidden",
+        "active": false,
+        "attribution": "Cuatro Colinas Game Reserve bitmaps from theHunter:COTW",
+        "id": "animal_forbidden_map_forbidden",
+        "url": "data/r8/t_animal_forbidden_map_forbidden/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12280.0,
+                4096.0
+            ],
+            [
+                -4096.0,
+                12280.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Flee Map: flee",
+        "active": false,
+        "attribution": "Cuatro Colinas Game Reserve bitmaps from theHunter:COTW",
+        "id": "flee_map_flee",
+        "url": "data/r8/t_flee_map_flee/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12280.0,
+                4096.0
+            ],
+            [
+                -4096.0,
+                12280.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Water Map: water",
+        "active": false,
+        "attribution": "Cuatro Colinas Game Reserve bitmaps from theHunter:COTW",
+        "id": "water_map_water",
+        "url": "data/r8/t_water_map_water/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12280.0,
+                4096.0
+            ],
+            [
+                -4096.0,
+                12280.0
+            ]
+        ]
+    }
+]

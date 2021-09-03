@@ -1,0 +1,754 @@
+{
+  "hunting_blind": [
+    [
+      [
+        -8576.0673828125,
+        10187.6044921875
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -8077.28125,
+        9792.314453125
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -6563.05810546875,
+        10911.4443359375
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -5726.4296875,
+        10734.3603515625
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -6152.18408203125,
+        11890.162109375
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -7434.36767578125,
+        11886.7626953125
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -9749.65234375,
+        9985.3974609375
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -11716.4853515625,
+        7178.95361328125
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -10290.1904296875,
+        6277.63720703125
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -7913.4423828125,
+        6765.2783203125
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -6695.283203125,
+        5927.78271484375
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -4639.0830078125,
+        6741.44384765625
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -5702.103515625,
+        8383.9501953125
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -5284.71533203125,
+        9038.611328125
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -4360.83203125,
+        9575.69140625
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -5298.41259765625,
+        9958.25390625
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -4808.04443359375,
+        11265.337890625
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -4513.1201171875,
+        10743.033203125
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -5325.7265625,
+        11346.5
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -6049.29248046875,
+        11646.3291015625
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -6345.65771484375,
+        11682.037109375
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -6589.33154296875,
+        11634.7412109375
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -8375.05859375,
+        11244.951171875
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -8808.8203125,
+        11192.974609375
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -8624.6396484375,
+        10702.080078125
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -9452.5537109375,
+        10305.400390625
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -10277.1728515625,
+        11317.3037109375
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -11591.23828125,
+        10867.306640625
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -12050.3291015625,
+        9235.716796875
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -11991.2265625,
+        7826.478515625
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -11559.099609375,
+        7952.95068359375
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -10934.26953125,
+        7679.51416015625
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -10668.1025390625,
+        7024.5673828125
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -9517.9931640625,
+        8679.95703125
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -9318.361328125,
+        9123.044921875
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -8396.7265625,
+        8102.548828125
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -11072.7275390625,
+        6002.0693359375
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -11289.06640625,
+        4421.90673828125
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -10227.1357421875,
+        4725.35595703125
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -8021.78515625,
+        7252.9296875
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -7042.9013671875,
+        7678.00537109375
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -5955.212890625,
+        5035.2431640625
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ]
+  ],
+  "landmark": [
+    [
+      [
+        -7361.71240234375,
+        7017.3642578125
+      ],
+      "lore_iberia_01_name",
+      "A Solid Economy"
+    ],
+    [
+      [
+        -8914.2822265625,
+        5052.22998046875
+      ],
+      "lore_iberia_02_name",
+      "Reconquista"
+    ],
+    [
+      [
+        -9630.5615234375,
+        4384.0283203125
+      ],
+      "lore_iberia_03_name",
+      "A Farming Legacy"
+    ],
+    [
+      [
+        -10431.2900390625,
+        5381.736328125
+      ],
+      "lore_iberia_04_name",
+      "Strong Foundations"
+    ],
+    [
+      [
+        -10828.7177734375,
+        6412.404296875
+      ],
+      "lore_iberia_05_name",
+      "Big Business"
+    ],
+    [
+      [
+        -11242.8681640625,
+        8148.73681640625
+      ],
+      "lore_iberia_06_name",
+      "Becoming Neighbours"
+    ],
+    [
+      [
+        -11534.162109375,
+        9407.474609375
+      ],
+      "lore_iberia_07_name",
+      "Reclaimed For God"
+    ],
+    [
+      [
+        -10827.6611328125,
+        10809.2802734375
+      ],
+      "lore_iberia_08_name",
+      "Small Batch"
+    ],
+    [
+      [
+        -7867.65185546875,
+        11414.111328125
+      ],
+      "lore_iberia_09_name",
+      "Settling In"
+    ],
+    [
+      [
+        -5909.6982421875,
+        10013.2021484375
+      ],
+      "lore_iberia_10_name",
+      "A Safe Haven"
+    ],
+    [
+      [
+        -6646.66552734375,
+        8693.71484375
+      ],
+      "lore_iberia_11_name",
+      "Eyes On The Road"
+    ],
+    [
+      [
+        -5091.88427734375,
+        8957.9423828125
+      ],
+      "lore_iberia_12_name",
+      "Farming Remotely"
+    ],
+    [
+      [
+        -6321.56689453125,
+        5848.62646484375
+      ],
+      "lore_iberia_13_name",
+      "Lasting Military Presence"
+    ],
+    [
+      [
+        -8652.8134765625,
+        8447.95703125
+      ],
+      "lore_iberia_14_name",
+      "Making It Work"
+    ],
+    [
+      [
+        -5764.5126953125,
+        11088.3994140625
+      ],
+      "lore_iberia_15_name",
+      "Life Springs Eternal"
+    ]
+  ],
+  "lookout_point": [
+    [
+      [
+        -8654.3857421875,
+        5377.53369140625
+      ],
+      "lookout_iberia_01_name",
+      "Torre De Do\u00f1a Emilia"
+    ],
+    [
+      [
+        -5760.72216796875,
+        6494.4365234375
+      ],
+      "lookout_iberia_02_name",
+      "Torre De Javier"
+    ],
+    [
+      [
+        -11715.6953125,
+        8938.115234375
+      ],
+      "lookout_iberia_03_name",
+      "Torre Del Cid"
+    ],
+    [
+      [
+        -7469.0078125,
+        11163.673828125
+      ],
+      "lookout_iberia_04_name",
+      "Mirador Del Valle"
+    ],
+    [
+      [
+        -7485.21484375,
+        6630.93603515625
+      ],
+      "lookout_iberia_05_name",
+      "Vista De Cantera"
+    ],
+    [
+      [
+        -10488.634765625,
+        5095.30908203125
+      ],
+      "lookout_iberia_06_name",
+      "Bosque Vista"
+    ],
+    [
+      [
+        -10216.240234375,
+        8917.4580078125
+      ],
+      "lookout_iberia_07_name",
+      "Cresta De Almena"
+    ],
+    [
+      [
+        -10303.23828125,
+        11863.130859375
+      ],
+      "lookout_iberia_08_name",
+      "Balc\u00f3n Del Rey"
+    ],
+    [
+      [
+        -5242.0400390625,
+        11953.88671875
+      ],
+      "lookout_iberia_09_name",
+      "Fuerte De Domingo"
+    ],
+    [
+      [
+        -11030.775390625,
+        7759.3369140625
+      ],
+      "lookout_iberia_10_name",
+      "Vista Del Granjero"
+    ],
+    [
+      [
+        -6252.75390625,
+        9370.099609375
+      ],
+      "lookout_iberia_11_name",
+      "Balc\u00f3n De Los Beatos"
+    ],
+    [
+      [
+        -5331.712890625,
+        7662.22509765625
+      ],
+      "lookout_iberia_12_name",
+      "Vista Del Prado"
+    ]
+  ],
+  "outpost": [
+    [
+      [
+        -11047.3232421875,
+        4377.69921875
+      ],
+      "outpost_iberia_01_name",
+      "Caba\u00f1a de la lavanda"
+    ],
+    [
+      [
+        -11241.91796875,
+        5570.4091796875
+      ],
+      "outpost_iberia_02_name",
+      "Granja Alta Arboleda"
+    ],
+    [
+      [
+        -10345.796875,
+        6091.10791015625
+      ],
+      "outpost_iberia_03_name",
+      "Casa Alfonso"
+    ],
+    [
+      [
+        -11432.6884765625,
+        7223.2734375
+      ],
+      "outpost_iberia_04_name",
+      "Caba\u00f1a Del Pintor"
+    ],
+    [
+      [
+        -12120.98046875,
+        9724.673828125
+      ],
+      "outpost_iberia_05_name",
+      "Mirador del lago"
+    ],
+    [
+      [
+        -10580.1767578125,
+        10970.7373046875
+      ],
+      "outpost_iberia_06_name",
+      "Casa del noble"
+    ],
+    [
+      [
+        -9629.8291015625,
+        11012.72265625
+      ],
+      "outpost_iberia_07_name",
+      "Retiro de Isidoro"
+    ],
+    [
+      [
+        -9462.9248046875,
+        9833.3798828125
+      ],
+      "outpost_iberia_08_name",
+      "Valle Del Cazador"
+    ],
+    [
+      [
+        -9612.556640625,
+        9187.478515625
+      ],
+      "outpost_iberia_09_name",
+      "Granja Lago"
+    ],
+    [
+      [
+        -8625.3818359375,
+        11453.578125
+      ],
+      "outpost_iberia_10_name",
+      "Cresta De La Colina"
+    ],
+    [
+      [
+        -7015.04052734375,
+        12196.62109375
+      ],
+      "outpost_iberia_11_name",
+      "Establo Del Soldado"
+    ],
+    [
+      [
+        -6167.10693359375,
+        12334.8515625
+      ],
+      "outpost_iberia_12_name",
+      "Casa Del Rey"
+    ],
+    [
+      [
+        -4475.5751953125,
+        10930.7568359375
+      ],
+      "outpost_iberia_13_name",
+      "Cresta Ribere\u00f1a"
+    ],
+    [
+      [
+        -7434.67578125,
+        9180.8525390625
+      ],
+      "outpost_iberia_14_name",
+      "Vista Del Santo"
+    ],
+    [
+      [
+        -4651.5048828125,
+        8552.3310546875
+      ],
+      "outpost_iberia_15_name",
+      "Escondite Del Le\u00f1ador"
+    ],
+    [
+      [
+        -6045.46240234375,
+        8105.3935546875
+      ],
+      "outpost_iberia_16_name",
+      "Balconada De V\u00edctor"
+    ],
+    [
+      [
+        -7324.849609375,
+        8192.2998046875
+      ],
+      "outpost_iberia_17_name",
+      "El Descanso Del Santo"
+    ],
+    [
+      [
+        -8207.0498046875,
+        7280.87646484375
+      ],
+      "outpost_iberia_18_name",
+      "Caba\u00f1a de la dama"
+    ],
+    [
+      [
+        -5938.740234375,
+        5286.421875
+      ],
+      "outpost_iberia_19_name",
+      "Granja Sanchez"
+    ],
+    [
+      [
+        -7806.93896484375,
+        5247.734375
+      ],
+      "outpost_iberia_20_name",
+      "Logia De La Reina"
+    ],
+    [
+      [
+        -9238.357421875,
+        5785.1220703125
+      ],
+      "outpost_iberia_21_name",
+      "Fuerte De Pascal"
+    ],
+    [
+      [
+        -11497.83984375,
+        10284.828125
+      ],
+      "outpost_iberia_22_name",
+      "Cresta Del Granjero"
+    ],
+    [
+      [
+        -9986.724609375,
+        7616.92431640625
+      ],
+      "outpost_iberia_23_name",
+      "Caba\u00f1a de la rivera"
+    ],
+    [
+      [
+        -5107.6943359375,
+        10897.98046875
+      ],
+      "outpost_iberia_13_name",
+      "Cresta Ribere\u00f1a"
+    ]
+  ]
+}

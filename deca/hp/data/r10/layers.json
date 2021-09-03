@@ -1,0 +1,763 @@
+[
+    {
+        "layer_type": "tile_map",
+        "overlay": false,
+        "name": "Topographic",
+        "active": true,
+        "attribution": "Te Awaroa National Park map from theHunter:COTW",
+        "id": "t_topo",
+        "url": "data/r10/t_topo/{z}/{x}/{y}.png",
+        "max_zoom": 5,
+        "opacity": 1.0,
+        "bounds": [
+            [
+                0.0,
+                0.0
+            ],
+            [
+                16384.0,
+                16384.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Alpine Goat: spawn",
+        "active": false,
+        "attribution": "Te Awaroa National Park bitmaps from theHunter:COTW",
+        "id": "alpine_goat_spawn",
+        "url": "data/r10/t_alpine_goat_spawn/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                4008.0,
+                4892.0
+            ],
+            [
+                12200.0,
+                13084.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Alpine Goat: drinking",
+        "active": false,
+        "attribution": "Te Awaroa National Park bitmaps from theHunter:COTW",
+        "id": "alpine_goat_drinking",
+        "url": "data/r10/t_alpine_goat_drinking/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                4008.0,
+                4892.0
+            ],
+            [
+                12200.0,
+                13084.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Alpine Goat: feeding",
+        "active": false,
+        "attribution": "Te Awaroa National Park bitmaps from theHunter:COTW",
+        "id": "alpine_goat_feeding",
+        "url": "data/r10/t_alpine_goat_feeding/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                4008.0,
+                4892.0
+            ],
+            [
+                12200.0,
+                13084.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Alpine Goat: resting",
+        "active": false,
+        "attribution": "Te Awaroa National Park bitmaps from theHunter:COTW",
+        "id": "alpine_goat_resting",
+        "url": "data/r10/t_alpine_goat_resting/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                4008.0,
+                4892.0
+            ],
+            [
+                12200.0,
+                13084.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Chamois: spawn",
+        "active": false,
+        "attribution": "Te Awaroa National Park bitmaps from theHunter:COTW",
+        "id": "chamois_spawn",
+        "url": "data/r10/t_chamois_spawn/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                4008.0,
+                4892.0
+            ],
+            [
+                12200.0,
+                13084.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Chamois: drinking",
+        "active": false,
+        "attribution": "Te Awaroa National Park bitmaps from theHunter:COTW",
+        "id": "chamois_drinking",
+        "url": "data/r10/t_chamois_drinking/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                4008.0,
+                4892.0
+            ],
+            [
+                12200.0,
+                13084.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Chamois: feeding",
+        "active": false,
+        "attribution": "Te Awaroa National Park bitmaps from theHunter:COTW",
+        "id": "chamois_feeding",
+        "url": "data/r10/t_chamois_feeding/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                4008.0,
+                4892.0
+            ],
+            [
+                12200.0,
+                13084.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Chamois: resting",
+        "active": false,
+        "attribution": "Te Awaroa National Park bitmaps from theHunter:COTW",
+        "id": "chamois_resting",
+        "url": "data/r10/t_chamois_resting/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                4008.0,
+                4892.0
+            ],
+            [
+                12200.0,
+                13084.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "EU Rabbit: spawn",
+        "active": false,
+        "attribution": "Te Awaroa National Park bitmaps from theHunter:COTW",
+        "id": "eu_rabbit_spawn",
+        "url": "data/r10/t_eu_rabbit_spawn/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                4008.0,
+                4892.0
+            ],
+            [
+                12200.0,
+                13084.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "EU Rabbit: feeding",
+        "active": false,
+        "attribution": "Te Awaroa National Park bitmaps from theHunter:COTW",
+        "id": "eu_rabbit_feeding",
+        "url": "data/r10/t_eu_rabbit_feeding/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                4008.0,
+                4892.0
+            ],
+            [
+                12200.0,
+                13084.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Fallow Deer: spawn",
+        "active": false,
+        "attribution": "Te Awaroa National Park bitmaps from theHunter:COTW",
+        "id": "fallow_deer_spawn",
+        "url": "data/r10/t_fallow_deer_spawn/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                4008.0,
+                4892.0
+            ],
+            [
+                12200.0,
+                13084.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Fallow Deer: drinking",
+        "active": false,
+        "attribution": "Te Awaroa National Park bitmaps from theHunter:COTW",
+        "id": "fallow_deer_drinking",
+        "url": "data/r10/t_fallow_deer_drinking/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                4008.0,
+                4892.0
+            ],
+            [
+                12200.0,
+                13084.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Fallow Deer: feeding",
+        "active": false,
+        "attribution": "Te Awaroa National Park bitmaps from theHunter:COTW",
+        "id": "fallow_deer_feeding",
+        "url": "data/r10/t_fallow_deer_feeding/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                4008.0,
+                4892.0
+            ],
+            [
+                12200.0,
+                13084.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Fallow Deer: resting",
+        "active": false,
+        "attribution": "Te Awaroa National Park bitmaps from theHunter:COTW",
+        "id": "fallow_deer_resting",
+        "url": "data/r10/t_fallow_deer_resting/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                4008.0,
+                4892.0
+            ],
+            [
+                12200.0,
+                13084.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Feral Pig: spawn",
+        "active": false,
+        "attribution": "Te Awaroa National Park bitmaps from theHunter:COTW",
+        "id": "feral_pig_spawn",
+        "url": "data/r10/t_feral_pig_spawn/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                4008.0,
+                4892.0
+            ],
+            [
+                12200.0,
+                13084.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Feral Pig: drinking",
+        "active": false,
+        "attribution": "Te Awaroa National Park bitmaps from theHunter:COTW",
+        "id": "feral_pig_drinking",
+        "url": "data/r10/t_feral_pig_drinking/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                4008.0,
+                4892.0
+            ],
+            [
+                12200.0,
+                13084.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Feral Pig: feeding",
+        "active": false,
+        "attribution": "Te Awaroa National Park bitmaps from theHunter:COTW",
+        "id": "feral_pig_feeding",
+        "url": "data/r10/t_feral_pig_feeding/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                4008.0,
+                4892.0
+            ],
+            [
+                12200.0,
+                13084.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Feral Pig: resting",
+        "active": false,
+        "attribution": "Te Awaroa National Park bitmaps from theHunter:COTW",
+        "id": "feral_pig_resting",
+        "url": "data/r10/t_feral_pig_resting/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                4008.0,
+                4892.0
+            ],
+            [
+                12200.0,
+                13084.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Moose: spawn",
+        "active": false,
+        "attribution": "Te Awaroa National Park bitmaps from theHunter:COTW",
+        "id": "moose_spawn",
+        "url": "data/r10/t_moose_spawn/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                4008.0,
+                4892.0
+            ],
+            [
+                12200.0,
+                13084.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Moose: drinking",
+        "active": false,
+        "attribution": "Te Awaroa National Park bitmaps from theHunter:COTW",
+        "id": "moose_drinking",
+        "url": "data/r10/t_moose_drinking/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                4008.0,
+                4892.0
+            ],
+            [
+                12200.0,
+                13084.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Moose: feeding",
+        "active": false,
+        "attribution": "Te Awaroa National Park bitmaps from theHunter:COTW",
+        "id": "moose_feeding",
+        "url": "data/r10/t_moose_feeding/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                4008.0,
+                4892.0
+            ],
+            [
+                12200.0,
+                13084.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Moose: resting",
+        "active": false,
+        "attribution": "Te Awaroa National Park bitmaps from theHunter:COTW",
+        "id": "moose_resting",
+        "url": "data/r10/t_moose_resting/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                4008.0,
+                4892.0
+            ],
+            [
+                12200.0,
+                13084.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Red Deer: spawn",
+        "active": false,
+        "attribution": "Te Awaroa National Park bitmaps from theHunter:COTW",
+        "id": "red_deer_spawn",
+        "url": "data/r10/t_red_deer_spawn/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                4008.0,
+                4892.0
+            ],
+            [
+                12200.0,
+                13084.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Red Deer: drinking",
+        "active": false,
+        "attribution": "Te Awaroa National Park bitmaps from theHunter:COTW",
+        "id": "red_deer_drinking",
+        "url": "data/r10/t_red_deer_drinking/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                4008.0,
+                4892.0
+            ],
+            [
+                12200.0,
+                13084.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Red Deer: feeding",
+        "active": false,
+        "attribution": "Te Awaroa National Park bitmaps from theHunter:COTW",
+        "id": "red_deer_feeding",
+        "url": "data/r10/t_red_deer_feeding/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                4008.0,
+                4892.0
+            ],
+            [
+                12200.0,
+                13084.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Red Deer: resting",
+        "active": false,
+        "attribution": "Te Awaroa National Park bitmaps from theHunter:COTW",
+        "id": "red_deer_resting",
+        "url": "data/r10/t_red_deer_resting/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                4008.0,
+                4892.0
+            ],
+            [
+                12200.0,
+                13084.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Sika Deer: spawn",
+        "active": false,
+        "attribution": "Te Awaroa National Park bitmaps from theHunter:COTW",
+        "id": "sika_deer_spawn",
+        "url": "data/r10/t_sika_deer_spawn/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                4008.0,
+                4892.0
+            ],
+            [
+                12200.0,
+                13084.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Sika Deer: drinking",
+        "active": false,
+        "attribution": "Te Awaroa National Park bitmaps from theHunter:COTW",
+        "id": "sika_deer_drinking",
+        "url": "data/r10/t_sika_deer_drinking/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                4008.0,
+                4892.0
+            ],
+            [
+                12200.0,
+                13084.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Sika Deer: feeding",
+        "active": false,
+        "attribution": "Te Awaroa National Park bitmaps from theHunter:COTW",
+        "id": "sika_deer_feeding",
+        "url": "data/r10/t_sika_deer_feeding/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                4008.0,
+                4892.0
+            ],
+            [
+                12200.0,
+                13084.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Sika Deer: resting",
+        "active": false,
+        "attribution": "Te Awaroa National Park bitmaps from theHunter:COTW",
+        "id": "sika_deer_resting",
+        "url": "data/r10/t_sika_deer_resting/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                4008.0,
+                4892.0
+            ],
+            [
+                12200.0,
+                13084.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Wild Turkey: spawn",
+        "active": false,
+        "attribution": "Te Awaroa National Park bitmaps from theHunter:COTW",
+        "id": "wild_turkey_spawn",
+        "url": "data/r10/t_wild_turkey_spawn/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                4008.0,
+                4892.0
+            ],
+            [
+                12200.0,
+                13084.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Wild Turkey: drinking",
+        "active": false,
+        "attribution": "Te Awaroa National Park bitmaps from theHunter:COTW",
+        "id": "wild_turkey_drinking",
+        "url": "data/r10/t_wild_turkey_drinking/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                4008.0,
+                4892.0
+            ],
+            [
+                12200.0,
+                13084.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Wild Turkey: feeding",
+        "active": false,
+        "attribution": "Te Awaroa National Park bitmaps from theHunter:COTW",
+        "id": "wild_turkey_feeding",
+        "url": "data/r10/t_wild_turkey_feeding/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                4008.0,
+                4892.0
+            ],
+            [
+                12200.0,
+                13084.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Wild Turkey: resting",
+        "active": false,
+        "attribution": "Te Awaroa National Park bitmaps from theHunter:COTW",
+        "id": "wild_turkey_resting",
+        "url": "data/r10/t_wild_turkey_resting/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                4008.0,
+                4892.0
+            ],
+            [
+                12200.0,
+                13084.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Animal Forbidden Map: forbidden",
+        "active": false,
+        "attribution": "Te Awaroa National Park bitmaps from theHunter:COTW",
+        "id": "animal_forbidden_map_forbidden",
+        "url": "data/r10/t_animal_forbidden_map_forbidden/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                4008.0,
+                4892.0
+            ],
+            [
+                12200.0,
+                13084.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Flee Map: flee",
+        "active": false,
+        "attribution": "Te Awaroa National Park bitmaps from theHunter:COTW",
+        "id": "flee_map_flee",
+        "url": "data/r10/t_flee_map_flee/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                4008.0,
+                4892.0
+            ],
+            [
+                12200.0,
+                13084.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Water Map: water",
+        "active": false,
+        "attribution": "Te Awaroa National Park bitmaps from theHunter:COTW",
+        "id": "water_map_water",
+        "url": "data/r10/t_water_map_water/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                4008.0,
+                4892.0
+            ],
+            [
+                12200.0,
+                13084.0
+            ]
+        ]
+    }
+]

@@ -1,0 +1,626 @@
+{
+  "hunting_blind": [
+    [
+      [
+        -6415.2080078125,
+        -10031.693359375
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -5857.34521484375,
+        -10179.125
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -6153.86279296875,
+        -9116.708984375
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -4859.39697265625,
+        -9953.3994140625
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -6833.34033203125,
+        -9495.8212890625
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -5320.46728515625,
+        -7375.90283203125
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -6213.2529296875,
+        -6188.20556640625
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -7042.30126953125,
+        -7019.390625
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -6194.52197265625,
+        -7673.21875
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -7317.41650390625,
+        -6346.02685546875
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -9619.947265625,
+        -9903.349609375
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -9369.2099609375,
+        -9146.6240234375
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -8482.5693359375,
+        -9972.2763671875
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -8048.3369140625,
+        -10221.8369140625
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -8106.95947265625,
+        -10658.6123046875
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -11332.89453125,
+        -9012.880859375
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -10470.0068359375,
+        -8513.6171875
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -10181.779296875,
+        -7959.65576171875
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -11466.513671875,
+        -7504.49853515625
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -10039.95703125,
+        -7258.876953125
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -8892.677734375,
+        -5864.458984375
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -8457.1474609375,
+        -5693.76611328125
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -6213.27685546875,
+        -5251.39599609375
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -8010.349609375,
+        -7803.35302734375
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -7473.13720703125,
+        -7897.5966796875
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -6805.99560546875,
+        -8088.87744140625
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -7427.37646484375,
+        -8701.7822265625
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -8107.35400390625,
+        -8470.82421875
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -8112.3876953125,
+        -12154.986328125
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -7348.78662109375,
+        -12066.3623046875
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -862.1449584960938,
+        -6722.091796875
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -1641.507080078125,
+        -11256.3466796875
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -7549.755859375,
+        -11427.55859375
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ]
+  ],
+  "landmark": [
+    [
+      [
+        -8334.1611328125,
+        -6874.26220703125
+      ],
+      "yukon_landmark_01_name",
+      "Elusive Giants"
+    ],
+    [
+      [
+        -7160.41796875,
+        -6113.33740234375
+      ],
+      "yukon_landmark_02_name",
+      "The Rush To The Yukon"
+    ],
+    [
+      [
+        -7492.61181640625,
+        -9718.4775390625
+      ],
+      "yukon_landmark_03_name",
+      "That's My Jam"
+    ],
+    [
+      [
+        -9645.12890625,
+        -11070.4169921875
+      ],
+      "yukon_landmark_04_name",
+      "The Hairy Men"
+    ],
+    [
+      [
+        -7694.60302734375,
+        -12541.8583984375
+      ],
+      "yukon_landmark_05_name",
+      "The Yukon's Original Residents"
+    ],
+    [
+      [
+        -7956.3046875,
+        -11280.1591796875
+      ],
+      "yukon_landmark_06_name",
+      "Opening Up The Last Frontier"
+    ],
+    [
+      [
+        -9145.310546875,
+        -7962.09326171875
+      ],
+      "yukon_landmark_07_name",
+      "Alaska's Big Dog"
+    ],
+    [
+      [
+        -5415.123046875,
+        -10625.66015625
+      ],
+      "yukon_landmark_08_name",
+      "Alaska's Otter-Folk"
+    ],
+    [
+      [
+        -9892.5283203125,
+        -6610.3564453125
+      ],
+      "yukon_landmark_09_name",
+      "Millerwood Copper Mine"
+    ],
+    [
+      [
+        -5427.03369140625,
+        -6692.79248046875
+      ],
+      "yukon_landmark_11_name",
+      "Anthony's Gambit"
+    ],
+    [
+      [
+        -11099.3994140625,
+        -8027.201171875
+      ],
+      "yukon_landmark_12_name",
+      "Tiny Timber"
+    ],
+    [
+      [
+        -6929.12890625,
+        -7709.4765625
+      ],
+      "yukon_landmark_13_name",
+      "Alaska's Ancient Inhabitants"
+    ],
+    [
+      [
+        -11421.7177734375,
+        -10483.8623046875
+      ],
+      "yukon_landmark_14_name",
+      "Yukon Valley Wildfires"
+    ],
+    [
+      [
+        -5709.24462890625,
+        -8261.27734375
+      ],
+      "yukon_landmark_15_name",
+      "Layton Bridges"
+    ],
+    [
+      [
+        -4812.974609375,
+        -11176.943359375
+      ],
+      "yukon_landmark_16_name",
+      "Frontier Bridge"
+    ],
+    [
+      [
+        -6919.0087890625,
+        -10589.9111328125
+      ],
+      "yukon_landmark_17_name",
+      "Alaska's Spruce Beetle Quandary"
+    ]
+  ],
+  "lookout_point": [
+    [
+      [
+        -5942.09912109375,
+        -9963.28125
+      ],
+      "lookout_yukon_01_name",
+      "Lookout Alpha"
+    ],
+    [
+      [
+        -8567.474609375,
+        -10298.3046875
+      ],
+      "lookout_yukon_02_name",
+      "Lookout Beta"
+    ],
+    [
+      [
+        -6661.13916015625,
+        -11623.6591796875
+      ],
+      "lookout_yukon_03_name",
+      "Lookout Charlie"
+    ],
+    [
+      [
+        -8529.1103515625,
+        -7877.8408203125
+      ],
+      "lookout_yukon_04_name",
+      "Lookout Delta"
+    ],
+    [
+      [
+        -11159.666015625,
+        -9122.63671875
+      ],
+      "lookout_yukon_05_name",
+      "Lookout Echo"
+    ],
+    [
+      [
+        -6574.68603515625,
+        -6998.748046875
+      ],
+      "lookout_yukon_06_name",
+      "Lookout Foxtrot"
+    ],
+    [
+      [
+        -9044.396484375,
+        -6584.13427734375
+      ],
+      "lookout_yukon_07_name",
+      "Lookout Golf"
+    ],
+    [
+      [
+        -10304.548828125,
+        -6344.25732421875
+      ],
+      "lookout_yukon_08_name",
+      "Lookout Hotel"
+    ],
+    [
+      [
+        -5406.62646484375,
+        -5321.5009765625
+      ],
+      "lookout_yukon_09_name",
+      "Lookout India"
+    ],
+    [
+      [
+        -4999.07666015625,
+        -8668.298828125
+      ],
+      "lookout_yukon_10_name",
+      "Lookout Juliet"
+    ],
+    [
+      [
+        -11171.0556640625,
+        -11400.3837890625
+      ],
+      "lookout_yukon_11_name",
+      "Lookout Kilo"
+    ]
+  ],
+  "outpost": [
+    [
+      [
+        -6065.29150390625,
+        -9778.234375
+      ],
+      "outpost_yukon_01_name",
+      "Loggers Point"
+    ],
+    [
+      [
+        -9651.8740234375,
+        -10117.1171875
+      ],
+      "outpost_yukon_02_name",
+      "Trapper's Peak"
+    ],
+    [
+      [
+        -7899.798828125,
+        -11717.693359375
+      ],
+      "outpost_yukon_03_name",
+      "Prospector's Overlook"
+    ],
+    [
+      [
+        -6950.06884765625,
+        -8534.03125
+      ],
+      "outpost_yukon_04_name",
+      "Crimson Ridge"
+    ],
+    [
+      [
+        -8312.9013671875,
+        -8646.779296875
+      ],
+      "outpost_yukon_05_name",
+      "Coppertop Hill"
+    ],
+    [
+      [
+        -8341.740234375,
+        -6639.33154296875
+      ],
+      "outpost_yukon_06_name",
+      "Riverbend Rest"
+    ],
+    [
+      [
+        -6041.607421875,
+        -9279.0693359375
+      ],
+      "outpost_yukon_07_name",
+      "Murphy's Landing"
+    ],
+    [
+      [
+        -5560.86865234375,
+        -7478.4267578125
+      ],
+      "outpost_yukon_08_name",
+      "Pioneer Crossing"
+    ],
+    [
+      [
+        -5495.14599609375,
+        -5964.52392578125
+      ],
+      "outpost_yukon_09_name",
+      "Calmwater Cabin"
+    ],
+    [
+      [
+        -6822.8935546875,
+        -6567.3798828125
+      ],
+      "outpost_yukon_10_name",
+      "Fisherman's Ford"
+    ],
+    [
+      [
+        -4867.41064453125,
+        -9650.4453125
+      ],
+      "outpost_yukon_11_name",
+      "Hunter's Den"
+    ],
+    [
+      [
+        -11161.990234375,
+        -7098.1884765625
+      ],
+      "outpost_yukon_12_name",
+      "Copperbowl Lake"
+    ],
+    [
+      [
+        -10017.94140625,
+        -8408.1376953125
+      ],
+      "outpost_yukon_13_name",
+      "Timbergold Trailhead"
+    ],
+    [
+      [
+        -11469.9423828125,
+        -9593.15625
+      ],
+      "outpost_yukon_14_name",
+      "Wolfhead Lake"
+    ],
+    [
+      [
+        -11662.0966796875,
+        -10999.572265625
+      ],
+      "outpost_yukon_15_name",
+      "Basri Memorial Outpost"
+    ],
+    [
+      [
+        -5588.40966796875,
+        -11398.47265625
+      ],
+      "outpost_yukon_16_name",
+      "Frontier Vista"
+    ],
+    [
+      [
+        -7076.82080078125,
+        -10485.5068359375
+      ],
+      "outpost_yukon_17_name",
+      "Woodsman's Respite"
+    ]
+  ]
+}

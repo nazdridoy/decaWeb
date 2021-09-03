@@ -1,0 +1,1260 @@
+{
+  "hunting_blind": [
+    [
+      [
+        -11035.779296875,
+        -8676.9248046875
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -10428.8583984375,
+        -7991.42822265625
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -11741.15234375,
+        -7024.76708984375
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -11093.556640625,
+        -5445.52392578125
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -9879.2763671875,
+        -6613.99951171875
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -9647.8916015625,
+        -5985.859375
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -9122.921875,
+        -4927.966796875
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -11923.373046875,
+        -7864.251953125
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -11975.6376953125,
+        -9130.7470703125
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -7983.20068359375,
+        -4867.85498046875
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -8501.9404296875,
+        -8879.9775390625
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -8333.2353515625,
+        -9979.8154296875
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -8771.3740234375,
+        -10615.197265625
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -9115.4638671875,
+        -11436.44140625
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -7961.37353515625,
+        -6517.60595703125
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -7430.25439453125,
+        -10648.283203125
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -6982.99853515625,
+        -9230.7138671875
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -6447.95458984375,
+        -9794.568359375
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -5445.57373046875,
+        -10369.548828125
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -5103.74853515625,
+        -11181.2646484375
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -5537.1025390625,
+        -9960.5732421875
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -4410.05712890625,
+        -9885.8984375
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -4534.86962890625,
+        -9373.94921875
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -5958.60888671875,
+        -8275.740234375
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -4521.548828125,
+        -8371.1708984375
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -9650.6318359375,
+        -5078.5361328125
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -6767.65869140625,
+        -7343.94775390625
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -4141.72412109375,
+        -6032.50830078125
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -5656.79541015625,
+        -6344.54736328125
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -7127.033203125,
+        -6954.64306640625
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -11039.0244140625,
+        -7920.5380859375
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -10263.3251953125,
+        -8508.0322265625
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -10365.8427734375,
+        -7081.62109375
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -11224.0634765625,
+        -7254.61669921875
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -11998.66015625,
+        -6698.3935546875
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -10253.7685546875,
+        -5726.10498046875
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -11275.375,
+        -4967.85400390625
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -10120.5224609375,
+        -5030.76318359375
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -9320.4375,
+        -5482.10400390625
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -8896.369140625,
+        -5952.51220703125
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -9187.80859375,
+        -6505.814453125
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -8821.2958984375,
+        -7189.6953125
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -9487.841796875,
+        -7643.44677734375
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -9363.796875,
+        -8797.998046875
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -8376.767578125,
+        -6184.1875
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -7494.65625,
+        -5381.77001953125
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -8388.880859375,
+        -5237.33935546875
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -6883.23876953125,
+        -4828.638671875
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -7113.67041015625,
+        -6211.01416015625
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -7671.7763671875,
+        -7180.6337890625
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -9915.796875,
+        -10886.1181640625
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -9844.037109375,
+        -10415.5009765625
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -8089.34423828125,
+        -10314.8759765625
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -7240.57666015625,
+        -9951.6923828125
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -6955.33203125,
+        -10443.9296875
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -6102.08251953125,
+        -9863.251953125
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -5690.91357421875,
+        -9565.8203125
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -5072.23828125,
+        -10255.224609375
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -5353.072265625,
+        -8594.501953125
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -5671.49072265625,
+        -7951.67822265625
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -4588.76904296875,
+        -7520.78955078125
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -5858.3935546875,
+        -7128.01171875
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -5343.466796875,
+        -5758.10400390625
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -7796.66064453125,
+        -8721.701171875
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -6380.08056640625,
+        -9102.470703125
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -4797.52294921875,
+        -11154.787109375
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -10746.1767578125,
+        -9407.5087890625
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -7648.40869140625,
+        -9047.671875
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -7335.2734375,
+        -8034.85986328125
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -12999.93359375,
+        -4477.45556640625
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -10928.58984375,
+        -8777.490234375
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ]
+  ],
+  "lookout_point": [
+    [
+      [
+        -11330.9833984375,
+        -7810.52880859375
+      ],
+      "lookoutpoint_siberia_01_name",
+      "Ledyanoy Bay Western Lookout Point"
+    ],
+    [
+      [
+        -9643.234375,
+        -8174.79638671875
+      ],
+      "lookoutpoint_siberia_02_name",
+      "Ledyanoy Bay Eastern Lookout Point"
+    ],
+    [
+      [
+        -10260.5703125,
+        -6442.35546875
+      ],
+      "lookoutpoint_siberia_03_name",
+      "P'yanaya Taiga Western Lookout Point"
+    ],
+    [
+      [
+        -8601.6142578125,
+        -6395.24560546875
+      ],
+      "lookoutpoint_siberia_04_name",
+      "P'yanaya Taiga Eastern Lookout Point"
+    ],
+    [
+      [
+        -8836.630859375,
+        -10994.326171875
+      ],
+      "lookoutpoint_siberia_05_name",
+      "Zverolova Hill Lookout Point"
+    ],
+    [
+      [
+        -5921.38232421875,
+        -10553.1171875
+      ],
+      "lookoutpoint_siberia_06_name",
+      "Vetrenyye Plains Northern Lookout Point"
+    ],
+    [
+      [
+        -4492.43212890625,
+        -9008.705078125
+      ],
+      "lookoutpoint_siberia_07_name",
+      "Vetrenyye Plains Southern Lookout Point"
+    ],
+    [
+      [
+        -5071.4755859375,
+        -6171.2490234375
+      ],
+      "lookoutpoint_siberia_08_name",
+      "Besplodnoye Plateau Southern Lookout Point"
+    ],
+    [
+      [
+        -6855.47607421875,
+        -7987.78662109375
+      ],
+      "lookoutpoint_siberia_09_name",
+      "Besplodnoye Plateau Northern Lookout Point"
+    ]
+  ],
+  "landmark": [
+    [
+      [
+        -7596.69482421875,
+        -5619.083984375
+      ],
+      "landmark_siberia_01_name",
+      "Lenskiye Stolby"
+    ],
+    [
+      [
+        -11117.119140625,
+        -7574.76123046875
+      ],
+      "landmark_siberia_02_name",
+      "Zheleznaya Doroga Severnogo Kanala"
+    ],
+    [
+      [
+        -6010.77783203125,
+        -9036.7109375
+      ],
+      "landmark_siberia_03_name",
+      "Tusida"
+    ],
+    [
+      [
+        -7815.44921875,
+        -7660.4423828125
+      ],
+      "landmark_siberia_04_name",
+      "Ledyanoy Tonnel'"
+    ],
+    [
+      [
+        -8683.4521484375,
+        -7617.52685546875
+      ],
+      "landmark_siberia_05_name",
+      "Chekurovskaya Zvezda"
+    ],
+    [
+      [
+        -10930.5439453125,
+        -8853.80859375
+      ],
+      "landmark_siberia_05_name",
+      "Chekurovskaya Zvezda"
+    ],
+    [
+      [
+        -6580.25830078125,
+        -11198.7763671875
+      ],
+      "landmark_siberia_07_name",
+      "Ray Dikogo Poberezh'ya"
+    ],
+    [
+      [
+        -5230.06982421875,
+        -9549.5234375
+      ],
+      "landmark_siberia_07_name",
+      "Ray Dikogo Poberezh'ya"
+    ],
+    [
+      [
+        -5963.517578125,
+        -6207.26220703125
+      ],
+      "landmark_siberia_09_name",
+      "Kladbishche mamontov"
+    ],
+    [
+      [
+        -10536.5947265625,
+        -5840.1142578125
+      ],
+      "landmark_siberia_10_name",
+      "Vorota V Podzemnyy Mir"
+    ],
+    [
+      [
+        -11539.7529296875,
+        -6777.82421875
+      ],
+      "landmark_siberia_11_name",
+      "P'yanyy Les"
+    ],
+    [
+      [
+        -9074.8232421875,
+        -8879.4873046875
+      ],
+      "landmark_siberia_12_name",
+      "Chekurovka"
+    ],
+    [
+      [
+        -9472.798828125,
+        -5233.9169921875
+      ],
+      "landmark_siberia_13_name",
+      "Chuchunya"
+    ],
+    [
+      [
+        -7320.58642578125,
+        -8878.52734375
+      ],
+      "landmark_siberia_14_name",
+      "Velikiy Pod'yom"
+    ],
+    [
+      [
+        -11630.7939453125,
+        -9341.8173828125
+      ],
+      "landmark_siberia_15_name",
+      "Derevnya Dvukh Rek"
+    ],
+    [
+      [
+        -6483.126953125,
+        -7432.390625
+      ],
+      "landmark_siberia_16_name",
+      "Pustaya Gora"
+    ],
+    [
+      [
+        -10320.423828125,
+        -7270.6748046875
+      ],
+      "landmark_siberia_17_name",
+      "Izluchina Viktora"
+    ],
+    [
+      [
+        -8110.39990234375,
+        -6569.97509765625
+      ],
+      "landmark_siberia_18_name",
+      "Khod Bolshoy Foreli"
+    ],
+    [
+      [
+        -7640.4345703125,
+        -10077.01171875
+      ],
+      "landmark_siberia_19_name",
+      "Cave Exploration"
+    ],
+    [
+      [
+        -10452.671875,
+        -11000.3955078125
+      ],
+      "landmark_siberia_20_name",
+      "Chekurovskiy Zaliv"
+    ],
+    [
+      [
+        -9918.75,
+        -7703.78466796875
+      ],
+      "landmark_siberia_21_name",
+      "Rybak V Lodke"
+    ],
+    [
+      [
+        -8956.5302734375,
+        -5183.18310546875
+      ],
+      "landmark_siberia_22_name",
+      "Okhota Na Bol'sherogikh Oleney"
+    ],
+    [
+      [
+        -7185.9931640625,
+        -6060.7587890625
+      ],
+      "landmark_siberia_23_name",
+      "Stolby"
+    ],
+    [
+      [
+        -6680.65771484375,
+        -5078.1640625
+      ],
+      "landmark_siberia_24_name",
+      "Rechnaya Rybalka"
+    ],
+    [
+      [
+        -6582.27099609375,
+        -7201.572265625
+      ],
+      "landmark_siberia_25_name",
+      "Ritual Podzemnogo Mira"
+    ],
+    [
+      [
+        -8217.1181640625,
+        -8678.6748046875
+      ],
+      "landmark_siberia_26_name",
+      "Okhota Na Peshchernykh Medvedey"
+    ],
+    [
+      [
+        -7703.29052734375,
+        -9564.1943359375
+      ],
+      "landmark_siberia_27_name",
+      "Ritual Boga Solntsa"
+    ],
+    [
+      [
+        -6457.34814453125,
+        -10393.87109375
+      ],
+      "landmark_siberia_28_name",
+      "Okhota Na Mamonta"
+    ],
+    [
+      [
+        -5046.1689453125,
+        -10591.72265625
+      ],
+      "landmark_siberia_29_name",
+      "Okhota Na Peshchernogo l'va"
+    ],
+    [
+      [
+        -10003.16015625,
+        -11213.7607421875
+      ],
+      "landmark_siberia_30_name",
+      "Vodnoe Poyeshestviye"
+    ]
+  ],
+  "lore": [
+    [
+      [
+        -9210.1103515625,
+        -10647.6064453125
+      ],
+      "lore_siberia_01_name",
+      "Trapper 1"
+    ],
+    [
+      [
+        -7995.86572265625,
+        -10378.5615234375
+      ],
+      "lore_siberia_02_name",
+      "Trapper 2"
+    ],
+    [
+      [
+        -4789.86962890625,
+        -11200.662109375
+      ],
+      "lore_siberia_03_name",
+      "Trapper 3"
+    ],
+    [
+      [
+        -6502.640625,
+        -8907.9228515625
+      ],
+      "lore_siberia_04_name",
+      "Trapper 4"
+    ],
+    [
+      [
+        -4675.64404296875,
+        -7984.34716796875
+      ],
+      "lore_siberia_05_name",
+      "Trapper 5"
+    ],
+    [
+      [
+        -10503.0771484375,
+        -9362.115234375
+      ],
+      "lore_siberia_06_name",
+      "Trapper 6"
+    ],
+    [
+      [
+        -9399.2919921875,
+        -8167.73974609375
+      ],
+      "lore_siberia_07_name",
+      "Trapper 7"
+    ],
+    [
+      [
+        -10594.548828125,
+        -7073.3564453125
+      ],
+      "lore_siberia_08_name",
+      "Trapper 8"
+    ],
+    [
+      [
+        -8463.33203125,
+        -5591.171875
+      ],
+      "lore_siberia_09_name",
+      "Trapper 9"
+    ],
+    [
+      [
+        -10283.0771484375,
+        -5309.79541015625
+      ],
+      "lore_siberia_10_name",
+      "Trapper 10"
+    ],
+    [
+      [
+        -9088.7841796875,
+        -11440.859375
+      ],
+      "lore_siberia_11_name",
+      "Nenets 1"
+    ],
+    [
+      [
+        -6817.83056640625,
+        -10674.279296875
+      ],
+      "lore_siberia_12_name",
+      "Nenets 2"
+    ],
+    [
+      [
+        -5871.765625,
+        -8968.8232421875
+      ],
+      "lore_siberia_13_name",
+      "Nenets 3"
+    ],
+    [
+      [
+        -4216.0390625,
+        -7747.36767578125
+      ],
+      "lore_siberia_14_name",
+      "Nenets 4"
+    ],
+    [
+      [
+        -12133.21875,
+        -8935.8134765625
+      ],
+      "lore_siberia_15_name",
+      "Nenets 5"
+    ],
+    [
+      [
+        -9788.759765625,
+        -7642.7431640625
+      ],
+      "lore_siberia_16_name",
+      "Nenets 6"
+    ],
+    [
+      [
+        -9070.294921875,
+        -6781.48876953125
+      ],
+      "lore_siberia_17_name",
+      "Nenets 7"
+    ],
+    [
+      [
+        -11830.8359375,
+        -5791.3125
+      ],
+      "lore_siberia_18_name",
+      "Nenets 8"
+    ],
+    [
+      [
+        -7710.97802734375,
+        -6300.87255859375
+      ],
+      "lore_siberia_19_name",
+      "Nenets 9"
+    ],
+    [
+      [
+        -6703.53125,
+        -6550.51318359375
+      ],
+      "lore_siberia_20_name",
+      "Nenets 10"
+    ],
+    [
+      [
+        -10170.111328125,
+        -10269.228515625
+      ],
+      "lore_siberia_21_name",
+      "Expedition 1"
+    ],
+    [
+      [
+        -4699.927734375,
+        -10197.6494140625
+      ],
+      "lore_siberia_22_name",
+      "Expedition 2"
+    ],
+    [
+      [
+        -7642.06640625,
+        -8744.322265625
+      ],
+      "lore_siberia_23_name",
+      "Expedition 3"
+    ],
+    [
+      [
+        -10412.068359375,
+        -8231.6982421875
+      ],
+      "lore_siberia_24_name",
+      "Expedition 4"
+    ],
+    [
+      [
+        -11834.2421875,
+        -8328.0
+      ],
+      "lore_siberia_25_name",
+      "Expedition 5"
+    ],
+    [
+      [
+        -10967.294921875,
+        -6549.37255859375
+      ],
+      "lore_siberia_26_name",
+      "Expedition 6"
+    ],
+    [
+      [
+        -6476.0,
+        -7052.44482421875
+      ],
+      "lore_siberia_27_name",
+      "Expedition 8"
+    ],
+    [
+      [
+        -9904.2861328125,
+        -5691.58642578125
+      ],
+      "lore_siberia_28_name",
+      "Expedition 7"
+    ],
+    [
+      [
+        -6854.603515625,
+        -5259.35302734375
+      ],
+      "lore_siberia_29_name",
+      "Expedition 9"
+    ],
+    [
+      [
+        -5567.18896484375,
+        -5401.88671875
+      ],
+      "lore_siberia_30_name",
+      "Expedition 10"
+    ]
+  ],
+  "outpost": [
+    [
+      [
+        -11518.572265625,
+        -8508.931640625
+      ],
+      "outpost_siberia_00_name",
+      "Ledyanoy Bay Western Outpost"
+    ],
+    [
+      [
+        -9823.94921875,
+        -9029.2216796875
+      ],
+      "outpost_siberia_01_name",
+      "Ledyanoy Bay Eastern Outpost"
+    ],
+    [
+      [
+        -10137.146484375,
+        -6109.92626953125
+      ],
+      "outpost_siberia_02_name",
+      "P'yanaya Taiga Central Outpost"
+    ],
+    [
+      [
+        -11576.8046875,
+        -6323.31787109375
+      ],
+      "outpost_siberia_03_name",
+      "P'yanaya Taiga Western Outpost"
+    ],
+    [
+      [
+        -8595.9423828125,
+        -7202.47314453125
+      ],
+      "outpost_siberia_04_name",
+      "P'yanaya Taiga Northern Outpost"
+    ],
+    [
+      [
+        -8566.57421875,
+        -5168.978515625
+      ],
+      "outpost_siberia_05_name",
+      "P'yanaya Taiga Southern Outpost"
+    ],
+    [
+      [
+        -8564.0888671875,
+        -10297.6845703125
+      ],
+      "outpost_siberia_06_name",
+      "Zverolova Hill Eastern Outpost"
+    ],
+    [
+      [
+        -9705.3251953125,
+        -10895.7392578125
+      ],
+      "outpost_siberia_07_name",
+      "Zverolova Hill Western Outpost"
+    ],
+    [
+      [
+        -6686.58203125,
+        -9958.7841796875
+      ],
+      "outpost_siberia_08_name",
+      "Vetrenyye Plains Western Outpost"
+    ],
+    [
+      [
+        -4954.931640625,
+        -10916.703125
+      ],
+      "outpost_siberia_09_name",
+      "Vetrenyye Plains Northern Outpost"
+    ],
+    [
+      [
+        -5332.39404296875,
+        -8875.490234375
+      ],
+      "outpost_siberia_10_name",
+      "Vetrenyye Plains Southern Outpost"
+    ],
+    [
+      [
+        -5124.03076171875,
+        -7029.39501953125
+      ],
+      "outpost_siberia_11_name",
+      "Besplodnoye Plateau Eastern Outpost"
+    ],
+    [
+      [
+        -7441.40673828125,
+        -8445.2236328125
+      ],
+      "outpost_siberia_12_name",
+      "Besplodnoye Plateau Northern Outpost"
+    ],
+    [
+      [
+        -10343.40625,
+        -7578.9501953125
+      ],
+      "outpost_siberia_13_name",
+      "Ledyanoy Bay Southern Outpost"
+    ],
+    [
+      [
+        -6689.166015625,
+        -5990.404296875
+      ],
+      "outpost_siberia_14_name",
+      "Besplodnoye Plateau Western Outpost"
+    ],
+    [
+      [
+        -4723.697265625,
+        -5762.5263671875
+      ],
+      "outpost_siberia_15_name",
+      "Besplodnoye Plateau Southern Outpost"
+    ]
+  ]
+}

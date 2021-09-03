@@ -1,0 +1,783 @@
+[
+    {
+        "layer_type": "tile_map",
+        "overlay": false,
+        "name": "Topographic",
+        "active": true,
+        "attribution": "Vurhonga Savanna map from theHunter:COTW",
+        "id": "t_topo",
+        "url": "data/r3/t_topo/{z}/{x}/{y}.png",
+        "max_zoom": 5,
+        "opacity": 1.0,
+        "bounds": [
+            [
+                0.0,
+                -16384.0
+            ],
+            [
+                16384.0,
+                0.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Blue Wildebeest: spawn",
+        "active": false,
+        "attribution": "Vurhonga Savanna bitmaps from theHunter:COTW",
+        "id": "blue_wildebeest_spawn",
+        "url": "data/r3/t_blue_wildebeest_spawn/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                4608.0,
+                -12800.0
+            ],
+            [
+                12800.0,
+                -4608.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Blue Wildebeest: drinking",
+        "active": false,
+        "attribution": "Vurhonga Savanna bitmaps from theHunter:COTW",
+        "id": "blue_wildebeest_drinking",
+        "url": "data/r3/t_blue_wildebeest_drinking/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                4608.0,
+                -12800.0
+            ],
+            [
+                12800.0,
+                -4608.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Blue Wildebeest: feeding",
+        "active": false,
+        "attribution": "Vurhonga Savanna bitmaps from theHunter:COTW",
+        "id": "blue_wildebeest_feeding",
+        "url": "data/r3/t_blue_wildebeest_feeding/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                4608.0,
+                -12800.0
+            ],
+            [
+                12800.0,
+                -4608.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Blue Wildebeest: resting",
+        "active": false,
+        "attribution": "Vurhonga Savanna bitmaps from theHunter:COTW",
+        "id": "blue_wildebeest_resting",
+        "url": "data/r3/t_blue_wildebeest_resting/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                4608.0,
+                -12800.0
+            ],
+            [
+                12800.0,
+                -4608.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Cape Buffalo: spawn",
+        "active": false,
+        "attribution": "Vurhonga Savanna bitmaps from theHunter:COTW",
+        "id": "cape_buffalo_spawn",
+        "url": "data/r3/t_cape_buffalo_spawn/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                4608.0,
+                -12800.0
+            ],
+            [
+                12800.0,
+                -4608.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Cape Buffalo: drinking",
+        "active": false,
+        "attribution": "Vurhonga Savanna bitmaps from theHunter:COTW",
+        "id": "cape_buffalo_drinking",
+        "url": "data/r3/t_cape_buffalo_drinking/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                4608.0,
+                -12800.0
+            ],
+            [
+                12800.0,
+                -4608.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Cape Buffalo: feeding",
+        "active": false,
+        "attribution": "Vurhonga Savanna bitmaps from theHunter:COTW",
+        "id": "cape_buffalo_feeding",
+        "url": "data/r3/t_cape_buffalo_feeding/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                4608.0,
+                -12800.0
+            ],
+            [
+                12800.0,
+                -4608.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Cape Buffalo: resting",
+        "active": false,
+        "attribution": "Vurhonga Savanna bitmaps from theHunter:COTW",
+        "id": "cape_buffalo_resting",
+        "url": "data/r3/t_cape_buffalo_resting/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                4608.0,
+                -12800.0
+            ],
+            [
+                12800.0,
+                -4608.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Gemsbok: spawn",
+        "active": false,
+        "attribution": "Vurhonga Savanna bitmaps from theHunter:COTW",
+        "id": "gemsbok_spawn",
+        "url": "data/r3/t_gemsbok_spawn/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                4608.0,
+                -12800.0
+            ],
+            [
+                12800.0,
+                -4608.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Gemsbok: drinking",
+        "active": false,
+        "attribution": "Vurhonga Savanna bitmaps from theHunter:COTW",
+        "id": "gemsbok_drinking",
+        "url": "data/r3/t_gemsbok_drinking/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                4608.0,
+                -12800.0
+            ],
+            [
+                12800.0,
+                -4608.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Gemsbok: feeding",
+        "active": false,
+        "attribution": "Vurhonga Savanna bitmaps from theHunter:COTW",
+        "id": "gemsbok_feeding",
+        "url": "data/r3/t_gemsbok_feeding/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                4608.0,
+                -12800.0
+            ],
+            [
+                12800.0,
+                -4608.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Gemsbok: resting",
+        "active": false,
+        "attribution": "Vurhonga Savanna bitmaps from theHunter:COTW",
+        "id": "gemsbok_resting",
+        "url": "data/r3/t_gemsbok_resting/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                4608.0,
+                -12800.0
+            ],
+            [
+                12800.0,
+                -4608.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Lesser Kudu: spawn",
+        "active": false,
+        "attribution": "Vurhonga Savanna bitmaps from theHunter:COTW",
+        "id": "lesser_kudu_spawn",
+        "url": "data/r3/t_lesser_kudu_spawn/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                4608.0,
+                -12800.0
+            ],
+            [
+                12800.0,
+                -4608.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Lesser Kudu: drinking",
+        "active": false,
+        "attribution": "Vurhonga Savanna bitmaps from theHunter:COTW",
+        "id": "lesser_kudu_drinking",
+        "url": "data/r3/t_lesser_kudu_drinking/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                4608.0,
+                -12800.0
+            ],
+            [
+                12800.0,
+                -4608.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Lesser Kudu: feeding",
+        "active": false,
+        "attribution": "Vurhonga Savanna bitmaps from theHunter:COTW",
+        "id": "lesser_kudu_feeding",
+        "url": "data/r3/t_lesser_kudu_feeding/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                4608.0,
+                -12800.0
+            ],
+            [
+                12800.0,
+                -4608.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Lesser Kudu: resting",
+        "active": false,
+        "attribution": "Vurhonga Savanna bitmaps from theHunter:COTW",
+        "id": "lesser_kudu_resting",
+        "url": "data/r3/t_lesser_kudu_resting/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                4608.0,
+                -12800.0
+            ],
+            [
+                12800.0,
+                -4608.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Lion: spawn",
+        "active": false,
+        "attribution": "Vurhonga Savanna bitmaps from theHunter:COTW",
+        "id": "lion_spawn",
+        "url": "data/r3/t_lion_spawn/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                4608.0,
+                -12800.0
+            ],
+            [
+                12800.0,
+                -4608.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Lion: drinking",
+        "active": false,
+        "attribution": "Vurhonga Savanna bitmaps from theHunter:COTW",
+        "id": "lion_drinking",
+        "url": "data/r3/t_lion_drinking/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                4608.0,
+                -12800.0
+            ],
+            [
+                12800.0,
+                -4608.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Lion: feeding",
+        "active": false,
+        "attribution": "Vurhonga Savanna bitmaps from theHunter:COTW",
+        "id": "lion_feeding",
+        "url": "data/r3/t_lion_feeding/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                4608.0,
+                -12800.0
+            ],
+            [
+                12800.0,
+                -4608.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Lion: resting",
+        "active": false,
+        "attribution": "Vurhonga Savanna bitmaps from theHunter:COTW",
+        "id": "lion_resting",
+        "url": "data/r3/t_lion_resting/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                4608.0,
+                -12800.0
+            ],
+            [
+                12800.0,
+                -4608.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Scrub Hare: spawn",
+        "active": false,
+        "attribution": "Vurhonga Savanna bitmaps from theHunter:COTW",
+        "id": "scrub_hare_spawn",
+        "url": "data/r3/t_scrub_hare_spawn/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                4608.0,
+                -12800.0
+            ],
+            [
+                12800.0,
+                -4608.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Scrub Hare: drinking",
+        "active": false,
+        "attribution": "Vurhonga Savanna bitmaps from theHunter:COTW",
+        "id": "scrub_hare_drinking",
+        "url": "data/r3/t_scrub_hare_drinking/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                4608.0,
+                -12800.0
+            ],
+            [
+                12800.0,
+                -4608.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Scrub Hare: feeding",
+        "active": false,
+        "attribution": "Vurhonga Savanna bitmaps from theHunter:COTW",
+        "id": "scrub_hare_feeding",
+        "url": "data/r3/t_scrub_hare_feeding/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                4608.0,
+                -12800.0
+            ],
+            [
+                12800.0,
+                -4608.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Scrub Hare: resting",
+        "active": false,
+        "attribution": "Vurhonga Savanna bitmaps from theHunter:COTW",
+        "id": "scrub_hare_resting",
+        "url": "data/r3/t_scrub_hare_resting/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                4608.0,
+                -12800.0
+            ],
+            [
+                12800.0,
+                -4608.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Side-striped Jackal: spawn",
+        "active": false,
+        "attribution": "Vurhonga Savanna bitmaps from theHunter:COTW",
+        "id": "side-striped_jackal_spawn",
+        "url": "data/r3/t_side-striped_jackal_spawn/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                4608.0,
+                -12800.0
+            ],
+            [
+                12800.0,
+                -4608.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Side-striped Jackal: drinking",
+        "active": false,
+        "attribution": "Vurhonga Savanna bitmaps from theHunter:COTW",
+        "id": "side-striped_jackal_drinking",
+        "url": "data/r3/t_side-striped_jackal_drinking/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                4608.0,
+                -12800.0
+            ],
+            [
+                12800.0,
+                -4608.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Side-striped Jackal: feeding",
+        "active": false,
+        "attribution": "Vurhonga Savanna bitmaps from theHunter:COTW",
+        "id": "side-striped_jackal_feeding",
+        "url": "data/r3/t_side-striped_jackal_feeding/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                4608.0,
+                -12800.0
+            ],
+            [
+                12800.0,
+                -4608.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Side-striped Jackal: resting",
+        "active": false,
+        "attribution": "Vurhonga Savanna bitmaps from theHunter:COTW",
+        "id": "side-striped_jackal_resting",
+        "url": "data/r3/t_side-striped_jackal_resting/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                4608.0,
+                -12800.0
+            ],
+            [
+                12800.0,
+                -4608.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Springbok: spawn",
+        "active": false,
+        "attribution": "Vurhonga Savanna bitmaps from theHunter:COTW",
+        "id": "springbok_spawn",
+        "url": "data/r3/t_springbok_spawn/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                4608.0,
+                -12800.0
+            ],
+            [
+                12800.0,
+                -4608.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Springbok: drinking",
+        "active": false,
+        "attribution": "Vurhonga Savanna bitmaps from theHunter:COTW",
+        "id": "springbok_drinking",
+        "url": "data/r3/t_springbok_drinking/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                4608.0,
+                -12800.0
+            ],
+            [
+                12800.0,
+                -4608.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Springbok: feeding",
+        "active": false,
+        "attribution": "Vurhonga Savanna bitmaps from theHunter:COTW",
+        "id": "springbok_feeding",
+        "url": "data/r3/t_springbok_feeding/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                4608.0,
+                -12800.0
+            ],
+            [
+                12800.0,
+                -4608.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Springbok: resting",
+        "active": false,
+        "attribution": "Vurhonga Savanna bitmaps from theHunter:COTW",
+        "id": "springbok_resting",
+        "url": "data/r3/t_springbok_resting/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                4608.0,
+                -12800.0
+            ],
+            [
+                12800.0,
+                -4608.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Warthog: spawn",
+        "active": false,
+        "attribution": "Vurhonga Savanna bitmaps from theHunter:COTW",
+        "id": "warthog_spawn",
+        "url": "data/r3/t_warthog_spawn/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                4608.0,
+                -12800.0
+            ],
+            [
+                12800.0,
+                -4608.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Warthog: drinking",
+        "active": false,
+        "attribution": "Vurhonga Savanna bitmaps from theHunter:COTW",
+        "id": "warthog_drinking",
+        "url": "data/r3/t_warthog_drinking/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                4608.0,
+                -12800.0
+            ],
+            [
+                12800.0,
+                -4608.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Warthog: feeding",
+        "active": false,
+        "attribution": "Vurhonga Savanna bitmaps from theHunter:COTW",
+        "id": "warthog_feeding",
+        "url": "data/r3/t_warthog_feeding/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                4608.0,
+                -12800.0
+            ],
+            [
+                12800.0,
+                -4608.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Warthog: resting",
+        "active": false,
+        "attribution": "Vurhonga Savanna bitmaps from theHunter:COTW",
+        "id": "warthog_resting",
+        "url": "data/r3/t_warthog_resting/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                4608.0,
+                -12800.0
+            ],
+            [
+                12800.0,
+                -4608.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Animal Forbidden Map: forbidden",
+        "active": false,
+        "attribution": "Vurhonga Savanna bitmaps from theHunter:COTW",
+        "id": "animal_forbidden_map_forbidden",
+        "url": "data/r3/t_animal_forbidden_map_forbidden/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                4608.0,
+                -12800.0
+            ],
+            [
+                12800.0,
+                -4608.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Flee Map: flee",
+        "active": false,
+        "attribution": "Vurhonga Savanna bitmaps from theHunter:COTW",
+        "id": "flee_map_flee",
+        "url": "data/r3/t_flee_map_flee/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                4608.0,
+                -12800.0
+            ],
+            [
+                12800.0,
+                -4608.0
+            ]
+        ]
+    }
+]

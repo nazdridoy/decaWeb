@@ -1,0 +1,723 @@
+[
+    {
+        "layer_type": "tile_map",
+        "overlay": false,
+        "name": "Topographic",
+        "active": true,
+        "attribution": "Layton Lake District map from theHunter:COTW",
+        "id": "t_topo",
+        "url": "data/r1/t_topo/{z}/{x}/{y}.png",
+        "max_zoom": 5,
+        "opacity": 1.0,
+        "bounds": [
+            [
+                0.0,
+                0.0
+            ],
+            [
+                16384.0,
+                16384.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Black Bear: spawn",
+        "active": false,
+        "attribution": "Layton Lake District bitmaps from theHunter:COTW",
+        "id": "black_bear_spawn",
+        "url": "data/r1/t_black_bear_spawn/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                5472.0,
+                3552.0
+            ],
+            [
+                13664.0,
+                11744.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Black Bear: drinking",
+        "active": false,
+        "attribution": "Layton Lake District bitmaps from theHunter:COTW",
+        "id": "black_bear_drinking",
+        "url": "data/r1/t_black_bear_drinking/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                5472.0,
+                3552.0
+            ],
+            [
+                13664.0,
+                11744.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Black Bear: feeding",
+        "active": false,
+        "attribution": "Layton Lake District bitmaps from theHunter:COTW",
+        "id": "black_bear_feeding",
+        "url": "data/r1/t_black_bear_feeding/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                5472.0,
+                3552.0
+            ],
+            [
+                13664.0,
+                11744.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Black Bear: resting",
+        "active": false,
+        "attribution": "Layton Lake District bitmaps from theHunter:COTW",
+        "id": "black_bear_resting",
+        "url": "data/r1/t_black_bear_resting/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                5472.0,
+                3552.0
+            ],
+            [
+                13664.0,
+                11744.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Blacktail Deer: spawn",
+        "active": false,
+        "attribution": "Layton Lake District bitmaps from theHunter:COTW",
+        "id": "blacktail_deer_spawn",
+        "url": "data/r1/t_blacktail_deer_spawn/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                5472.0,
+                3552.0
+            ],
+            [
+                13664.0,
+                11744.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Blacktail Deer: drinking",
+        "active": false,
+        "attribution": "Layton Lake District bitmaps from theHunter:COTW",
+        "id": "blacktail_deer_drinking",
+        "url": "data/r1/t_blacktail_deer_drinking/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                5472.0,
+                3552.0
+            ],
+            [
+                13664.0,
+                11744.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Blacktail Deer: feeding",
+        "active": false,
+        "attribution": "Layton Lake District bitmaps from theHunter:COTW",
+        "id": "blacktail_deer_feeding",
+        "url": "data/r1/t_blacktail_deer_feeding/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                5472.0,
+                3552.0
+            ],
+            [
+                13664.0,
+                11744.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Blacktail Deer: resting",
+        "active": false,
+        "attribution": "Layton Lake District bitmaps from theHunter:COTW",
+        "id": "blacktail_deer_resting",
+        "url": "data/r1/t_blacktail_deer_resting/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                5472.0,
+                3552.0
+            ],
+            [
+                13664.0,
+                11744.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Coyote: spawn",
+        "active": false,
+        "attribution": "Layton Lake District bitmaps from theHunter:COTW",
+        "id": "coyote_spawn",
+        "url": "data/r1/t_coyote_spawn/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                5472.0,
+                3552.0
+            ],
+            [
+                13664.0,
+                11744.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Coyote: drinking",
+        "active": false,
+        "attribution": "Layton Lake District bitmaps from theHunter:COTW",
+        "id": "coyote_drinking",
+        "url": "data/r1/t_coyote_drinking/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                5472.0,
+                3552.0
+            ],
+            [
+                13664.0,
+                11744.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Coyote: feeding",
+        "active": false,
+        "attribution": "Layton Lake District bitmaps from theHunter:COTW",
+        "id": "coyote_feeding",
+        "url": "data/r1/t_coyote_feeding/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                5472.0,
+                3552.0
+            ],
+            [
+                13664.0,
+                11744.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Coyote: resting",
+        "active": false,
+        "attribution": "Layton Lake District bitmaps from theHunter:COTW",
+        "id": "coyote_resting",
+        "url": "data/r1/t_coyote_resting/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                5472.0,
+                3552.0
+            ],
+            [
+                13664.0,
+                11744.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Jack Rabbit: spawn",
+        "active": false,
+        "attribution": "Layton Lake District bitmaps from theHunter:COTW",
+        "id": "jack_rabbit_spawn",
+        "url": "data/r1/t_jack_rabbit_spawn/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                5472.0,
+                3552.0
+            ],
+            [
+                13664.0,
+                11744.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Jack Rabbit: drinking",
+        "active": false,
+        "attribution": "Layton Lake District bitmaps from theHunter:COTW",
+        "id": "jack_rabbit_drinking",
+        "url": "data/r1/t_jack_rabbit_drinking/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                5472.0,
+                3552.0
+            ],
+            [
+                13664.0,
+                11744.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Jack Rabbit: feeding",
+        "active": false,
+        "attribution": "Layton Lake District bitmaps from theHunter:COTW",
+        "id": "jack_rabbit_feeding",
+        "url": "data/r1/t_jack_rabbit_feeding/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                5472.0,
+                3552.0
+            ],
+            [
+                13664.0,
+                11744.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Jack Rabbit: resting",
+        "active": false,
+        "attribution": "Layton Lake District bitmaps from theHunter:COTW",
+        "id": "jack_rabbit_resting",
+        "url": "data/r1/t_jack_rabbit_resting/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                5472.0,
+                3552.0
+            ],
+            [
+                13664.0,
+                11744.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Mallard: spawn",
+        "active": false,
+        "attribution": "Layton Lake District bitmaps from theHunter:COTW",
+        "id": "mallard_spawn",
+        "url": "data/r1/t_mallard_spawn/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                5472.0,
+                3552.0
+            ],
+            [
+                13664.0,
+                11744.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Mallard: drinking",
+        "active": false,
+        "attribution": "Layton Lake District bitmaps from theHunter:COTW",
+        "id": "mallard_drinking",
+        "url": "data/r1/t_mallard_drinking/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                5472.0,
+                3552.0
+            ],
+            [
+                13664.0,
+                11744.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Mallard: feeding",
+        "active": false,
+        "attribution": "Layton Lake District bitmaps from theHunter:COTW",
+        "id": "mallard_feeding",
+        "url": "data/r1/t_mallard_feeding/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                5472.0,
+                3552.0
+            ],
+            [
+                13664.0,
+                11744.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Mallard: resting",
+        "active": false,
+        "attribution": "Layton Lake District bitmaps from theHunter:COTW",
+        "id": "mallard_resting",
+        "url": "data/r1/t_mallard_resting/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                5472.0,
+                3552.0
+            ],
+            [
+                13664.0,
+                11744.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Moose: spawn",
+        "active": false,
+        "attribution": "Layton Lake District bitmaps from theHunter:COTW",
+        "id": "moose_spawn",
+        "url": "data/r1/t_moose_spawn/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                5472.0,
+                3552.0
+            ],
+            [
+                13664.0,
+                11744.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Moose: drinking",
+        "active": false,
+        "attribution": "Layton Lake District bitmaps from theHunter:COTW",
+        "id": "moose_drinking",
+        "url": "data/r1/t_moose_drinking/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                5472.0,
+                3552.0
+            ],
+            [
+                13664.0,
+                11744.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Moose: feeding",
+        "active": false,
+        "attribution": "Layton Lake District bitmaps from theHunter:COTW",
+        "id": "moose_feeding",
+        "url": "data/r1/t_moose_feeding/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                5472.0,
+                3552.0
+            ],
+            [
+                13664.0,
+                11744.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Moose: resting",
+        "active": false,
+        "attribution": "Layton Lake District bitmaps from theHunter:COTW",
+        "id": "moose_resting",
+        "url": "data/r1/t_moose_resting/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                5472.0,
+                3552.0
+            ],
+            [
+                13664.0,
+                11744.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Roosevelt Elk: spawn",
+        "active": false,
+        "attribution": "Layton Lake District bitmaps from theHunter:COTW",
+        "id": "roosevelt_elk_spawn",
+        "url": "data/r1/t_roosevelt_elk_spawn/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                5472.0,
+                3552.0
+            ],
+            [
+                13664.0,
+                11744.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Roosevelt Elk: drinking",
+        "active": false,
+        "attribution": "Layton Lake District bitmaps from theHunter:COTW",
+        "id": "roosevelt_elk_drinking",
+        "url": "data/r1/t_roosevelt_elk_drinking/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                5472.0,
+                3552.0
+            ],
+            [
+                13664.0,
+                11744.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Roosevelt Elk: feeding",
+        "active": false,
+        "attribution": "Layton Lake District bitmaps from theHunter:COTW",
+        "id": "roosevelt_elk_feeding",
+        "url": "data/r1/t_roosevelt_elk_feeding/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                5472.0,
+                3552.0
+            ],
+            [
+                13664.0,
+                11744.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Roosevelt Elk: resting",
+        "active": false,
+        "attribution": "Layton Lake District bitmaps from theHunter:COTW",
+        "id": "roosevelt_elk_resting",
+        "url": "data/r1/t_roosevelt_elk_resting/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                5472.0,
+                3552.0
+            ],
+            [
+                13664.0,
+                11744.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Whitetail Deer: spawn",
+        "active": false,
+        "attribution": "Layton Lake District bitmaps from theHunter:COTW",
+        "id": "whitetail_deer_spawn",
+        "url": "data/r1/t_whitetail_deer_spawn/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                5472.0,
+                3552.0
+            ],
+            [
+                13664.0,
+                11744.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Whitetail Deer: drinking",
+        "active": false,
+        "attribution": "Layton Lake District bitmaps from theHunter:COTW",
+        "id": "whitetail_deer_drinking",
+        "url": "data/r1/t_whitetail_deer_drinking/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                5472.0,
+                3552.0
+            ],
+            [
+                13664.0,
+                11744.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Whitetail Deer: feeding",
+        "active": false,
+        "attribution": "Layton Lake District bitmaps from theHunter:COTW",
+        "id": "whitetail_deer_feeding",
+        "url": "data/r1/t_whitetail_deer_feeding/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                5472.0,
+                3552.0
+            ],
+            [
+                13664.0,
+                11744.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Whitetail Deer: resting",
+        "active": false,
+        "attribution": "Layton Lake District bitmaps from theHunter:COTW",
+        "id": "whitetail_deer_resting",
+        "url": "data/r1/t_whitetail_deer_resting/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                5472.0,
+                3552.0
+            ],
+            [
+                13664.0,
+                11744.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Animal Forbidden Map: forbidden",
+        "active": false,
+        "attribution": "Layton Lake District bitmaps from theHunter:COTW",
+        "id": "animal_forbidden_map_forbidden",
+        "url": "data/r1/t_animal_forbidden_map_forbidden/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                5472.0,
+                3552.0
+            ],
+            [
+                13664.0,
+                11744.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Flee Map: flee",
+        "active": false,
+        "attribution": "Layton Lake District bitmaps from theHunter:COTW",
+        "id": "flee_map_flee",
+        "url": "data/r1/t_flee_map_flee/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                5472.0,
+                3552.0
+            ],
+            [
+                13664.0,
+                11744.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Water Map: water",
+        "active": false,
+        "attribution": "Layton Lake District bitmaps from theHunter:COTW",
+        "id": "water_map_water",
+        "url": "data/r1/t_water_map_water/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                5472.0,
+                3552.0
+            ],
+            [
+                13664.0,
+                11744.0
+            ]
+        ]
+    }
+]

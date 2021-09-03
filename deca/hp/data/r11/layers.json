@@ -1,0 +1,803 @@
+[
+    {
+        "layer_type": "tile_map",
+        "overlay": false,
+        "name": "Topographic",
+        "active": true,
+        "attribution": "Rancho Del Arroyo map from theHunter:COTW",
+        "id": "t_topo",
+        "url": "data/r11/t_topo/{z}/{x}/{y}.png",
+        "max_zoom": 5,
+        "opacity": 1.0,
+        "bounds": [
+            [
+                -16384.0,
+                0.0
+            ],
+            [
+                0.0,
+                16384.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Antelope Jackrabbit: spawn",
+        "active": false,
+        "attribution": "Rancho Del Arroyo bitmaps from theHunter:COTW",
+        "id": "antelope_jackrabbit_spawn",
+        "url": "data/r11/t_antelope_jackrabbit_spawn/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -11682.0,
+                4412.0
+            ],
+            [
+                -3490.0,
+                12604.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Antelope Jackrabbit: drinking",
+        "active": false,
+        "attribution": "Rancho Del Arroyo bitmaps from theHunter:COTW",
+        "id": "antelope_jackrabbit_drinking",
+        "url": "data/r11/t_antelope_jackrabbit_drinking/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -11682.0,
+                4412.0
+            ],
+            [
+                -3490.0,
+                12604.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Antelope Jackrabbit: feeding",
+        "active": false,
+        "attribution": "Rancho Del Arroyo bitmaps from theHunter:COTW",
+        "id": "antelope_jackrabbit_feeding",
+        "url": "data/r11/t_antelope_jackrabbit_feeding/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -11682.0,
+                4412.0
+            ],
+            [
+                -3490.0,
+                12604.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Antelope Jackrabbit: resting",
+        "active": false,
+        "attribution": "Rancho Del Arroyo bitmaps from theHunter:COTW",
+        "id": "antelope_jackrabbit_resting",
+        "url": "data/r11/t_antelope_jackrabbit_resting/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -11682.0,
+                4412.0
+            ],
+            [
+                -3490.0,
+                12604.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Bighorn Sheep: spawn",
+        "active": false,
+        "attribution": "Rancho Del Arroyo bitmaps from theHunter:COTW",
+        "id": "bighorn_sheep_spawn",
+        "url": "data/r11/t_bighorn_sheep_spawn/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -11682.0,
+                4412.0
+            ],
+            [
+                -3490.0,
+                12604.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Bighorn Sheep: drinking",
+        "active": false,
+        "attribution": "Rancho Del Arroyo bitmaps from theHunter:COTW",
+        "id": "bighorn_sheep_drinking",
+        "url": "data/r11/t_bighorn_sheep_drinking/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -11682.0,
+                4412.0
+            ],
+            [
+                -3490.0,
+                12604.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Bighorn Sheep: feeding",
+        "active": false,
+        "attribution": "Rancho Del Arroyo bitmaps from theHunter:COTW",
+        "id": "bighorn_sheep_feeding",
+        "url": "data/r11/t_bighorn_sheep_feeding/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -11682.0,
+                4412.0
+            ],
+            [
+                -3490.0,
+                12604.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Bighorn Sheep: resting",
+        "active": false,
+        "attribution": "Rancho Del Arroyo bitmaps from theHunter:COTW",
+        "id": "bighorn_sheep_resting",
+        "url": "data/r11/t_bighorn_sheep_resting/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -11682.0,
+                4412.0
+            ],
+            [
+                -3490.0,
+                12604.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Collared Peccary: spawn",
+        "active": false,
+        "attribution": "Rancho Del Arroyo bitmaps from theHunter:COTW",
+        "id": "collared_peccary_spawn",
+        "url": "data/r11/t_collared_peccary_spawn/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -11682.0,
+                4412.0
+            ],
+            [
+                -3490.0,
+                12604.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Collared Peccary: drinking",
+        "active": false,
+        "attribution": "Rancho Del Arroyo bitmaps from theHunter:COTW",
+        "id": "collared_peccary_drinking",
+        "url": "data/r11/t_collared_peccary_drinking/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -11682.0,
+                4412.0
+            ],
+            [
+                -3490.0,
+                12604.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Collared Peccary: feeding",
+        "active": false,
+        "attribution": "Rancho Del Arroyo bitmaps from theHunter:COTW",
+        "id": "collared_peccary_feeding",
+        "url": "data/r11/t_collared_peccary_feeding/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -11682.0,
+                4412.0
+            ],
+            [
+                -3490.0,
+                12604.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Collared Peccary: resting",
+        "active": false,
+        "attribution": "Rancho Del Arroyo bitmaps from theHunter:COTW",
+        "id": "collared_peccary_resting",
+        "url": "data/r11/t_collared_peccary_resting/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -11682.0,
+                4412.0
+            ],
+            [
+                -3490.0,
+                12604.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Coyote: spawn",
+        "active": false,
+        "attribution": "Rancho Del Arroyo bitmaps from theHunter:COTW",
+        "id": "coyote_spawn",
+        "url": "data/r11/t_coyote_spawn/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -11682.0,
+                4412.0
+            ],
+            [
+                -3490.0,
+                12604.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Coyote: drinking",
+        "active": false,
+        "attribution": "Rancho Del Arroyo bitmaps from theHunter:COTW",
+        "id": "coyote_drinking",
+        "url": "data/r11/t_coyote_drinking/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -11682.0,
+                4412.0
+            ],
+            [
+                -3490.0,
+                12604.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Coyote: feeding",
+        "active": false,
+        "attribution": "Rancho Del Arroyo bitmaps from theHunter:COTW",
+        "id": "coyote_feeding",
+        "url": "data/r11/t_coyote_feeding/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -11682.0,
+                4412.0
+            ],
+            [
+                -3490.0,
+                12604.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Coyote: resting",
+        "active": false,
+        "attribution": "Rancho Del Arroyo bitmaps from theHunter:COTW",
+        "id": "coyote_resting",
+        "url": "data/r11/t_coyote_resting/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -11682.0,
+                4412.0
+            ],
+            [
+                -3490.0,
+                12604.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Mexican Bobcat: spawn",
+        "active": false,
+        "attribution": "Rancho Del Arroyo bitmaps from theHunter:COTW",
+        "id": "mexican_bobcat_spawn",
+        "url": "data/r11/t_mexican_bobcat_spawn/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -11682.0,
+                4412.0
+            ],
+            [
+                -3490.0,
+                12604.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Mexican Bobcat: drinking",
+        "active": false,
+        "attribution": "Rancho Del Arroyo bitmaps from theHunter:COTW",
+        "id": "mexican_bobcat_drinking",
+        "url": "data/r11/t_mexican_bobcat_drinking/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -11682.0,
+                4412.0
+            ],
+            [
+                -3490.0,
+                12604.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Mexican Bobcat: feeding",
+        "active": false,
+        "attribution": "Rancho Del Arroyo bitmaps from theHunter:COTW",
+        "id": "mexican_bobcat_feeding",
+        "url": "data/r11/t_mexican_bobcat_feeding/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -11682.0,
+                4412.0
+            ],
+            [
+                -3490.0,
+                12604.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Mexican Bobcat: resting",
+        "active": false,
+        "attribution": "Rancho Del Arroyo bitmaps from theHunter:COTW",
+        "id": "mexican_bobcat_resting",
+        "url": "data/r11/t_mexican_bobcat_resting/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -11682.0,
+                4412.0
+            ],
+            [
+                -3490.0,
+                12604.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Mule Deer: spawn",
+        "active": false,
+        "attribution": "Rancho Del Arroyo bitmaps from theHunter:COTW",
+        "id": "mule_deer_spawn",
+        "url": "data/r11/t_mule_deer_spawn/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -11682.0,
+                4412.0
+            ],
+            [
+                -3490.0,
+                12604.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Mule Deer: drinking",
+        "active": false,
+        "attribution": "Rancho Del Arroyo bitmaps from theHunter:COTW",
+        "id": "mule_deer_drinking",
+        "url": "data/r11/t_mule_deer_drinking/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -11682.0,
+                4412.0
+            ],
+            [
+                -3490.0,
+                12604.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Mule Deer: feeding",
+        "active": false,
+        "attribution": "Rancho Del Arroyo bitmaps from theHunter:COTW",
+        "id": "mule_deer_feeding",
+        "url": "data/r11/t_mule_deer_feeding/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -11682.0,
+                4412.0
+            ],
+            [
+                -3490.0,
+                12604.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Mule Deer: resting",
+        "active": false,
+        "attribution": "Rancho Del Arroyo bitmaps from theHunter:COTW",
+        "id": "mule_deer_resting",
+        "url": "data/r11/t_mule_deer_resting/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -11682.0,
+                4412.0
+            ],
+            [
+                -3490.0,
+                12604.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Pheasant: spawn",
+        "active": false,
+        "attribution": "Rancho Del Arroyo bitmaps from theHunter:COTW",
+        "id": "pheasant_spawn",
+        "url": "data/r11/t_pheasant_spawn/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -11682.0,
+                4412.0
+            ],
+            [
+                -3490.0,
+                12604.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Pheasant: drinking",
+        "active": false,
+        "attribution": "Rancho Del Arroyo bitmaps from theHunter:COTW",
+        "id": "pheasant_drinking",
+        "url": "data/r11/t_pheasant_drinking/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -11682.0,
+                4412.0
+            ],
+            [
+                -3490.0,
+                12604.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Pheasant: feeding",
+        "active": false,
+        "attribution": "Rancho Del Arroyo bitmaps from theHunter:COTW",
+        "id": "pheasant_feeding",
+        "url": "data/r11/t_pheasant_feeding/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -11682.0,
+                4412.0
+            ],
+            [
+                -3490.0,
+                12604.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Pheasant: resting",
+        "active": false,
+        "attribution": "Rancho Del Arroyo bitmaps from theHunter:COTW",
+        "id": "pheasant_resting",
+        "url": "data/r11/t_pheasant_resting/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -11682.0,
+                4412.0
+            ],
+            [
+                -3490.0,
+                12604.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Rio Grande Turkey: spawn",
+        "active": false,
+        "attribution": "Rancho Del Arroyo bitmaps from theHunter:COTW",
+        "id": "rio_grande_turkey_spawn",
+        "url": "data/r11/t_rio_grande_turkey_spawn/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -11682.0,
+                4412.0
+            ],
+            [
+                -3490.0,
+                12604.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Rio Grande Turkey: drinking",
+        "active": false,
+        "attribution": "Rancho Del Arroyo bitmaps from theHunter:COTW",
+        "id": "rio_grande_turkey_drinking",
+        "url": "data/r11/t_rio_grande_turkey_drinking/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -11682.0,
+                4412.0
+            ],
+            [
+                -3490.0,
+                12604.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Rio Grande Turkey: feeding",
+        "active": false,
+        "attribution": "Rancho Del Arroyo bitmaps from theHunter:COTW",
+        "id": "rio_grande_turkey_feeding",
+        "url": "data/r11/t_rio_grande_turkey_feeding/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -11682.0,
+                4412.0
+            ],
+            [
+                -3490.0,
+                12604.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Rio Grande Turkey: resting",
+        "active": false,
+        "attribution": "Rancho Del Arroyo bitmaps from theHunter:COTW",
+        "id": "rio_grande_turkey_resting",
+        "url": "data/r11/t_rio_grande_turkey_resting/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -11682.0,
+                4412.0
+            ],
+            [
+                -3490.0,
+                12604.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Whitetail: spawn",
+        "active": false,
+        "attribution": "Rancho Del Arroyo bitmaps from theHunter:COTW",
+        "id": "whitetail_spawn",
+        "url": "data/r11/t_whitetail_spawn/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -11682.0,
+                4412.0
+            ],
+            [
+                -3490.0,
+                12604.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Whitetail: drinking",
+        "active": false,
+        "attribution": "Rancho Del Arroyo bitmaps from theHunter:COTW",
+        "id": "whitetail_drinking",
+        "url": "data/r11/t_whitetail_drinking/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -11682.0,
+                4412.0
+            ],
+            [
+                -3490.0,
+                12604.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Whitetail: feeding",
+        "active": false,
+        "attribution": "Rancho Del Arroyo bitmaps from theHunter:COTW",
+        "id": "whitetail_feeding",
+        "url": "data/r11/t_whitetail_feeding/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -11682.0,
+                4412.0
+            ],
+            [
+                -3490.0,
+                12604.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Whitetail: resting",
+        "active": false,
+        "attribution": "Rancho Del Arroyo bitmaps from theHunter:COTW",
+        "id": "whitetail_resting",
+        "url": "data/r11/t_whitetail_resting/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -11682.0,
+                4412.0
+            ],
+            [
+                -3490.0,
+                12604.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Animal Forbidden Map: forbidden",
+        "active": false,
+        "attribution": "Rancho Del Arroyo bitmaps from theHunter:COTW",
+        "id": "animal_forbidden_map_forbidden",
+        "url": "data/r11/t_animal_forbidden_map_forbidden/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -11682.0,
+                4412.0
+            ],
+            [
+                -3490.0,
+                12604.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Flee Map: flee",
+        "active": false,
+        "attribution": "Rancho Del Arroyo bitmaps from theHunter:COTW",
+        "id": "flee_map_flee",
+        "url": "data/r11/t_flee_map_flee/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -11682.0,
+                4412.0
+            ],
+            [
+                -3490.0,
+                12604.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Water Map: water",
+        "active": false,
+        "attribution": "Rancho Del Arroyo bitmaps from theHunter:COTW",
+        "id": "water_map_water",
+        "url": "data/r11/t_water_map_water/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -11682.0,
+                4412.0
+            ],
+            [
+                -3490.0,
+                12604.0
+            ]
+        ]
+    }
+]

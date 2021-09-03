@@ -1,0 +1,543 @@
+[
+    {
+        "layer_type": "tile_map",
+        "overlay": false,
+        "name": "Topographic",
+        "active": true,
+        "attribution": "Medved-Taiga National Park map from theHunter:COTW",
+        "id": "t_topo",
+        "url": "data/r2/t_topo/{z}/{x}/{y}.png",
+        "max_zoom": 5,
+        "opacity": 1.0,
+        "bounds": [
+            [
+                -16384.0,
+                -16384.0
+            ],
+            [
+                0.0,
+                0.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Brown Bear: spawn",
+        "active": false,
+        "attribution": "Medved-Taiga National Park bitmaps from theHunter:COTW",
+        "id": "brown_bear_spawn",
+        "url": "data/r2/t_brown_bear_spawn/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12288.0,
+                -12800.0
+            ],
+            [
+                -4096.0,
+                -4608.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Brown Bear: drinking",
+        "active": false,
+        "attribution": "Medved-Taiga National Park bitmaps from theHunter:COTW",
+        "id": "brown_bear_drinking",
+        "url": "data/r2/t_brown_bear_drinking/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12288.0,
+                -12800.0
+            ],
+            [
+                -4096.0,
+                -4608.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Brown Bear: feeding",
+        "active": false,
+        "attribution": "Medved-Taiga National Park bitmaps from theHunter:COTW",
+        "id": "brown_bear_feeding",
+        "url": "data/r2/t_brown_bear_feeding/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12288.0,
+                -12800.0
+            ],
+            [
+                -4096.0,
+                -4608.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Brown Bear: resting",
+        "active": false,
+        "attribution": "Medved-Taiga National Park bitmaps from theHunter:COTW",
+        "id": "brown_bear_resting",
+        "url": "data/r2/t_brown_bear_resting/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12288.0,
+                -12800.0
+            ],
+            [
+                -4096.0,
+                -4608.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Lynx: spawn",
+        "active": false,
+        "attribution": "Medved-Taiga National Park bitmaps from theHunter:COTW",
+        "id": "lynx_spawn",
+        "url": "data/r2/t_lynx_spawn/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12288.0,
+                -12800.0
+            ],
+            [
+                -4096.0,
+                -4608.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Lynx: drinking",
+        "active": false,
+        "attribution": "Medved-Taiga National Park bitmaps from theHunter:COTW",
+        "id": "lynx_drinking",
+        "url": "data/r2/t_lynx_drinking/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12288.0,
+                -12800.0
+            ],
+            [
+                -4096.0,
+                -4608.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Lynx: feeding",
+        "active": false,
+        "attribution": "Medved-Taiga National Park bitmaps from theHunter:COTW",
+        "id": "lynx_feeding",
+        "url": "data/r2/t_lynx_feeding/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12288.0,
+                -12800.0
+            ],
+            [
+                -4096.0,
+                -4608.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Lynx: resting",
+        "active": false,
+        "attribution": "Medved-Taiga National Park bitmaps from theHunter:COTW",
+        "id": "lynx_resting",
+        "url": "data/r2/t_lynx_resting/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12288.0,
+                -12800.0
+            ],
+            [
+                -4096.0,
+                -4608.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Moose: spawn",
+        "active": false,
+        "attribution": "Medved-Taiga National Park bitmaps from theHunter:COTW",
+        "id": "moose_spawn",
+        "url": "data/r2/t_moose_spawn/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12288.0,
+                -12800.0
+            ],
+            [
+                -4096.0,
+                -4608.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Moose: drinking",
+        "active": false,
+        "attribution": "Medved-Taiga National Park bitmaps from theHunter:COTW",
+        "id": "moose_drinking",
+        "url": "data/r2/t_moose_drinking/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12288.0,
+                -12800.0
+            ],
+            [
+                -4096.0,
+                -4608.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Moose: feeding",
+        "active": false,
+        "attribution": "Medved-Taiga National Park bitmaps from theHunter:COTW",
+        "id": "moose_feeding",
+        "url": "data/r2/t_moose_feeding/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12288.0,
+                -12800.0
+            ],
+            [
+                -4096.0,
+                -4608.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Moose: resting",
+        "active": false,
+        "attribution": "Medved-Taiga National Park bitmaps from theHunter:COTW",
+        "id": "moose_resting",
+        "url": "data/r2/t_moose_resting/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12288.0,
+                -12800.0
+            ],
+            [
+                -4096.0,
+                -4608.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Musk Deer: spawn",
+        "active": false,
+        "attribution": "Medved-Taiga National Park bitmaps from theHunter:COTW",
+        "id": "musk_deer_spawn",
+        "url": "data/r2/t_musk_deer_spawn/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12288.0,
+                -12800.0
+            ],
+            [
+                -4096.0,
+                -4608.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Musk Deer: drinking",
+        "active": false,
+        "attribution": "Medved-Taiga National Park bitmaps from theHunter:COTW",
+        "id": "musk_deer_drinking",
+        "url": "data/r2/t_musk_deer_drinking/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12288.0,
+                -12800.0
+            ],
+            [
+                -4096.0,
+                -4608.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Musk Deer: feeding",
+        "active": false,
+        "attribution": "Medved-Taiga National Park bitmaps from theHunter:COTW",
+        "id": "musk_deer_feeding",
+        "url": "data/r2/t_musk_deer_feeding/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12288.0,
+                -12800.0
+            ],
+            [
+                -4096.0,
+                -4608.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Musk Deer: resting",
+        "active": false,
+        "attribution": "Medved-Taiga National Park bitmaps from theHunter:COTW",
+        "id": "musk_deer_resting",
+        "url": "data/r2/t_musk_deer_resting/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12288.0,
+                -12800.0
+            ],
+            [
+                -4096.0,
+                -4608.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Reindeer: spawn",
+        "active": false,
+        "attribution": "Medved-Taiga National Park bitmaps from theHunter:COTW",
+        "id": "reindeer_spawn",
+        "url": "data/r2/t_reindeer_spawn/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12288.0,
+                -12800.0
+            ],
+            [
+                -4096.0,
+                -4608.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Reindeer: drinking",
+        "active": false,
+        "attribution": "Medved-Taiga National Park bitmaps from theHunter:COTW",
+        "id": "reindeer_drinking",
+        "url": "data/r2/t_reindeer_drinking/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12288.0,
+                -12800.0
+            ],
+            [
+                -4096.0,
+                -4608.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Reindeer: feeding",
+        "active": false,
+        "attribution": "Medved-Taiga National Park bitmaps from theHunter:COTW",
+        "id": "reindeer_feeding",
+        "url": "data/r2/t_reindeer_feeding/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12288.0,
+                -12800.0
+            ],
+            [
+                -4096.0,
+                -4608.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Reindeer: resting",
+        "active": false,
+        "attribution": "Medved-Taiga National Park bitmaps from theHunter:COTW",
+        "id": "reindeer_resting",
+        "url": "data/r2/t_reindeer_resting/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12288.0,
+                -12800.0
+            ],
+            [
+                -4096.0,
+                -4608.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Wild Boar: spawn",
+        "active": false,
+        "attribution": "Medved-Taiga National Park bitmaps from theHunter:COTW",
+        "id": "wild_boar_spawn",
+        "url": "data/r2/t_wild_boar_spawn/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12288.0,
+                -12800.0
+            ],
+            [
+                -4096.0,
+                -4608.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Wild Boar: drinking",
+        "active": false,
+        "attribution": "Medved-Taiga National Park bitmaps from theHunter:COTW",
+        "id": "wild_boar_drinking",
+        "url": "data/r2/t_wild_boar_drinking/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12288.0,
+                -12800.0
+            ],
+            [
+                -4096.0,
+                -4608.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Wild Boar: feeding",
+        "active": false,
+        "attribution": "Medved-Taiga National Park bitmaps from theHunter:COTW",
+        "id": "wild_boar_feeding",
+        "url": "data/r2/t_wild_boar_feeding/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12288.0,
+                -12800.0
+            ],
+            [
+                -4096.0,
+                -4608.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Wild Boar: resting",
+        "active": false,
+        "attribution": "Medved-Taiga National Park bitmaps from theHunter:COTW",
+        "id": "wild_boar_resting",
+        "url": "data/r2/t_wild_boar_resting/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12288.0,
+                -12800.0
+            ],
+            [
+                -4096.0,
+                -4608.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Animal Forbidden Map: forbidden",
+        "active": false,
+        "attribution": "Medved-Taiga National Park bitmaps from theHunter:COTW",
+        "id": "animal_forbidden_map_forbidden",
+        "url": "data/r2/t_animal_forbidden_map_forbidden/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12288.0,
+                -12800.0
+            ],
+            [
+                -4096.0,
+                -4608.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Flee Map: flee",
+        "active": false,
+        "attribution": "Medved-Taiga National Park bitmaps from theHunter:COTW",
+        "id": "flee_map_flee",
+        "url": "data/r2/t_flee_map_flee/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -12288.0,
+                -12800.0
+            ],
+            [
+                -4096.0,
+                -4608.0
+            ]
+        ]
+    }
+]

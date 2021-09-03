@@ -1,0 +1,803 @@
+[
+    {
+        "layer_type": "tile_map",
+        "overlay": false,
+        "name": "Topographic",
+        "active": true,
+        "attribution": "Silver Ridge Peaks map from theHunter:COTW",
+        "id": "t_topo",
+        "url": "data/r9/t_topo/{z}/{x}/{y}.png",
+        "max_zoom": 5,
+        "opacity": 1.0,
+        "bounds": [
+            [
+                -12980.0,
+                -17156.0
+            ],
+            [
+                3404.0,
+                -772.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Bighorn Sheep: spawn",
+        "active": false,
+        "attribution": "Silver Ridge Peaks bitmaps from theHunter:COTW",
+        "id": "bighorn_sheep_spawn",
+        "url": "data/r9/t_bighorn_sheep_spawn/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -8692.0,
+                -13544.0
+            ],
+            [
+                -500.0,
+                -5352.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Bighorn Sheep: drinking",
+        "active": false,
+        "attribution": "Silver Ridge Peaks bitmaps from theHunter:COTW",
+        "id": "bighorn_sheep_drinking",
+        "url": "data/r9/t_bighorn_sheep_drinking/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -8692.0,
+                -13544.0
+            ],
+            [
+                -500.0,
+                -5352.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Bighorn Sheep: feeding",
+        "active": false,
+        "attribution": "Silver Ridge Peaks bitmaps from theHunter:COTW",
+        "id": "bighorn_sheep_feeding",
+        "url": "data/r9/t_bighorn_sheep_feeding/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -8692.0,
+                -13544.0
+            ],
+            [
+                -500.0,
+                -5352.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Bighorn Sheep: resting",
+        "active": false,
+        "attribution": "Silver Ridge Peaks bitmaps from theHunter:COTW",
+        "id": "bighorn_sheep_resting",
+        "url": "data/r9/t_bighorn_sheep_resting/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -8692.0,
+                -13544.0
+            ],
+            [
+                -500.0,
+                -5352.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Black Bear: spawn",
+        "active": false,
+        "attribution": "Silver Ridge Peaks bitmaps from theHunter:COTW",
+        "id": "black_bear_spawn",
+        "url": "data/r9/t_black_bear_spawn/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -8692.0,
+                -13544.0
+            ],
+            [
+                -500.0,
+                -5352.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Black Bear: drinking",
+        "active": false,
+        "attribution": "Silver Ridge Peaks bitmaps from theHunter:COTW",
+        "id": "black_bear_drinking",
+        "url": "data/r9/t_black_bear_drinking/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -8692.0,
+                -13544.0
+            ],
+            [
+                -500.0,
+                -5352.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Black Bear: feeding",
+        "active": false,
+        "attribution": "Silver Ridge Peaks bitmaps from theHunter:COTW",
+        "id": "black_bear_feeding",
+        "url": "data/r9/t_black_bear_feeding/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -8692.0,
+                -13544.0
+            ],
+            [
+                -500.0,
+                -5352.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Black Bear: resting",
+        "active": false,
+        "attribution": "Silver Ridge Peaks bitmaps from theHunter:COTW",
+        "id": "black_bear_resting",
+        "url": "data/r9/t_black_bear_resting/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -8692.0,
+                -13544.0
+            ],
+            [
+                -500.0,
+                -5352.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Mountain Goat: spawn",
+        "active": false,
+        "attribution": "Silver Ridge Peaks bitmaps from theHunter:COTW",
+        "id": "mountain_goat_spawn",
+        "url": "data/r9/t_mountain_goat_spawn/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -8692.0,
+                -13544.0
+            ],
+            [
+                -500.0,
+                -5352.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Mountain Goat: drinking",
+        "active": false,
+        "attribution": "Silver Ridge Peaks bitmaps from theHunter:COTW",
+        "id": "mountain_goat_drinking",
+        "url": "data/r9/t_mountain_goat_drinking/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -8692.0,
+                -13544.0
+            ],
+            [
+                -500.0,
+                -5352.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Mountain Goat: feeding",
+        "active": false,
+        "attribution": "Silver Ridge Peaks bitmaps from theHunter:COTW",
+        "id": "mountain_goat_feeding",
+        "url": "data/r9/t_mountain_goat_feeding/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -8692.0,
+                -13544.0
+            ],
+            [
+                -500.0,
+                -5352.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Mountain Goat: resting",
+        "active": false,
+        "attribution": "Silver Ridge Peaks bitmaps from theHunter:COTW",
+        "id": "mountain_goat_resting",
+        "url": "data/r9/t_mountain_goat_resting/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -8692.0,
+                -13544.0
+            ],
+            [
+                -500.0,
+                -5352.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Mule Deer: spawn",
+        "active": false,
+        "attribution": "Silver Ridge Peaks bitmaps from theHunter:COTW",
+        "id": "mule_deer_spawn",
+        "url": "data/r9/t_mule_deer_spawn/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -8692.0,
+                -13544.0
+            ],
+            [
+                -500.0,
+                -5352.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Mule Deer: drinking",
+        "active": false,
+        "attribution": "Silver Ridge Peaks bitmaps from theHunter:COTW",
+        "id": "mule_deer_drinking",
+        "url": "data/r9/t_mule_deer_drinking/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -8692.0,
+                -13544.0
+            ],
+            [
+                -500.0,
+                -5352.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Mule Deer: feeding",
+        "active": false,
+        "attribution": "Silver Ridge Peaks bitmaps from theHunter:COTW",
+        "id": "mule_deer_feeding",
+        "url": "data/r9/t_mule_deer_feeding/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -8692.0,
+                -13544.0
+            ],
+            [
+                -500.0,
+                -5352.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Mule Deer: resting",
+        "active": false,
+        "attribution": "Silver Ridge Peaks bitmaps from theHunter:COTW",
+        "id": "mule_deer_resting",
+        "url": "data/r9/t_mule_deer_resting/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -8692.0,
+                -13544.0
+            ],
+            [
+                -500.0,
+                -5352.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Plains Bison: spawn",
+        "active": false,
+        "attribution": "Silver Ridge Peaks bitmaps from theHunter:COTW",
+        "id": "plains_bison_spawn",
+        "url": "data/r9/t_plains_bison_spawn/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -8692.0,
+                -13544.0
+            ],
+            [
+                -500.0,
+                -5352.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Plains Bison: drinking",
+        "active": false,
+        "attribution": "Silver Ridge Peaks bitmaps from theHunter:COTW",
+        "id": "plains_bison_drinking",
+        "url": "data/r9/t_plains_bison_drinking/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -8692.0,
+                -13544.0
+            ],
+            [
+                -500.0,
+                -5352.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Plains Bison: feeding",
+        "active": false,
+        "attribution": "Silver Ridge Peaks bitmaps from theHunter:COTW",
+        "id": "plains_bison_feeding",
+        "url": "data/r9/t_plains_bison_feeding/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -8692.0,
+                -13544.0
+            ],
+            [
+                -500.0,
+                -5352.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Plains Bison: resting",
+        "active": false,
+        "attribution": "Silver Ridge Peaks bitmaps from theHunter:COTW",
+        "id": "plains_bison_resting",
+        "url": "data/r9/t_plains_bison_resting/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -8692.0,
+                -13544.0
+            ],
+            [
+                -500.0,
+                -5352.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Prong Horn: spawn",
+        "active": false,
+        "attribution": "Silver Ridge Peaks bitmaps from theHunter:COTW",
+        "id": "prong_horn_spawn",
+        "url": "data/r9/t_prong_horn_spawn/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -8692.0,
+                -13544.0
+            ],
+            [
+                -500.0,
+                -5352.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Prong Horn: drinking",
+        "active": false,
+        "attribution": "Silver Ridge Peaks bitmaps from theHunter:COTW",
+        "id": "prong_horn_drinking",
+        "url": "data/r9/t_prong_horn_drinking/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -8692.0,
+                -13544.0
+            ],
+            [
+                -500.0,
+                -5352.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Prong Horn: feeding",
+        "active": false,
+        "attribution": "Silver Ridge Peaks bitmaps from theHunter:COTW",
+        "id": "prong_horn_feeding",
+        "url": "data/r9/t_prong_horn_feeding/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -8692.0,
+                -13544.0
+            ],
+            [
+                -500.0,
+                -5352.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Prong Horn: resting",
+        "active": false,
+        "attribution": "Silver Ridge Peaks bitmaps from theHunter:COTW",
+        "id": "prong_horn_resting",
+        "url": "data/r9/t_prong_horn_resting/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -8692.0,
+                -13544.0
+            ],
+            [
+                -500.0,
+                -5352.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Puma: spawn",
+        "active": false,
+        "attribution": "Silver Ridge Peaks bitmaps from theHunter:COTW",
+        "id": "puma_spawn",
+        "url": "data/r9/t_puma_spawn/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -8692.0,
+                -13544.0
+            ],
+            [
+                -500.0,
+                -5352.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Puma: drinking",
+        "active": false,
+        "attribution": "Silver Ridge Peaks bitmaps from theHunter:COTW",
+        "id": "puma_drinking",
+        "url": "data/r9/t_puma_drinking/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -8692.0,
+                -13544.0
+            ],
+            [
+                -500.0,
+                -5352.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Puma: feeding",
+        "active": false,
+        "attribution": "Silver Ridge Peaks bitmaps from theHunter:COTW",
+        "id": "puma_feeding",
+        "url": "data/r9/t_puma_feeding/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -8692.0,
+                -13544.0
+            ],
+            [
+                -500.0,
+                -5352.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Puma: resting",
+        "active": false,
+        "attribution": "Silver Ridge Peaks bitmaps from theHunter:COTW",
+        "id": "puma_resting",
+        "url": "data/r9/t_puma_resting/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -8692.0,
+                -13544.0
+            ],
+            [
+                -500.0,
+                -5352.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Rockymountain Elk: spawn",
+        "active": false,
+        "attribution": "Silver Ridge Peaks bitmaps from theHunter:COTW",
+        "id": "rockymountain_elk_spawn",
+        "url": "data/r9/t_rockymountain_elk_spawn/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -8692.0,
+                -13544.0
+            ],
+            [
+                -500.0,
+                -5352.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Rockymountain Elk: drinking",
+        "active": false,
+        "attribution": "Silver Ridge Peaks bitmaps from theHunter:COTW",
+        "id": "rockymountain_elk_drinking",
+        "url": "data/r9/t_rockymountain_elk_drinking/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -8692.0,
+                -13544.0
+            ],
+            [
+                -500.0,
+                -5352.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Rockymountain Elk: feeding",
+        "active": false,
+        "attribution": "Silver Ridge Peaks bitmaps from theHunter:COTW",
+        "id": "rockymountain_elk_feeding",
+        "url": "data/r9/t_rockymountain_elk_feeding/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -8692.0,
+                -13544.0
+            ],
+            [
+                -500.0,
+                -5352.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Rockymountain Elk: resting",
+        "active": false,
+        "attribution": "Silver Ridge Peaks bitmaps from theHunter:COTW",
+        "id": "rockymountain_elk_resting",
+        "url": "data/r9/t_rockymountain_elk_resting/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -8692.0,
+                -13544.0
+            ],
+            [
+                -500.0,
+                -5352.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Wild Turkey: spawn",
+        "active": false,
+        "attribution": "Silver Ridge Peaks bitmaps from theHunter:COTW",
+        "id": "wild_turkey_spawn",
+        "url": "data/r9/t_wild_turkey_spawn/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -8692.0,
+                -13544.0
+            ],
+            [
+                -500.0,
+                -5352.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Wild Turkey: drinking",
+        "active": false,
+        "attribution": "Silver Ridge Peaks bitmaps from theHunter:COTW",
+        "id": "wild_turkey_drinking",
+        "url": "data/r9/t_wild_turkey_drinking/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -8692.0,
+                -13544.0
+            ],
+            [
+                -500.0,
+                -5352.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Wild Turkey: feeding",
+        "active": false,
+        "attribution": "Silver Ridge Peaks bitmaps from theHunter:COTW",
+        "id": "wild_turkey_feeding",
+        "url": "data/r9/t_wild_turkey_feeding/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -8692.0,
+                -13544.0
+            ],
+            [
+                -500.0,
+                -5352.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Wild Turkey: resting",
+        "active": false,
+        "attribution": "Silver Ridge Peaks bitmaps from theHunter:COTW",
+        "id": "wild_turkey_resting",
+        "url": "data/r9/t_wild_turkey_resting/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -8692.0,
+                -13544.0
+            ],
+            [
+                -500.0,
+                -5352.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Animal Forbidden Map: forbidden",
+        "active": false,
+        "attribution": "Silver Ridge Peaks bitmaps from theHunter:COTW",
+        "id": "animal_forbidden_map_forbidden",
+        "url": "data/r9/t_animal_forbidden_map_forbidden/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -8692.0,
+                -13544.0
+            ],
+            [
+                -500.0,
+                -5352.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Flee Map: flee",
+        "active": false,
+        "attribution": "Silver Ridge Peaks bitmaps from theHunter:COTW",
+        "id": "flee_map_flee",
+        "url": "data/r9/t_flee_map_flee/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -8692.0,
+                -13544.0
+            ],
+            [
+                -500.0,
+                -5352.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Water Map: water",
+        "active": false,
+        "attribution": "Silver Ridge Peaks bitmaps from theHunter:COTW",
+        "id": "water_map_water",
+        "url": "data/r9/t_water_map_water/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -8692.0,
+                -13544.0
+            ],
+            [
+                -500.0,
+                -5352.0
+            ]
+        ]
+    }
+]

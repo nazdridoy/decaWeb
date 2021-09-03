@@ -1,0 +1,1520 @@
+{
+  "hunting_blind": [
+    [
+      [
+        -5943.7158203125,
+        10749.123046875
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -5950.51708984375,
+        11887.6025390625
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -4817.79443359375,
+        12861.4521484375
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -6942.4736328125,
+        12800.009765625
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -7491.2294921875,
+        12031.58984375
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -4325.99560546875,
+        11526.5986328125
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -9755.9296875,
+        11660.755859375
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -9212.220703125,
+        10758.515625
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -7392.95361328125,
+        10512.7119140625
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -8359.396484375,
+        9910.96484375
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -6143.6748046875,
+        9210.5908203125
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -5559.49365234375,
+        9119.232421875
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -4588.90673828125,
+        9265.5322265625
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -5022.16796875,
+        8724.408203125
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -6591.548828125,
+        9536.373046875
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -6817.12841796875,
+        8286.654296875
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -8050.82861328125,
+        7800.37353515625
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -8872.48828125,
+        8744.7587890625
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -9553.0966796875,
+        7428.1513671875
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -5083.1630859375,
+        7695.45947265625
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -6032.09765625,
+        7854.06396484375
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -7756.5556640625,
+        7593.57763671875
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -7214.60009765625,
+        7624.494140625
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -7021.7861328125,
+        5518.19189453125
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -4320.92041015625,
+        6029.60595703125
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -5210.4052734375,
+        6279.4931640625
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -5785.41943359375,
+        5543.97119140625
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -5004.6083984375,
+        12614.4580078125
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -6220.62939453125,
+        12875.126953125
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -7175.07470703125,
+        12336.5166015625
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -4652.79296875,
+        12235.9033203125
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -6949.85693359375,
+        11723.0419921875
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -6018.1435546875,
+        12137.91796875
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -7295.634765625,
+        11163.08984375
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -7356.6259765625,
+        11724.7724609375
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -9632.5771484375,
+        12321.4091796875
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -5642.71728515625,
+        12807.443359375
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -5132.02294921875,
+        13056.4658203125
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -6468.5751953125,
+        12451.9736328125
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -7684.158203125,
+        12311.0263671875
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -8386.3037109375,
+        12926.65625
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -4291.77587890625,
+        12063.658203125
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -5165.435546875,
+        11806.0341796875
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -5856.68359375,
+        11601.1689453125
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -6723.5361328125,
+        12244.626953125
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -7995.08056640625,
+        11423.5625
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -8671.5947265625,
+        12162.6328125
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -9587.34765625,
+        11984.1044921875
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -10208.578125,
+        12289.3486328125
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -4346.0478515625,
+        10861.953125
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -6690.4033203125,
+        11159.2021484375
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -6411.60986328125,
+        9992.2548828125
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -5350.42724609375,
+        10230.6064453125
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -5160.55712890625,
+        11428.4189453125
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -5350.5703125,
+        10844.9140625
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -5542.8330078125,
+        10546.9091796875
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -6016.34619140625,
+        10432.83984375
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -6337.4443359375,
+        10186.31640625
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -5523.49267578125,
+        10036.169921875
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -5274.57373046875,
+        9703.345703125
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -6456.39697265625,
+        10992.0126953125
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -7732.8076171875,
+        10547.453125
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -8207.8603515625,
+        10565.4619140625
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -8146.76025390625,
+        9328.3759765625
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -7038.13916015625,
+        9132.5009765625
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -6822.8857421875,
+        8610.427734375
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -4658.74853515625,
+        8582.1083984375
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -5011.72998046875,
+        8083.5751953125
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -4580.2646484375,
+        9973.1240234375
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -5636.98046875,
+        8293.478515625
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -6236.4521484375,
+        7308.37255859375
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -6513.64892578125,
+        7803.5
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -7174.77490234375,
+        6625.51416015625
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -7453.8505859375,
+        7209.4169921875
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -8309.5791015625,
+        7675.724609375
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -6325.00537109375,
+        5636.2041015625
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -6526.92333984375,
+        6280.57861328125
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -7185.310546875,
+        6105.9345703125
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -5105.71533203125,
+        6559.1748046875
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -4881.53173828125,
+        5455.595703125
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -5595.34033203125,
+        5853.310546875
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -7372.1064453125,
+        6092.58984375
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -10031.890625,
+        9219.03125
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -9443.16796875,
+        6214.0654296875
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -9918.638671875,
+        6841.77734375
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -8912.84765625,
+        9319.619140625
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -9663.337890625,
+        10827.482421875
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -10107.4404296875,
+        9985.6455078125
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -5691.634765625,
+        11155.62890625
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -9746.1455078125,
+        7713.0849609375
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -9205.6455078125,
+        7789.56396484375
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -9962.208984375,
+        11805.47265625
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -7387.35009765625,
+        10699.7919921875
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -1093.5338134765625,
+        15271.0830078125
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -1096.298095703125,
+        15277.3916015625
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ]
+  ],
+  "landmark": [
+    [
+      [
+        -4726.66552734375,
+        9438.9287109375
+      ],
+      "landmark_petershain_wind_turbines_name",
+      "Petershain Turbines"
+    ],
+    [
+      [
+        -10365.15234375,
+        10170.138671875
+      ],
+      "landmark_ernsdorf_cave_name",
+      "Ernsdorf Cave"
+    ],
+    [
+      [
+        -9936.4111328125,
+        10026.1455078125
+      ],
+      "landmark_ernsdorf_bridge_name",
+      "Ernsdorf Bridge"
+    ],
+    [
+      [
+        -10086.9423828125,
+        12080.181640625
+      ],
+      "landmark_rinderland_gorge_name",
+      "Rinderland Gorge"
+    ],
+    [
+      [
+        -9464.091796875,
+        7281.6591796875
+      ],
+      "landmark_bohndorf_hilltop_name",
+      "Bohndorf Hilltop"
+    ],
+    [
+      [
+        -8846.2734375,
+        12144.5400390625
+      ],
+      "landmark_tichenau_lonely_mill_name",
+      "Tichenau Lonely Windmill"
+    ],
+    [
+      [
+        -8602.95703125,
+        5897.7431640625
+      ],
+      "landmark_bohndorf_lake_fishing_cabin_name",
+      "Bohndorf Lake Fishing Cabin"
+    ],
+    [
+      [
+        -7573.642578125,
+        8844.6201171875
+      ],
+      "landmark_spreeberg_castle_name",
+      "Spreeberg Castle"
+    ],
+    [
+      [
+        -7297.09619140625,
+        10712.7099609375
+      ],
+      "landmark_schonfeldt_windmills_name",
+      "Schonfeldt Windmills"
+    ],
+    [
+      [
+        -7272.556640625,
+        12952.876953125
+      ],
+      "landmark_schonfeldt_bunkers_name",
+      "Schonfeldt Bunkers"
+    ],
+    [
+      [
+        -7031.71875,
+        7780.4072265625
+      ],
+      "landmark_ritterstein_bathing_area_name",
+      "Spree Bathing Area"
+    ],
+    [
+      [
+        -6134.56689453125,
+        10267.84375
+      ],
+      "landmark_spreeberg_bridge_name",
+      "Ikotz Bridge"
+    ],
+    [
+      [
+        -5983.46044921875,
+        5675.85693359375
+      ],
+      "landmark_mullerwald_oak_name",
+      "Old M\u00fcller"
+    ],
+    [
+      [
+        -5779.43994140625,
+        7458.099609375
+      ],
+      "landmark_petershain_ruin_village_name",
+      "Petershain Ruin Village"
+    ],
+    [
+      [
+        -5931.13525390625,
+        8063.3671875
+      ],
+      "landmark_petershain_ruin_tower_name",
+      "Petershain Tower Ruin"
+    ],
+    [
+      [
+        -4940.7587890625,
+        13294.255859375
+      ],
+      "landmark_rathenfeldt_gravemounds_name",
+      "Rathenfeldt Grave Mounds"
+    ],
+    [
+      [
+        -4538.7880859375,
+        5905.56591796875
+      ],
+      "landmark_mullerwald_logging_area_name",
+      "M\u00fcllerwald Logging Area"
+    ]
+  ],
+  "lookout_point": [
+    [
+      [
+        -4481.7734375,
+        8499.3828125
+      ],
+      "lookoutpoint_petershain_east_name",
+      "Petershain Eastern Lookout Point"
+    ],
+    [
+      [
+        -5974.42822265625,
+        9904.7587890625
+      ],
+      "lookoutpoint_spreeberg_east_name",
+      "Spreeberg Eastern Lookout Point"
+    ],
+    [
+      [
+        -4473.0654296875,
+        11907.8125
+      ],
+      "lookoutpoint_rathenfeldt_east_name",
+      "Rathenfeldt Eastern Lookout Point"
+    ],
+    [
+      [
+        -6956.91650390625,
+        12139.00390625
+      ],
+      "lookoutpoint_schonfeldt_south_name",
+      "Schonfeldt Southern Lookout Point"
+    ],
+    [
+      [
+        -5662.20068359375,
+        11434.845703125
+      ],
+      "lookoutpoint_rathenfeldt_north_name",
+      "Rathenfeldt Northern Lookout Point"
+    ],
+    [
+      [
+        -7790.02001953125,
+        10733.9130859375
+      ],
+      "lookoutpoint_schonfeldt_north_name",
+      "Schonfeldt Northern Lookout Point"
+    ],
+    [
+      [
+        -9600.958984375,
+        12065.025390625
+      ],
+      "lookoutpoint_tichenau_name",
+      "Tichenau Lookout Point"
+    ],
+    [
+      [
+        -9452.703125,
+        10915.416015625
+      ],
+      "lookoutpoint_ernsdorf_name",
+      "Ernsdorf Lookout Point"
+    ],
+    [
+      [
+        -7572.1435546875,
+        8759.9794921875
+      ],
+      "lookoutpoint_spreeberg_west_name",
+      "Spreeberg Western Lookout Point"
+    ],
+    [
+      [
+        -9567.1787109375,
+        7859.30615234375
+      ],
+      "lookoutpoint_jonsdorf_west_name",
+      "Jonsdorf Western Lookout Point"
+    ],
+    [
+      [
+        -5597.4794921875,
+        8090.00341796875
+      ],
+      "lookoutpoint_petershain_north_name",
+      "Petershain Northern Lookout Point"
+    ],
+    [
+      [
+        -7923.6689453125,
+        7279.125
+      ],
+      "lookoutpoint_jonsdorf_east_name",
+      "Jonsdorf Eastern Lookout Point"
+    ],
+    [
+      [
+        -5064.22509765625,
+        5768.83349609375
+      ],
+      "lookoutpoint_mullerwald_east_name",
+      "M\u00fcllerwald Eastern Lookout Point"
+    ],
+    [
+      [
+        -8042.21923828125,
+        5593.8779296875
+      ],
+      "lookoutpoint_ritterstein_name",
+      "Ritterstein Lookout Point"
+    ],
+    [
+      [
+        -9479.806640625,
+        6805.97509765625
+      ],
+      "lookoutpoint_bohndorf_name",
+      "Bohndorf Lookout Point"
+    ],
+    [
+      [
+        -6861.0419921875,
+        5730.0947265625
+      ],
+      "lookoutpoint_mullerwald_west_name",
+      "M\u00fcllerwald Western Lookout Point"
+    ],
+    [
+      [
+        -4341.46240234375,
+        10213.7177734375
+      ],
+      "lookoutpoint_petershain_south_name",
+      "Petershain Southern Lookout Point"
+    ],
+    [
+      [
+        -4611.380859375,
+        12986.6982421875
+      ],
+      "lookoutpoint_rathenfeldt_south_name",
+      "Rathenfeldt Southern Lookout Point"
+    ]
+  ],
+  "outpost": [
+    [
+      [
+        -8021.91015625,
+        11483.75390625
+      ],
+      "outpost_schonfeldt_name",
+      "Schonfeldt Outpost"
+    ],
+    [
+      [
+        -9737.00390625,
+        11304.8037109375
+      ],
+      "outpost_ernsdorf_name",
+      "Ernsdorf Outpost"
+    ],
+    [
+      [
+        -7196.57861328125,
+        9449.3955078125
+      ],
+      "outpost_spreeberg_name",
+      "Spreeberg Outpost"
+    ],
+    [
+      [
+        -5153.19873046875,
+        9052.25
+      ],
+      "outpost_petershain_name",
+      "Petershain Outpost"
+    ],
+    [
+      [
+        -9833.60546875,
+        8240.697265625
+      ],
+      "outpost_jonsdorf_name",
+      "Jonsdorf Outpost"
+    ],
+    [
+      [
+        -7286.20458984375,
+        7335.30517578125
+      ],
+      "outpost_ritterstein_name",
+      "Ritterstein Outpost"
+    ],
+    [
+      [
+        -5283.64990234375,
+        6001.92724609375
+      ],
+      "outpost_mullerwald_name",
+      "M\u00fcllerwald Outpost"
+    ],
+    [
+      [
+        -9112.7158203125,
+        6020.46728515625
+      ],
+      "outpost_bohndorf_name",
+      "Bohndorf Outpost"
+    ],
+    [
+      [
+        -4636.7001953125,
+        12596.158203125
+      ],
+      "outpost_rathenfeldt_name",
+      "Rathenfeldt Outpost"
+    ],
+    [
+      [
+        -5833.03515625,
+        11167.3388671875
+      ],
+      "outpost_rathenfeldt_north_name",
+      "Rathenfeldt Northern Outpost"
+    ],
+    [
+      [
+        -10085.2392578125,
+        12570.1044921875
+      ],
+      "outpost_tichenau_name",
+      "Tichenau Outpost"
+    ],
+    [
+      [
+        -6906.87939453125,
+        12947.728515625
+      ],
+      "outpost_schonfeldt_east_name",
+      "Schonfeldt Eastern Outpost"
+    ],
+    [
+      [
+        -8011.048828125,
+        13124.7763671875
+      ],
+      "outpost_schonfeldt_west_name",
+      "Schonfeldt Western Outpost"
+    ],
+    [
+      [
+        -8897.515625,
+        9498.509765625
+      ],
+      "outpost_spreeberg_west_name",
+      "Spreeberg Western Outpost"
+    ],
+    [
+      [
+        -4463.08935546875,
+        10971.4375
+      ],
+      "outpost_hirschdorf_river_name",
+      "Hirschdorf River Outpost"
+    ],
+    [
+      [
+        -5737.07958984375,
+        7266.00146484375
+      ],
+      "outpost_ritterstein_lake_name",
+      "Ritterstein Lake Outpost"
+    ],
+    [
+      [
+        -6742.65283203125,
+        5642.85888671875
+      ],
+      "outpost_mullerwald_west_name",
+      "M\u00fcllerwald Western Outpost"
+    ]
+  ],
+  "lore": [
+    [
+      [
+        -10979.16796875,
+        7675.701171875
+      ],
+      "lore_02_bohndorf_name",
+      "Red Deer Water"
+    ],
+    [
+      [
+        -10729.6572265625,
+        8885.2451171875
+      ],
+      "lore_01_ernsdorf_name",
+      "Mount B\u00fcrgen"
+    ],
+    [
+      [
+        -10656.2685546875,
+        9617.767578125
+      ],
+      "lore_03_ernsdorf_name",
+      "The European Bison Advisory Organization"
+    ],
+    [
+      [
+        -10402.7060546875,
+        11094.4501953125
+      ],
+      "lore_02_ernsdorf_name",
+      "Robert \"Strong Elk\" Fog "
+    ],
+    [
+      [
+        -10538.318359375,
+        12354.2060546875
+      ],
+      "lore_01_tichenau_name",
+      "The Landslide"
+    ],
+    [
+      [
+        -10537.111328125,
+        12894.958984375
+      ],
+      "lore_05_tichenau_name",
+      "The W\u00fcrm Glaciation"
+    ],
+    [
+      [
+        -9957.33984375,
+        6321.05078125
+      ],
+      "lore_01_bohndorf_name",
+      "Red Deer Canyon"
+    ],
+    [
+      [
+        -9782.8037109375,
+        11700.1220703125
+      ],
+      "lore_04_tichenau_name",
+      "The Spruce Tree"
+    ],
+    [
+      [
+        -9456.232421875,
+        7283.82958984375
+      ],
+      "lore_01_jonsdorf_name",
+      "The Bohndorf Meteorite"
+    ],
+    [
+      [
+        -9347.3046875,
+        9724.7783203125
+      ],
+      "lore_04_spreeberg_name",
+      "The History of Spreeberg"
+    ],
+    [
+      [
+        -9842.0478515625,
+        12604.0517578125
+      ],
+      "lore_02_tichenau_name",
+      "About the Bison"
+    ],
+    [
+      [
+        -8985.884765625,
+        11755.3583984375
+      ],
+      "lore_03_tichenau_name",
+      "A Written Note"
+    ],
+    [
+      [
+        -8614.1728515625,
+        6637.072265625
+      ],
+      "lore_04_jonsdorf_name",
+      "Red Deer Hill"
+    ],
+    [
+      [
+        -8437.98046875,
+        7610.70751953125
+      ],
+      "lore_03_jonsdorf_name",
+      "Red Deer Venison"
+    ],
+    [
+      [
+        -8390.2724609375,
+        8910.20703125
+      ],
+      "lore_03_spreeberg_name",
+      "The World-Famous Deer"
+    ],
+    [
+      [
+        -7858.328125,
+        7991.08203125
+      ],
+      "lore_02_jonsdorf_name",
+      "About the Red Fox"
+    ],
+    [
+      [
+        -7931.32666015625,
+        9179.962890625
+      ],
+      "lore_02_spreeberg_name",
+      "The Spree Nixe"
+    ],
+    [
+      [
+        -7790.17919921875,
+        11429.7958984375
+      ],
+      "lore_04_schonfeldt_name",
+      "About the Fallow Deer"
+    ],
+    [
+      [
+        -7895.2451171875,
+        12645.8232421875
+      ],
+      "lore_03_schonfeldt_name",
+      "Sommer's Land"
+    ],
+    [
+      [
+        -7486.0390625,
+        5714.2783203125
+      ],
+      "lore_03_ritterstein_name",
+      "A Warning"
+    ],
+    [
+      [
+        -7286.9755859375,
+        6373.04296875
+      ],
+      "lore_02_ritterstein_name",
+      "About the Wild Boar"
+    ],
+    [
+      [
+        -6731.994140625,
+        11838.3740234375
+      ],
+      "lore_02_schonfeldt_name",
+      "The German Peasants' War"
+    ],
+    [
+      [
+        -6650.6318359375,
+        12636.158203125
+      ],
+      "lore_01_schonfeldt_name",
+      "Hunting Tip"
+    ],
+    [
+      [
+        -6482.97998046875,
+        5941.28662109375
+      ],
+      "lore_04_mullerwald_name",
+      "Star Hunting Tours"
+    ],
+    [
+      [
+        -6460.73681640625,
+        7097.4580078125
+      ],
+      "lore_01_ritterstein_name",
+      "A Written Note"
+    ],
+    [
+      [
+        -6216.23193359375,
+        9509.2314453125
+      ],
+      "lore_01_spreeberg_name",
+      "The K\u00f6nigsberg Heir"
+    ],
+    [
+      [
+        -5889.23828125,
+        5988.77978515625
+      ],
+      "lore_03_mullerwald_name",
+      "Wild Boar Land"
+    ],
+    [
+      [
+        -6031.70263671875,
+        8515.974609375
+      ],
+      "lore_05_petershain_name",
+      "Bad Crop"
+    ],
+    [
+      [
+        -5775.18310546875,
+        10822.6767578125
+      ],
+      "lore_05_rathenfeldt_name",
+      "Note by G. J\u00e4ger"
+    ],
+    [
+      [
+        -5708.4140625,
+        11776.1767578125
+      ],
+      "lore_04_rathenfeldt_name",
+      "The Deer Roast"
+    ],
+    [
+      [
+        -5402.5703125,
+        6618.44140625
+      ],
+      "lore_02_mullerwald_name",
+      "Note by Dr. Otto Canella"
+    ],
+    [
+      [
+        -5334.908203125,
+        7934.01708984375
+      ],
+      "lore_04_petershain_name",
+      "Hunting with Birds"
+    ],
+    [
+      [
+        -5545.41259765625,
+        10886.5185546875
+      ],
+      "lore_03_rathenfeldt_name",
+      "Hirschdorf River"
+    ],
+    [
+      [
+        -4999.04443359375,
+        9081.7666015625
+      ],
+      "lore_02_petershain_name",
+      "The Christmas Tree"
+    ],
+    [
+      [
+        -4746.51220703125,
+        11583.693359375
+      ],
+      "lore_02_rathenfeldt_name",
+      "A Written Note"
+    ],
+    [
+      [
+        -4630.5400390625,
+        12819.908203125
+      ],
+      "lore_01_rathenfeldt_name",
+      "The Rathenfeldt Poem"
+    ],
+    [
+      [
+        -4357.55859375,
+        5718.51806640625
+      ],
+      "lore_01_mullerwald_name",
+      "The M\u00fcllerwald Poem"
+    ],
+    [
+      [
+        -4388.42236328125,
+        8587.9716796875
+      ],
+      "lore_03_petershain_name",
+      "A Written Note"
+    ],
+    [
+      [
+        -4376.66943359375,
+        9617.1484375
+      ],
+      "lore_01_petershain_name",
+      "K\u00f6nigsberg Lake"
+    ]
+  ],
+  "shooting_range": [
+    [
+      [
+        -3818.22900390625,
+        12657.876953125
+      ],
+      "shooting_range_rathenfeldt_name",
+      "Rathenfeldt Schie\u00dfstand"
+    ]
+  ],
+  "unknown": [
+    [
+      [
+        8465.8916015625,
+        6504.0966796875
+      ],
+      "icon_unknown_desc",
+      "Undiscovered point of interest"
+    ]
+  ]
+}

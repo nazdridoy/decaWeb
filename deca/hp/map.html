@@ -1,0 +1,1696 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NKDVN2L');</script>
+    <!-- End Google Tag Manager -->
+
+<!--    <script data-ad-client="ca-pub-9852507806031654" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>-->
+
+    <meta charset='utf-8' />
+    <title>DECA: The Hunter: COTW Map</title>
+    <link rel="stylesheet" href="../lib/deca.css" />
+
+    <link
+            rel="stylesheet"
+            href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css"
+            integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+            crossorigin=""
+    />
+
+    <link rel="stylesheet" href="../lib/3rd/crisp_image.css" />
+    <link rel="stylesheet" href="../lib/3rd/Leaflet.MousePosition/src/L.Control.MousePosition.css" />
+
+    <script
+            src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"
+            integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg=="
+            crossorigin=""
+    >
+    </script>
+
+    <script src="https://unpkg.com/pouchdb@^5.2.0/dist/pouchdb.js"></script>
+	<script src="https://unpkg.com/leaflet.tilelayer.pouchdbcached@latest/L.TileLayer.PouchDBCached.js"></script>
+    <script src="../lib/3rd/Leaflet.MousePosition/src/L.Control.MousePosition.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="../lib/3rd/leaflet-ruler/src/leaflet-ruler.css">
+    <script src="../lib/3rd/leaflet-ruler/src/leaflet-ruler.js"></script>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css" />
+
+    <script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"></script>
+
+    <script src="https://unpkg.com/@mapbox/leaflet-pip@latest/leaflet-pip.js"></script>
+
+    <script
+        src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+        crossorigin="anonymous"
+    >
+    </script>
+
+    <script src="../lib/deca_adf.js"></script>
+    <script src="../lib/deca_file_loader.js"></script>
+    <script src="../lib/3rd/pako.js"></script>
+
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+
+    <style>
+        body {overflow: hidden; width: 100%; position: absolute; top: 0; bottom: 0; margin:0; padding:0; display: flex; flex-direction: column; }
+        /*#all { width: 100%; max-height: 100%; position: absolute; top: 0; bottom: 0; display: flex; flex-direction: column; }*/
+
+        #main {overflow: hidden; flex-grow: 1; display: flex; flex-direction: row; }
+            #control {overflow: hidden; display: flex; flex-direction: column; }
+                #dropzone {flex-grow: 1; overflow: scroll; border: 1px solid blue;}
+                #ads { width: 380px; max-width: 380px; }
+            #map_group {flex-grow: 1; display: flex; flex-direction: column; }
+                #map_display { flex-grow: 1; }
+                #map_info {}
+                #map_time {}
+
+
+        /*animal navigation*/
+        ul, #pop_nav { list-style-type: none; }
+
+        #pop_nav { margin: 6px; padding: 0; } /* Remove margins and padding from the parent ul */
+
+        .nav-spacer::before {
+            content: "\25B6";
+            color: transparent;
+            display: inline-block;
+            margin-right: 6px;
+        }
+        .nav-caret::before {
+            content: "\25B6";
+            color: black;
+            display: inline-block;
+            margin-right: 6px;
+        } /* Create the caret/arrow with a unicode, and style it */
+
+        .nav-caret-down::before { transform: rotate(90deg); } /* Rotate the caret/arrow icon when clicked on (using JavaScript) */
+
+        .nested { display: none; } /* Hide the nested list */
+
+        .active { display: block; } /* Show the nested list when the user clicks on the caret/arrow (with JavaScript) */
+
+        .slider {
+            -webkit-appearance: none;
+            width: 100%;
+            height: 25px;
+            background: #d3d3d3;
+            outline: none;
+            opacity: 0.7;
+            -webkit-transition: .2s;
+            transition: opacity .2s;
+        }
+
+        .slider:hover {
+            opacity: 1;
+        }
+
+        .slider::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 25px;
+            height: 25px;
+            background: #4CAF50;
+            cursor: pointer;
+        }
+
+        .slider::-moz-range-thumb {
+            width: 25px;
+            height: 25px;
+            background: #4CAF50;
+            cursor: pointer;
+        }
+
+        .grid_time_mid_label { grid-area: time_mid_label; }
+        .grid_time_begin_label { grid-area: time_begin_label; }
+        .grid_time_end_label { grid-area: time_end_label; }
+        .grid_time_mid { grid-area: time_mid; }
+        .grid_time_begin { grid-area: time_begin; }
+        .grid_time_end { grid-area: time_end; }
+
+        .grid-container {
+            display: grid;
+            grid-template-areas:
+                'grid_time_mid_label grid_time_mid'
+                'grid_time_begin_label grid_time_begin'
+                'grid_time_end_label grid_time_end';
+            grid-gap: 0px;
+            /*background-color: #2196F3;*/
+            padding: 0px;
+            grid-template-columns: max-content auto;
+        }
+
+        .grid-container > div {
+            background-color: rgba(255, 255, 255, 0.8);
+            text-align: center;
+            padding: 0px 0;
+            font-size: 30px;
+        }
+
+        /* desktop vs mobile */
+        #control { display: none; }
+        @media screen and (min-width: 640px) {
+            #control { display: flex; }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NKDVN2L"
+                      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <div id="main">
+        <div id="control">
+            <div id="dropzone">
+                LOADING GAME DATA ...
+            </div>
+            <div id="ads">
+                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                <!-- map -->
+                <ins class="adsbygoogle"
+                     style="display:block"
+                     data-ad-client="ca-pub-9852507806031654"
+                     data-ad-slot="7737261970"
+                     data-ad-format="auto"
+                     data-full-width-responsive="true"></ins>
+                <script>
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+            </div>
+        </div>
+        <div id="map_group">
+            <div id="map_display"></div>
+            <div id="map_info"></div>
+            <div id="map_time" class="grid-container">
+                <div id="time_mid_label">12:00</div>
+                <input type="range" min="0" max="1439" value="720" class="slider" id="time_mid">
+                <div id="time_begin_label">00:00</div>
+                <input type="range" min="0" max="1439" value="0" class="slider" id="time_begin">
+                <div id="time_end_label">23:59</div>
+                <input type="range" min="0" max="1439" value="1439" class="slider" id="time_end">
+            </div>
+        </div>
+    </div>
+    <div id="site-nav">
+        <table>
+            <tr>
+                <td><a href="index.html">Main Page</a></td>
+                <td><button id="r0_link_mobile">Hirschfelden<br/>Hunting Reserve</button></td>
+                <td><button id="r1_link_mobile">Layton Lake<br/>District</button></td>
+                <td><button id="r2_link_mobile">Medved-Taiga<br/>National Park</button></td>
+                <td><button id="r3_link_mobile">Vurhonga<br/>Savanna</button></td>
+                <td><button id="r4_link_mobile">Parque<br/>Fernando</button></td>
+                <td><button id="r6_link_mobile">Yukon Valley<br/>Nature Reserve</button></td>
+                <td><button id="r8_link_mobile">Cuatro Colinas<br/>Game Reserve</button></td>
+                <td><button id="r9_link_mobile">Silver Ridge<br/>Peaks</button></td>
+                <td><button id="r10_link_mobile">Te Awaroa<br/>National Park</button></td>
+                <td><button id="r11_link_mobile">Rancho<br/>Del Arroyo</button></td>
+                <td><a href="https://github.com/kk49/deca_website/issues">Report Bugs/Make Requests</a></td>
+                <td><script type='text/javascript' src='https://ko-fi.com/widgets/widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support Me on Ko-fi', '#29abe0', 'R5R6PKC4');kofiwidget2.draw();</script></td>
+            </tr>
+        </table>
+    </div>
+
+<script>
+    const reserves = ['r0', 'r1', 'r2', 'r3', 'r4', 'r5', 'r6', 'r7','r8', 'r9', 'r10', 'r11'];
+
+    const save_to_reserve = {
+        "animal_population_0": 'r0',
+        "animal_population_1": 'r1',
+        "animal_population_2": 'r2',
+        "animal_population_3": 'r3',
+        "animal_population_4": 'r4',
+        "animal_population_5": 'r5',
+        "animal_population_6": 'r6',
+        "animal_population_7": 'r7',
+        "animal_population_8": 'r8',
+        "animal_population_9": 'r9',
+        "animal_population_10": 'r10',
+        "animal_population_11": 'r11',
+    };
+
+    const urlParams = new URLSearchParams(window.location.search);
+    const spoilers = urlParams.has('spoilers');
+    const full = urlParams.has('full')
+    const show_dev = urlParams.has('dev');
+
+    let collapse_layers = window.getComputedStyle(document.getElementById('control')).display === 'none';
+
+    if(urlParams.has('collapse_layers'))
+        collapse_layers = true;
+
+    if(urlParams.has('no_collapse_layers'))
+        collapse_layers = false;
+
+    let reserve = 'r0';
+    if(urlParams.has('r'))
+        reserve = urlParams.get('r');
+
+    console.log('reserve = ', reserve)
+    console.log('collapse_layers = ', collapse_layers);
+    console.log('spoilers = ', spoilers);
+    console.log('show_dev = ', show_dev);
+    console.log('full = ', full)
+
+    const MAP_SIZE = 16 * 1024;
+    const TILE_SIZE = 256;
+    const SCALE = TILE_SIZE / MAP_SIZE;
+    const MAP_RADIUS = MAP_SIZE * 0.5;
+    const TILE_RADIUS = TILE_SIZE * 0.5;
+
+    // scale meters/pixels into 256 degrees,
+    let map = null;
+
+    // let transformation = new L.Transformation(SCALE, TILE_RADIUS, SCALE, TILE_RADIUS);
+    //
+    // let crs = L.extend(
+    //     {}, L.CRS.Simple, {
+    //         infinite: true,
+    //         transformation: transformation,
+    //     }
+    // );
+    //
+    // let map = L.map('map_display', {crs: crs}).setView([0, 0], 2);
+    //
+    // L.control.mousePosition(options={lngFirst: true}).addTo(map);
+
+    function abr(s){
+        if(s.length > 0)
+            s = s + "<br>"
+
+        return s;
+    }
+
+    function formatHoursToHHMM(hours)
+    {
+        let hour = Math.trunc(hours % 24);
+        let minute = Math.trunc((hours % 1) * 60)
+        return `${hour}`.padStart(2,'0') + ':' + `${minute}`.padStart(2,'0');
+    }
+
+    function formatMinutesToHHMM(minutes)
+    {
+        let hour = Math.trunc(minutes / 60);
+        let minute = Math.trunc(minutes % 60);
+        return `${hour}`.padStart(2,'0') + ':' + `${minute}`.padStart(2,'0');
+    }
+
+    function featureInfo(feature) {
+        let s = "";
+
+        if (feature.properties && feature.properties.type) {
+            let ft = feature.properties.type;
+
+            if(ft === 'need_zone' && feature.properties.zone_info && feature.properties.zone_type ) {
+                const zone_type = feature.properties.zone_type;
+                const zone_info = feature.properties.zone_info;
+                let population_id = zone_info["population_id"];
+                let spawn_area_id = zone_info["spawn_area_id"];
+                let group_index = zone_info["group_index"];
+                let population_name = zone_info["population_name"];
+                let has_great_one = zone_info["has_great_one"];
+                let animal_count = zone_info["animal_count"];
+                let max_score = zone_info["max_score"];
+                let zone_time_begin = zone_info["zone_time_begin"];
+                let zone_time_end = zone_info["zone_time_end"];
+
+                s += `Zone Type: ${zone_type} [${formatHoursToHHMM(zone_time_begin)}, ${formatHoursToHHMM(zone_time_end)})`;
+                s += `, Population: ${population_name}(${population_id})`;
+                s += `, Spawn Area: ${spawn_area_id}`;
+                s += `, Group Index: ${group_index}`;
+                s += `, Max Score: ${max_score.toFixed(1)} ⌊${Math.floor(max_score)}⌋`;
+                s += `, Great One (maybe?): ${has_great_one}`;
+                s += `, Animal Count: ${animal_count}`;
+            }
+            else if(ft === 'spawn_center_point' && feature.properties.zone_info
+                && feature.properties.zone_type && feature.properties.spawn_center_point
+            ) {
+                const zone_type = feature.properties.zone_type;
+                const zone_info = feature.properties.zone_info;
+                const spawn_center_point = feature.properties.spawn_center_point;
+                let population_id = zone_info["population_id"];
+                let spawn_area_id = zone_info["spawn_area_id"];
+                let group_index = zone_info["group_index"];
+                let population_name = zone_info["population_name"];
+                let has_great_one = zone_info["has_great_one"];
+                let animal_count = zone_info["animal_count"];
+                let max_score = zone_info["max_score"];
+                let need_schedule = zone_info["need_schedule"];
+
+                s += `Population: ${population_name}(${population_id})`;
+                s += `, Spawn Area: ${spawn_area_id}`;
+                s += `, Group Index: ${group_index}`;
+                s += `, Max Score: ${max_score.toFixed(1)} ⌊${Math.floor(max_score)}⌋`;
+                s += `, Great One (maybe?): ${has_great_one}`;
+                s += `, Animal Count: ${animal_count}`;
+                for(let i = 0; i < need_schedule.length; ++i)
+                {
+                    const ns = need_schedule[i];
+                    s += `<br>  [${formatHoursToHHMM(ns[0])}, ${formatHoursToHHMM(ns[1])}) ${ns[3]}`;
+                }
+
+            }
+            else if(ft === 'poi')
+            {
+                poi_pos = feature.geometry.coordinates;
+                s += feature.properties.name;
+                s += `<br>pos = ${poi_pos[0].toFixed(1)} , ${poi_pos[1].toFixed(1)}`;
+            }
+        }
+
+        return s;
+    }
+
+    function onEachFeature(feature, layer) {
+        if (feature.properties && feature.properties.type) {
+            let ft = feature.properties.type;
+
+            if(ft === 'poi')
+            {
+                let s = featureInfo(feature);
+                layer.bindPopup(s);
+            }
+        }
+    }
+
+    function onStyle(feature) {
+        if (feature.properties && feature.properties.type) {
+            let color = "#000000";
+            if(feature.properties.hasOwnProperty("is_great_one") && feature.properties.is_great_one)
+            {
+                color = "#ff0000"
+            }
+
+            let ft = feature.properties.type;
+            if(ft === 'group_path') {
+                return {
+                    "color": color,
+                    "weight": 1,
+                    "opacity": 1,
+                    fillColor: "#ffffff",
+                    fillOpacity: 0.1,
+                };
+            }
+            else if(ft === 'group_spawn_path') {
+                return {
+                    "color": "#00ff00",
+                    "weight": 1,
+                    "opacity": 1,
+                    fillColor: "#ffffff",
+                    fillOpacity: 0.1,
+                };
+            }
+            else if(ft === 'need_zone') {
+                color = "#ffffff"
+                if(feature.properties.zone_type)
+                {
+                    const zt = feature.properties.zone_type;
+                    if(zt === "feeding") color = "#00ff00"
+                    else if(zt === "drinking") color = "#0000ff"
+                    else if(zt === "resting") color = "#000000"
+                    else if(zt === "spawn") color = "#ff0000"
+                }
+                return {
+                    "color": color,
+                    "weight": 1,
+                    "opacity": 1,
+                    fillColor: color,
+                    fillOpacity: 0.1,
+                };
+            }
+            else if(ft === 'spawn_center_point')
+            {
+                color = "#000000"
+                if(feature.properties.zone_type)
+                {
+                    const zt = feature.properties.zone_type;
+                    if(zt === "feeding") color = "#00ff00"
+                    else if(zt === "drinking") color = "#0000ff"
+                    else if(zt === "resting") color = "#000000"
+                    else if(zt === "spawn") color = "#ff0000"
+                }
+
+                return {
+                    "color": color,
+                    "weight": 1,
+                    "opacity": 1,
+                    fillColor: color,
+                    fillOpacity: 0.1,
+                };
+            }
+            else if(ft === 'poi')
+            {
+
+                /*
+                                        {
+                            "type": "Feature",
+                            "properties":
+                                {
+                                    "type": "poi",
+                                    "name": poi[2],
+                                    "poi_type": poi_type
+                                },
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": poi[0]
+                            }
+                        }
+                * */
+            }
+
+        }
+    }
+
+    // Load reserve areas data, when done activate dropzone
+    let areas_to_load = new Set(reserves);
+    let areas = {};
+    let area_spawn_center_points = {};
+    let reserve_map_bounds = {};
+    let reserve_aabb = {};
+    let reserve_centers = {};
+    let reserve_scales = {};
+    let reserve_population_info = {};
+    let population_infos = {};
+    let reserve_layers = {};
+    let reserve_pois = {};
+    const bitmap_width = 256;
+
+    reserves.forEach(
+        function(ele) {
+            multiLoadFiles(
+                (a,b,c) => processReserveStatic(ele, a, b, c),
+                [
+                    [`data/${ele}/reserve.json`, 'text', JSON.parse],
+                    [`data/${ele}/pois.json`, 'text', JSON.parse],
+                    [`data/${ele}/layers.json`, 'text', JSON.parse],
+                ]
+            );
+        }
+    );
+
+    function processReserveStatic(reserve_id, reserve_json, pois_json, layers_json)
+    {
+        let areas_reserve = {};
+        let spawn_center_points_reserve = {};
+
+        const data = reserve_json['areas'];
+        const map_bounds_min = reserve_json['map_bounds_min']
+        const map_bounds_max = reserve_json['map_bounds_max']
+        const aabb_min = reserve_json['aabb_min'];
+        const aabb_max = reserve_json['aabb_max'];
+        const center = reserve_json['center'];
+        const population_info = reserve_json['population_info'];
+        const scale = reserve_json['scale'];
+
+        reserve_centers[reserve_id] = center;
+        reserve_scales[reserve_id] = scale;
+        reserve_map_bounds[reserve_id] = [map_bounds_min, map_bounds_max];
+        reserve_aabb[reserve_id] = [aabb_min, aabb_max];
+        reserve_population_info[reserve_id] = population_info;
+
+        reserve_layers[reserve_id] = layers_json;
+        reserve_pois[reserve_id] = pois_json;
+
+        for( const population_id in data ) if(data.hasOwnProperty(population_id))
+        {
+            const population = data[population_id];
+
+            population_infos[population_id] = {
+                'name': population['population_name']
+            }
+
+            const layers = population['layers'];
+            for( const zone_type in layers ) if(layers.hasOwnProperty(zone_type))
+            {
+                const layer = layers[zone_type];
+                for( const area_id in layer ) if(layer.hasOwnProperty(area_id))
+                {
+                    const area = layer[area_id];
+                    const area_key = area['key']
+
+                    // setup area tiles
+                    {
+                        const tiles = area['Tiles'];
+
+                        let polys = [];
+                        let centers = [];
+                        let px = 0;
+                        let py = 0;
+                        let cnt = 0;
+
+                        tiles.forEach((tile_id) => {
+                            const x = tile_id % bitmap_width - bitmap_width/2;
+                            const y = Math.trunc(tile_id / bitmap_width) - bitmap_width/2;
+
+                            const p0 = [scale[0] * (x) + center[0],     scale[0] * y + center[1]];
+                            const p1 = [scale[0] * (x + 1) + center[0], scale[0] * y + center[1]];
+                            const p2 = [scale[0] * (x + 1) + center[0], scale[0] * (y + 1) + center[1]];
+                            const p3 = [scale[0] * (x) + center[0],     scale[0] * (y + 1) + center[1]];
+                            const pc = [scale[0] * (x+0.5) + center[0],     scale[0] * (y+0.5) + center[1]];
+                            polys.push([[p0, p1, p2 ,p3, p0]]);
+                            centers.push(pc)
+                            px += pc[0];
+                            py += pc[1];
+                            ++cnt;
+                        });
+
+                        const x = px / cnt;
+                        const y = py / cnt;
+                        areas_reserve[area_key] =
+                            [area_id, population_id, zone_type, x, y, polys, centers];
+                    }
+
+                    {
+                        //for each SpawnCenterPoints[ObjectId, Position, SpawnPoints]
+                        //    for each SpawnPoint[Key, Position, Forward, Material]
+                        const spawn_center_points = area['SpawnCenterPoints'];
+                        //spawn_points_reserve
+
+                        let spawn_points_reserve = {};
+
+                        spawn_center_points.forEach((spawn_center_point) => {
+                            const obj_id = spawn_center_point['ObjectId'];
+                            const position = spawn_center_point['Position'];
+                            const spawn_points = spawn_center_point['SpawnPoints'];
+
+                            const x = position[0];
+                            const y = position[2];
+
+                            let centers = [];
+                            let polys = [];
+                            spawn_points.forEach((spawn_point) => {
+                                const sp_key = spawn_point['Key'];
+                                const sp_position = spawn_point['Position'];
+                                const sp_up = spawn_point['Up'];
+                                const sp_forward = spawn_point['Forward'];
+                                const sp_material = spawn_point['Material'];
+
+                                const sp_x = sp_position[0];
+                                const sp_y = sp_position[2];
+
+                                const radius = 16.0;
+                                const pc = [sp_x, sp_y];
+                                const p0 = [sp_x - radius, sp_y - radius];
+                                const p1 = [sp_x + radius, sp_y - radius];
+                                const p2 = [sp_x + radius, sp_y + radius];
+                                const p3 = [sp_x - radius, sp_y + radius];
+
+                                polys.push([[p0, p1, p2 ,p3, p0]]);
+                                centers.push(pc)
+                            });
+
+                            spawn_points_reserve[obj_id] = [obj_id, population_id, zone_type, x, y, polys, centers];
+                        });
+
+                        spawn_center_points_reserve[area_key] = spawn_points_reserve;
+                    }
+                }
+            }
+        }
+
+        areas[reserve_id] = areas_reserve;
+        area_spawn_center_points[reserve_id] = spawn_center_points_reserve;
+
+        areas_to_load.delete(reserve_id);
+        if(areas_to_load.size === 0)
+        {
+            // load requested reserve or 0 if none requested
+            document.getElementById('map_info').innerHTML = '';
+            loadReserve(reserve);
+            // loadUserSave(reserve);
+
+            dropzoneActivate();
+        }
+
+    }
+
+    function loadReserve(reserve_id, force_redraw=false) {
+        if(current_reserve_id !== reserve_id || force_redraw)
+        {
+            current_reserve_id = reserve_id;
+
+            if(current_reserve_layers != null || force_redraw)
+            {
+                map.eachLayer(function(layer) {map.removeLayer(layer);});
+                current_reserve_layers.remove();
+                current_reserve_layers = null;
+            }
+
+            const map_bounds = reserve_map_bounds[reserve_id];
+            const center = reserve_centers[reserve_id];
+            const layers = reserve_layers[reserve_id];
+            const pois = reserve_pois[reserve_id];
+
+            let baseMaps = {}
+            let overlayMaps = {}
+
+
+            if(map !== null)
+                map.remove();
+
+            let transformation = new L.Transformation(
+                SCALE, -SCALE*map_bounds[0][0], SCALE, -SCALE*map_bounds[0][1]);
+
+            let crs = L.extend(
+                {}, L.CRS.Simple, {
+                    infinite: true,
+                    transformation: transformation,
+                }
+            );
+
+            map = L.map('map_display', {crs: crs}).setView([center[1], center[0]], 2);
+
+            let options = {
+                position: 'topleft',
+                lengthUnit: {
+                    factor: 1.0,    //  from km to nm
+                    display: 'Meters',
+                    decimal: 1,
+                    label: 'Distance'
+                },
+                coordinateSystem: {
+                    // default - original, simple: pure x,y
+                    type: 'simple'
+                }
+            }
+            L.control.ruler(options).addTo(map);
+
+            L.control.mousePosition(options={lngFirst: true}).addTo(map);
+
+            function onMapClicked(e) {
+                let mt = leafletPip.pointInLayer(e.latlng, map);
+                let s = "";
+                mt.forEach(function(item){
+                    // console.log('onMapClicked(): ', item['feature']['properties']['uid_str']);
+                    s = abr(s) + featureInfo(item['feature']);
+                });
+                document.getElementById('map_info').innerHTML = s
+            }
+            map.on('click', onMapClicked)
+
+            for(let poi_type in pois) if(pois.hasOwnProperty(poi_type)) {
+
+                let poi_geo_json = [];
+
+                const poi_list = pois[poi_type];
+                poi_list.forEach((poi) => {
+                    poi_geo_json.push(
+                        {
+                            "type": "Feature",
+                            "properties":
+                                {
+                                    "type": "poi",
+                                    "name": poi[2],
+                                    "poi_type": poi_type
+                                },
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": poi[0]
+                            }
+                        }
+                    );
+                });
+
+                let layer = L.geoJSON(
+                    poi_geo_json,
+                    {
+                        style: onStyle,
+                        onEachFeature: onEachFeature
+                    }
+                );
+
+                overlayMaps['POI: ' + poi_type] = layer;
+            }
+
+            layers.forEach(function(item){
+                const tl = item;
+                const tl_name = tl['name'];
+                const tl_overlay = tl['overlay'];
+                const tl_active = tl['active'];
+                const tl_layer_type = tl['layer_type'];
+                let tl_bounds = tl['bounds'];
+                tl_bounds = [
+                    [tl_bounds[0][1], tl_bounds[0][0]],
+                    [tl_bounds[1][1], tl_bounds[1][0]],
+                ]
+
+                let layer = null;
+
+                if (tl_layer_type === 'tile_map') {
+                    layer = L.tileLayer(
+                        tl['url'],
+                        {
+                            attribution: tl['attribution'],
+                            minNativeZoom: 0,
+                            maxNativeZoom: tl['max_zoom'],
+                            minZoom: 0,
+                            maxZoom: 10,
+                            bounds:tl_bounds,
+                            noWrap: true,
+                            id: tl['id'],
+                            opacity: tl['opacity'],
+                            className: 'crisp-image',
+                            useCache: true,
+                            crossOrigin: true,
+                        }
+                    )
+
+                    // Listen to cache hits and misses and spam the console
+                    // The cache hits and misses are only from this layer, not from the WMS layer.
+                    // layer.on('tilecachehit',function(ev){
+                    //     console.log('Cache hit: ', ev.url);
+                    // });
+
+                    layer.on('tilecachemiss',function(ev){
+                        console.log('Cache miss: ', ev.url);
+                    });
+
+                    layer.on('tilecacheerror',function(ev){
+                        console.log('Cache error: ', ev.tile, ev.error);
+                    });
+
+                } else if(tl_layer_type === 'image') {
+
+                    layer = L.imageOverlay(
+                        tl['url'],
+                        tl_bounds,
+                        {
+                            interactive: true,
+                            attribution: tl['attribution'],
+                            opacity: tl['opacity'],
+                            className: 'crisp-image',
+                            crossOrigin: true,
+                        }
+                    )
+                }
+
+                if(layer !== null)
+                {
+                    if(tl_overlay) {
+                        overlayMaps[tl_name] = layer;
+                    } else {
+                        baseMaps[tl_name] = layer;
+                    }
+
+                    if (tl_active)
+                        layer.addTo(map);
+                }
+
+            });
+
+            current_reserve_layers = L.control.layers(
+                baseMaps,
+                overlayMaps,
+                {collapsed: collapse_layers}
+            );
+
+            current_reserve_layers.addTo(map);
+        }
+    }
+
+
+    let user_populations = {};
+    let user_hunting_pressure = {}
+
+    // handle dropping files onto page
+    function dropzoneActivate()
+    {
+        let dropzone = document.getElementById('dropzone')
+        dropzone.addEventListener('dragenter', handlerDropzone, false)
+        dropzone.addEventListener('dragleave', handlerDropzone, false)
+        dropzone.addEventListener('dragover', handlerDropzone, false)
+        dropzone.addEventListener('drop', handlerDropzoneDrop, false)
+        let msg = 'Drop save directory here...\n';
+        msg += '(...\\My Documents\\Avalanche Studios\\COTW\\Saves)\n';
+        msg += '\nNOTE:\nZone ID numbers can change between game releases.\n'
+        msg += 'You must open each reserve you are interested in\n'
+        msg += ' viewing in the game before it will work here\n'
+        msg += '\nRuler Instructions:\n'
+            + 'Escape button finishes measurement path and starts a new measurement.\n'
+            + 'Second push to escape turns off the plugin.\n'
+            + 'Double-click also finishes measurement path \n'
+            + 'and starts a new measurement.'
+        dropzone.innerText = msg;
+    }
+
+    function handlerDropzone(e) {
+        e.preventDefault()
+        e.stopPropagation()
+        // console.log(e)
+    }
+
+    function handlerDropzoneDrop(e) {
+        e.preventDefault()
+        e.stopPropagation()
+
+        // console.log(e)
+        user_populations = {};
+        user_hunting_pressure = {};
+
+        let items = e.dataTransfer.items;
+        let entries = []
+        const length = items.length;
+        for (let i = 0; i < length; ++i) {
+            let item = items[i];
+            let entry = item.webkitGetAsEntry();
+            entries.push(entry);
+        }
+
+        processDropItems(entries);
+    }
+
+    function processDropItems(entries)
+    {
+        const length = entries.length;
+
+        for (let i = 0; i < length; ++i) {
+            let entry = entries[i];
+
+            if (entry.isFile) {
+                if (entry.name.startsWith('animal_population_') && entry.fullPath.indexOf('slots') < 0)
+                {
+                    console.log(entry.fullPath);
+                    // multiLoadFiles(
+                    //     (data) => {
+                    //         const reserve_data = adfProcess(new Uint8Array(data.slice(5)))
+                    //         if(reserve_data !== null)
+                    //             processSaveReserve(reserve_index, reserve_data);
+                    //
+                    //     },
+                    //     [
+                    //         [entry, 'array_buffer', null],
+                    //     ]
+                    // )
+                    entry.file((file) => { loadFileBinary(file); });
+                }
+            }
+            else if (entry.isDirectory) {
+                entry.createReader().readEntries((entries) => { processDropItems(entries); });
+            }
+        }
+    }
+
+    function loadFileBinary(file) {
+        const reserve_name = file.name;
+        let reader = new FileReader();
+
+        reader.onloadend = function() {
+            let adf_raw = new Uint8Array(reader.result);
+
+            if(compareArray(adf_raw, 'SAVE', 4)) {
+                adf_raw = adf_raw.slice(34);  // TODO this is a hack to skip the header
+                adf_raw = pako.inflate(adf_raw, {windowBits: -15});
+            }
+
+            if(compareArray(adf_raw,'\001\001\000\000\000 FDA', 9))
+                adf_raw = adf_raw.slice(5);
+
+            if(compareArray(adf_raw, ' FDA', 4))
+            {
+                const reserve_data = adfProcess(adf_raw);
+
+                if(reserve_data !== null)
+                    processSaveReserve(reserve_name, reserve_data);
+            }
+            else
+            {
+                console.error('UNKNOWN FORMAT');
+            }
+        }
+
+        reader.readAsArrayBuffer(file);
+    }
+
+    function zoneToGeomJson(area, zone_info)
+    {
+        const zone_type = area[2];
+        const polys = area[5];
+
+        return {
+            "type": "Feature",
+            "properties": {
+                "type": "need_zone",
+                "zone_type": zone_type,
+                "zone_info": zone_info,
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": polys
+            }
+        };
+    }
+
+    function spawnCenterPointToGeomJson(spawn_center_point, zone_info)
+    {
+        const zone_type = spawn_center_point[2];
+        const polys = spawn_center_point[5];
+
+        return {
+            "type": "Feature",
+            "properties": {
+                "type": "spawn_center_point",
+                "zone_type": zone_type,
+                "spawn_center_point": spawn_center_point,
+                "zone_info": zone_info,
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": polys
+            }
+        };
+    }
+
+
+    function processSaveReserve(save_name, reserve_data)
+    {
+        if( save_to_reserve.hasOwnProperty(save_name) )
+        {
+            console.log('Loading', save_name);
+
+            const need_type_names = ["0", "feed", "drink", "rest"];
+
+            const reserve_id = save_to_reserve[save_name];
+            // console.log(save_name, reserve_id);
+            const reserve_area = areas[reserve_id];
+            const reserve_spawn_points = area_spawn_center_points[reserve_id];
+
+            user_populations[reserve_id] = {};
+            user_hunting_pressure[reserve_id] = null;
+
+            const populations = reserve_data['Populations'];
+            populations.forEach(population => {
+                const name_hash_id = population['NameHashId'];
+                const group_to_warren_id = population['GroupToWarrenId'];
+                const groups = population['Groups']
+                // console.log(save_name, reserve_id, name_hash_id);
+                const rpi = reserve_population_info[reserve_id][name_hash_id>>>0];  // >>>0 is to turn signed number to unsigned FML
+
+                let gj_groups = {};
+                let population_id = null;
+                let population_name = null;
+                for(let group_index in groups) if(groups.hasOwnProperty(group_index)) {
+                    const group = groups[group_index]
+                    const spawn_area_id = group['SpawnAreadId']
+                    const need_zone_guids = group['NeedZonePathGuids']
+                    const animals = group['Animals']
+                    // const id = group['Id']
+                    // console.log(name_hash_id, spawn_area_id, id)
+
+                    let great_one = false;
+                    let max_score = 0.0;
+
+                    animals.forEach((animal) => {
+                        great_one |= (0 !== animal['IsGreatOne']);
+                        max_score = Math.max(max_score, animal['Score']);
+                    });
+
+                    let animal_count = animals.length;
+
+                    if( reserve_area.hasOwnProperty(spawn_area_id) )
+                    {
+                        // console.log('Matched ', spawn_area_id, ' in ', save_name, reserve_id)
+                        const spawn_area = reserve_area[spawn_area_id];  // [area_id, population_id, zone_type, x, y]
+                        const spawn_center_points = reserve_spawn_points[spawn_area_id];
+
+                        population_id = spawn_area[1];
+                        population_name = population_infos[population_id]['name'];
+                        const start_times = rpi['start_times'];
+                        const need_types = rpi['need_types'];
+
+                        let zone_path = []
+                        let path_center_cnt = 0;
+                        let path_center_x = 0.0;
+                        let path_center_y = 0.0;
+                        let need_zones_geojson = []
+
+                        if(!gj_groups.hasOwnProperty(spawn_area_id))
+                            gj_groups[spawn_area_id] = [];
+
+                        let zone_info_base = {
+                            "population_id": population_id,
+                            "spawn_area_id": spawn_area_id,
+                            "group_index": gj_groups[spawn_area_id].length,
+                            "population_name": population_name,
+                            "animal_count": animal_count,
+                            "has_great_one": great_one,
+                            "max_score": max_score,
+                        };
+
+                        // const spawn_area_geom = zoneToGeomJson(spawn_area, great_one, zone_info);
+
+                        if(group_to_warren_id && group_to_warren_id.length > 0)
+                        {
+                            let need_schedule = [];
+                            const need_zone_guids__s32 = new Int32Array(need_zone_guids);
+                            const zone_cnt = need_zone_guids__s32.length;
+                            for(let i = 0; i < zone_cnt; ++i) {
+                                const area_id = need_zone_guids__s32[i];
+                                const area_id_next = need_zone_guids__s32[(i + 1) % zone_cnt];
+
+                                const start_time = start_times[i];
+                                const end_time = start_times[(i + 1) % zone_cnt];
+                                const need_type = need_types[`${start_time.toFixed(1)}`];
+                                let need_type_str = `${start_time} == ${need_type}`;
+                                if(need_type < need_type_names.length)
+                                    need_type_str = need_type_names[need_type];
+
+                                need_schedule.push([start_time, end_time, need_type, need_type_str]);
+                            }
+
+                            let zone_info = {...zone_info_base}
+                            zone_info['need_schedule'] = need_schedule;
+                            zone_info['zone_time_begin'] = 0.0;
+                            zone_info['zone_time_end'] = 24.0;
+
+                            zone_path = [];
+
+                            const obj_id = String(group_to_warren_id[group_index]);
+                            const spawn_center_point = spawn_center_points[obj_id];
+                            // console.log(spawn_center_point);
+
+                            const spawn_center_point_geom = spawnCenterPointToGeomJson(spawn_center_point, zone_info);
+                            need_zones_geojson.push(spawn_center_point_geom)
+
+                            const gj_item =  {
+                                "type": "FeatureCollection",
+                                "features": [
+                                    {
+                                        "type": "Feature",
+                                        "properties": {
+                                            "type": "group_path",
+                                            "zone_info": zone_info
+                                        },
+                                        "geometry": {
+                                            "type": "MultiLineString",
+                                            "coordinates": zone_path
+                                        }
+                                    },
+                                    {
+                                        "type": "Feature",
+                                        "properties": {
+                                            "type": "group_spawn_path",
+                                            "population_id": population_id,
+                                            "population_name": population_name,
+                                            "has_great_one": great_one,
+                                        },
+                                        "geometry": {
+                                            "type": "LineString",
+                                            "coordinates": [
+                                                [spawn_area[3], spawn_area[4]],
+                                                [spawn_center_point[3], spawn_center_point[4]]
+                                            ]
+                                        }
+                                    }
+                                    // , spawn_area_geom
+                                ].concat(need_zones_geojson)
+                            };
+
+                            gj_groups[spawn_area_id].push(gj_item);
+                        }
+                        else
+                        {   //Normal Animals
+                            const need_zone_guids__s32 = new Int32Array(need_zone_guids);
+                            const zone_cnt = need_zone_guids__s32.length;
+                            for(let i = 0; i < zone_cnt; ++i)
+                            {
+                                const area_id = need_zone_guids__s32[i];
+                                const area_id_next = need_zone_guids__s32[(i + 1) % zone_cnt];
+
+                                const start_time = start_times[i];
+                                const end_time = start_times[(i + 1) % zone_cnt];
+
+                                let zone_info = {...zone_info_base}
+                                zone_info['zone_time_begin'] = start_time;
+                                zone_info['zone_time_end'] = end_time;
+
+                                if(area_id === -1)
+                                {
+                                    //NOP, this disables the zone, used for geese and other birds?
+                                }
+                                else if( reserve_area.hasOwnProperty(area_id) )
+                                {
+                                    const area = reserve_area[area_id];  // [area_id, population_id, zone_type, x, y, polys, centers]
+
+                                    const zone_geom = zoneToGeomJson(area, zone_info);
+                                    need_zones_geojson.push(zone_geom)
+
+                                    const x = area[3];
+                                    const y = area[4];
+                                    path_center_cnt += 1;
+                                    path_center_x += x;
+                                    path_center_y += y;
+
+                                    if( reserve_area.hasOwnProperty(area_id_next) )
+                                    {
+                                        const area_next = reserve_area[area_id_next];  // [area_id, population_id, zone_type, x, y, polys, centers]
+                                        const xn = area_next[3];
+                                        const yn = area_next[4];
+
+                                        const cx = (x + xn) * 0.5;
+                                        const cy = (y + yn) * 0.5;
+
+                                        let ml = 1e100;
+                                        let center = null;
+                                        area[6].forEach((pnt) => {
+                                            const dx = pnt[0] - cx;
+                                            const dy = pnt[1] - cy;
+                                            const d = Math.sqrt(dx*dx + dy*dy);
+                                            if(d < ml)
+                                            {
+                                                ml = d;
+                                                center = pnt;
+                                            }
+                                        });
+                                        ml = 1e100;
+                                        let center_next = null;
+                                        area_next[6].forEach((pnt) => {
+                                            const dx = pnt[0] - cx;
+                                            const dy = pnt[1] - cy;
+                                            const d = Math.sqrt(dx*dx + dy*dy);
+                                            if(d < ml)
+                                            {
+                                                ml = d;
+                                                center_next = pnt;
+                                            }
+                                        });
+
+                                        const zp = [center,center_next];
+                                        zone_path.push(zp);
+                                    }
+                                }
+                                else
+                                {
+                                    // console.log('Missed area ', area_id, ' in ', save_name, reserve_id)
+                                }
+                            }
+
+                            if(path_center_cnt > 0)
+                            {
+                                path_center_x /= path_center_cnt;
+                                path_center_y /= path_center_cnt;
+
+                                const gj_item =  {
+                                    "type": "FeatureCollection",
+                                    "features": [
+                                        // {
+                                        //     "type": "Feature",
+                                        //     "properties": {
+                                        //         "type": "group_spawn_path",
+                                        //         "population_id": population_id,
+                                        //         "population_name": population_name,
+                                        //         "has_great_one": great_one,
+                                        //     },
+                                        //     "geometry": {
+                                        //         "type": "LineString",
+                                        //         "coordinates": [
+                                        //             [spawn_area[3], spawn_area[4]],
+                                        //             [path_center_x, path_center_y]
+                                        //         ]
+                                        //     }
+                                        // },
+                                        {
+                                            "type": "Feature",
+                                            "properties": {
+                                                "type": "group_path",
+                                                "zone_info": zone_info_base
+                                            },
+                                            "geometry": {
+                                                "type": "MultiLineString",
+                                                "coordinates": zone_path
+                                            }
+                                        }
+                                        // , spawn_area_geom
+                                    ].concat(need_zones_geojson)
+                                };
+
+                                gj_groups[spawn_area_id].push(gj_item);
+                            }
+                            else
+                            {
+                                // console.log('Group with no locations: spawn = ', spawn_area_id, ' in ', save_name, reserve_id)
+                            }
+                        }
+                    }
+                    else
+                    {
+                        // console.log('Group with non existing spawn area: spawn = ', spawn_area_id, ' in ', save_name, reserve_id)
+                    }
+                }
+
+                if( population_id !== null)
+                    user_populations[reserve_id][population_id] = gj_groups;
+            });
+
+            // generate heat map
+
+            const hpm = reserve_data['HuntingPressureMap'];
+            let canvas = document.createElement("canvas");
+            let ctx = canvas.getContext("2d");
+            canvas.width = 256;
+            canvas.height = 256;
+            let raw_image = ctx.createImageData(canvas.width, canvas.height);
+
+            for(let i = 0; i < hpm.length; ++i)
+            {
+                const idx = i * 4;
+                let r = 0;
+                let g = 0;
+                let b = 0;
+                let a = 0;
+
+                if(hpm[i] > 0)
+                {
+                    r = hpm[i];
+                    b = hpm[i];
+                    a = 255;
+                }
+
+                raw_image.data[idx    ] = r;
+                raw_image.data[idx + 1] = g;
+                raw_image.data[idx + 2] = b;
+                raw_image.data[idx + 3] = a;
+            }
+            ctx.putImageData(raw_image, 0, 0);
+
+            const [[amn_x, amn_y], [amx_x, amx_y]] = reserve_aabb[reserve_id];
+            user_hunting_pressure[reserve_id] = {
+                'url': canvas.toDataURL(),
+                'bounds': [[amn_y, amn_x], [amx_y, amx_x]],
+            }
+
+            if(reserve_id === current_reserve_id)
+            {
+                document.getElementById('map_info').innerHTML = '';
+                loadReserve(current_reserve_id, true);
+                loadUserSave(current_reserve_id, true);
+            }
+        }
+        console.log('Processed', save_name);
+    }
+
+    // Manage active reserve
+    let current_reserve_id = null;
+    let current_reserve_layers = null;
+    let current_user_save_layer_list = [];
+    let current_user_save_layer_map = {};
+    let current_user_hunting_heat_layer = null;
+    let current_user_items_by_time = []
+    let current_user_items_other = []
+
+    function onEachFeatureZone(feature, layer) {
+        if(feature.hasOwnProperty("properties")
+            && feature.properties.hasOwnProperty("zone_info")
+            && feature.properties.zone_info.hasOwnProperty("zone_time_begin")
+            && feature.properties.zone_info.hasOwnProperty("zone_time_end")
+        )
+        {
+            const st = feature.properties.zone_info.zone_time_begin;
+            const et = feature.properties.zone_info.zone_time_end;
+            current_user_items_by_time.push([st, et, layer]);
+        }
+        else {
+            current_user_items_other.push(layer);
+        }
+
+    }
+
+    function loadUserSave(reserve_id, force_redraw=false) {
+        let dropzone = document.getElementById('dropzone');
+
+        // map.eachLayer(function(layer) {map.removeLayer(layer);});
+        current_user_save_layer_list.forEach(function(layer) {map.removeLayer(layer);});
+        // current_user_save_layers.forEach(function(layer) {layer.remove();});
+        current_user_save_layer_list = [];
+        current_user_save_layer_map = {};
+        current_user_items_by_time = [];
+        current_user_items_other = [];
+        dropzone.innerHTML = '';
+
+        if( user_hunting_pressure.hasOwnProperty(reserve_id) && user_hunting_pressure[reserve_id] !== null)
+        {
+            current_user_hunting_heat_layer = L.imageOverlay(
+                user_hunting_pressure[reserve_id]['url'],
+                user_hunting_pressure[reserve_id]['bounds'],
+                {
+                    interactive: true,
+                    attribution: `${reserve_id} User HeatMap`,
+                    opacity: 0.5,
+                    className: 'crisp-image',
+                    crossOrigin: true,
+                }
+            );
+        }
+
+        if( user_populations.hasOwnProperty(reserve_id))
+        {
+            const user_population = user_populations[reserve_id];
+            let name_to_id = {};
+            for( const population_id in user_population) if(user_population.hasOwnProperty(population_id)) {
+                if(population_infos.hasOwnProperty(population_id))
+                {
+                    const population_name = population_infos[population_id]['name'];
+                    name_to_id[population_name] = population_id;
+                }
+                else
+                {
+                    console.error(`population_infos missing ${population_id} ${user_populations[reserve_id]}`)
+                }
+            }
+
+
+            let nav_populations = '';
+
+            let names = Object.keys(name_to_id).sort();
+            names.forEach((population_name) => {
+                const population_id = name_to_id[population_name];
+                let data0 = 'data-population-id="' + population_id + '"';
+
+
+                let max_score_population = 0.0;
+                let animal_count_population = 0;
+                let nav_population = '';
+
+                const spawn_area_groups = user_population[population_id];
+                for(let spawn_area_id in spawn_area_groups) if(spawn_area_groups.hasOwnProperty(spawn_area_id)) {
+                    let data1 = 'data-spawn-area-id=' + spawn_area_id;
+
+                    let max_score_spawn = 0.0;
+                    let animal_count_spawn = 0;
+                    let nav_spawn = '';
+
+                    let groups = spawn_area_groups[spawn_area_id]
+                    for(let group_idx in groups) if(groups.hasOwnProperty(group_idx)) {
+                        let data2 = 'data-group-index=' + group_idx;
+
+                        let group = groups[group_idx];
+                        let layer = L.geoJSON(
+                            group,
+                            {
+                                style: onStyle,
+                                onEachFeature: onEachFeatureZone
+                            }
+                        );
+                        const max_score_group = group["features"][0]["properties"]["zone_info"]["max_score"];
+                        const animal_count_group = group["features"][0]["properties"]["zone_info"]["animal_count"];
+                        max_score_spawn = Math.max(max_score_spawn, max_score_group);
+                        animal_count_spawn += animal_count_group;
+
+                        let dict = current_user_save_layer_map;
+
+                        if(!dict.hasOwnProperty(population_id))
+                            dict[population_id] = {}
+                        dict = dict[population_id]
+
+                        if(!dict.hasOwnProperty(spawn_area_id))
+                            dict[spawn_area_id] = {}
+                        dict = dict[spawn_area_id]
+
+                        dict[group_idx] = layer;
+
+                        current_user_save_layer_list.push(layer);
+
+                        nav_spawn += `<li> <span class="nav-spacer"></span> <input type="checkbox" class="nav-visible" ${data0} ${data1} ${data2}>Group: ${group_idx}, Max Score: ${max_score_group.toFixed(1)} ⌊${Math.floor(max_score_group)}⌋, Animal Count: ${animal_count_group}</li>`
+                    }
+                    max_score_population = Math.max(max_score_population, max_score_spawn);
+                    animal_count_population += animal_count_spawn;
+
+                    nav_population += `<li> <span class="nav-caret"></span> <input type="checkbox" class="nav-visible" ${data0} ${data1}>Spawn: ${spawn_area_id}, Max Score: ${max_score_spawn.toFixed(1)} ⌊${Math.floor(max_score_spawn)}⌋, Animal Count: ${animal_count_spawn}<ul class="nested">`
+                    nav_population += nav_spawn
+                    nav_population += '</ul></li>'
+                }
+
+                nav_populations += `<li> <span class="nav-caret"></span> <input type="checkbox" class="nav-visible" ${data0}>${population_name}, Max Score: ${max_score_population.toFixed(1)} ⌊${Math.floor(max_score_population)}⌋, Animal Count: ${animal_count_population}<ul class="nested">`
+                nav_populations += nav_population;
+                nav_populations += '</ul></li>'
+            });
+
+            let nav =
+                '<ul id="pop_nav">'
+                + nav_populations
+                + `<li> <span class="nav-spacer"></span> <input type="checkbox" class="nav-visible" data-hunting-pressure-map="1">Hunting Pressure Map`
+                + '</li>'
+                + '</ul>';
+
+            dropzone.innerHTML = nav;
+
+            // setup nested display + caret adjustment
+            const carets = document.getElementsByClassName("nav-caret");
+            for (let i = 0; i < carets.length; i++) {
+                carets[i].addEventListener("click", function() {
+                    this.parentElement.querySelector(".nested").classList.toggle("active");
+                    this.classList.toggle("nav-caret-down");
+                });
+            }
+
+            // setup visibility display
+            const visible_elements = document.getElementsByClassName("nav-visible");
+            for (let i = 0; i < visible_elements.length; i++) {
+                let ve = visible_elements[i];
+                ve.addEventListener("click", function() {
+                    // setup check boxes
+                    if(ve.dataset.huntingPressureMap) {
+                        if(current_user_hunting_heat_layer !== null)
+                        {
+                            if(ve.checked)
+                                current_user_hunting_heat_layer.addTo(map);
+                            else
+                                current_user_hunting_heat_layer.remove();
+                        }
+                    }
+                    else
+                    {
+                        let es = [...document.querySelectorAll(`[data-population-id=${ve.dataset.populationId}]`)];
+
+                        if(ve.dataset.spawnAreaId) {
+                            let es1 = new Set(document.querySelectorAll(`[data-spawn-area-id="${ve.dataset.spawnAreaId}"]`));
+                            es = es.filter(x => es1.has(x))
+                        }
+                        if(ve.dataset.groupIndex) {
+                            let es2 = new Set(document.querySelectorAll(`[data-group-index="${ve.dataset.groupIndex}"]`));
+                            es = es.filter(x => es2.has(x))
+                        }
+
+                        es.forEach((e)=>{
+                            e.checked = ve.checked;
+                        });
+
+                        //adjust map
+
+                        let layers0 = current_user_save_layer_map;
+                        let keys0 = Object.keys(layers0);
+                        if(ve.dataset.populationId)
+                            keys0 = [ve.dataset.populationId];
+
+                        keys0.forEach((key0) => {
+                            let layers1 = layers0[key0];
+                            let keys1 = Object.keys(layers1);
+                            if(ve.dataset.spawnAreaId)
+                                keys1 = [ve.dataset.spawnAreaId];
+
+                            keys1.forEach((key1) => {
+                                let layers2 = layers1[key1];
+                                let keys2 = Object.keys(layers2);
+                                if(ve.dataset.groupIndex)
+                                    keys2 = [ve.dataset.groupIndex];
+
+                                keys2.forEach((key2) => {
+                                    let layer = layers2[key2];
+                                    if(ve.checked)
+                                    {
+                                        layer.addTo(map);
+                                    }
+                                    else
+                                    {
+                                        layer.remove();
+                                    }
+                                });
+                            });
+                        });
+                    }
+                });
+            }
+
+        }
+    }
+
+    //slide control
+    let slider_time_begin = document.getElementById("time_begin");
+    let slider_time_end = document.getElementById("time_end");
+    let slider_time_mid = document.getElementById("time_mid");
+    let label_time_begin = document.getElementById("time_begin_label");
+    let label_time_end = document.getElementById("time_end_label");
+    let label_time_mid = document.getElementById("time_mid_label");
+    let mid_active=false;
+
+    function update_map_time() {
+        label_time_mid.innerHTML = formatMinutesToHHMM(slider_time_mid.value); // Display the default slider value
+        label_time_begin.innerHTML = formatMinutesToHHMM(slider_time_begin.value); // Display the default slider value
+        label_time_end.innerHTML = formatMinutesToHHMM(slider_time_end.value); // Display the default slider value
+
+        let visible_count = 0;
+        let invisible_count = 0;
+        let disable_others = true;
+        if(mid_active)
+        {
+            label_time_begin.style.opacity = 0.1;
+            label_time_end.style.opacity = 0.1;
+            label_time_mid.style.opacity = 'initial';
+
+            const day_time = Math.trunc(slider_time_mid.value / 60) + (slider_time_mid.value % 60) / 60;
+
+
+            for(let i = 0; i < current_user_items_by_time.length; ++i)
+            {
+                const st = current_user_items_by_time[i][0];
+                let et = current_user_items_by_time[i][1];
+                let item = current_user_items_by_time[i][2];
+
+                if(et <= st)
+                {
+                    et += 24.0;
+                }
+
+                const mt = (et + st) / 2.0;
+                let diff = Math.abs(mt - day_time);
+                diff = Math.min(diff, 24.0 - diff);
+
+
+                const make_visible = (st <= day_time) && (day_time <= et);
+                let scale = 1.0;
+                let scale_fill = 1.0;
+
+                if(make_visible)
+                {
+                    scale = 1.0;
+                    scale_fill = 1.0
+                    visible_count += 1;
+                }
+                else
+                {
+                    // scale = 0.05;
+                    scale_fill = 1.0 - (diff / 12);
+                    scale_fill = Math.pow(scale_fill, 2);
+                    scale = 0.0;
+                    invisible_count += 1;
+                }
+
+
+                item.setStyle({opacity: 1.0 * scale, fillOpacity: 0.1 * scale_fill});
+            }
+        }
+        else
+        {
+            label_time_begin.style.opacity = 'initial';
+            label_time_end.style.opacity = 'initial';
+            label_time_mid.style.opacity = 0.1;
+
+            const day_time_begin = Math.trunc(slider_time_begin.value / 60) + (slider_time_begin.value % 60) / 60;
+            const day_time_end = Math.trunc(slider_time_end.value / 60) + (slider_time_end.value % 60) / 60;
+
+            disable_others = !(slider_time_begin.value === slider_time_begin.min && slider_time_end.value === slider_time_end.max);
+
+            for(let i = 0; i < current_user_items_by_time.length; ++i)
+            {
+                const st = current_user_items_by_time[i][0];
+                let et = current_user_items_by_time[i][1];
+                let item = current_user_items_by_time[i][2];
+
+                if(et <= st)
+                {
+                    et += 24.0;
+                }
+
+                let make_visible = false;
+
+                if(day_time_begin < day_time_end)
+                    make_visible = st <= day_time_end && et >= day_time_begin;
+                else
+                    make_visible = !(st > day_time_end && et < day_time_begin);
+
+                let scale = 1.0;
+
+
+                if(make_visible)
+                {
+                    scale = 1.0;
+                    visible_count += 1;
+                }
+                else
+                {
+                    scale = 0.05;
+                    invisible_count += 1;
+                }
+
+                item.setStyle({opacity: 1.0 * scale, fillOpacity: 0.1 * scale});
+            }
+        }
+
+        if(disable_others)
+        {
+            for(let i = 0; i < current_user_items_other.length; ++i)
+            {
+                let item = current_user_items_other[i];
+                item.setStyle({opacity: 0.0});
+            }
+        }
+        else
+        {
+            for(let i = 0; i < current_user_items_other.length; ++i)
+            {
+                let item = current_user_items_other[i];
+                item.setStyle({opacity: 1.0});
+            }
+        }
+
+        // console.log(visible_count, invisible_count);
+    }
+
+    // Update the current slider value (each time you drag the slider handle)
+    slider_time_begin.oninput = function() {
+        mid_active = false;
+        update_map_time();
+    }
+    slider_time_end.oninput = function() {
+        mid_active = false;
+        update_map_time();
+    }
+    slider_time_mid.oninput = function() {
+        mid_active = true;
+        update_map_time();
+    }
+
+    update_map_time();
+
+
+    // connect buttons
+    reserves.forEach(function(v) {
+        let but = document.getElementById(v + '_link');
+        if(but)
+            but.onclick = function() {
+                document.getElementById('map_info').innerHTML = '';
+                loadReserve(v);
+                loadUserSave(v);
+            };
+        but = document.getElementById(v + '_link_mobile');
+        if(but)
+            but.onclick = function() {
+                document.getElementById('map_info').innerHTML = '';
+                loadReserve(v);
+                loadUserSave(v);
+            };
+    });
+</script>
+
+</body>
+
+</html>

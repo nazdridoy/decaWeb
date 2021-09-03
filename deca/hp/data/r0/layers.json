@@ -1,0 +1,663 @@
+[
+    {
+        "layer_type": "tile_map",
+        "overlay": false,
+        "name": "Topographic",
+        "active": true,
+        "attribution": "Hirschfelden Hunting Reserve map from theHunter:COTW",
+        "id": "t_topo",
+        "url": "data/r0/t_topo/{z}/{x}/{y}.png",
+        "max_zoom": 5,
+        "opacity": 1.0,
+        "bounds": [
+            [
+                -16384.0,
+                0.0
+            ],
+            [
+                0.0,
+                16384.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Canada Goose: spawn",
+        "active": false,
+        "attribution": "Hirschfelden Hunting Reserve bitmaps from theHunter:COTW",
+        "id": "canada_goose_spawn",
+        "url": "data/r0/t_canada_goose_spawn/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -11264.0,
+                5120.0
+            ],
+            [
+                -3072.0,
+                13312.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Canada Goose: drinking",
+        "active": false,
+        "attribution": "Hirschfelden Hunting Reserve bitmaps from theHunter:COTW",
+        "id": "canada_goose_drinking",
+        "url": "data/r0/t_canada_goose_drinking/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -11264.0,
+                5120.0
+            ],
+            [
+                -3072.0,
+                13312.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Canada Goose: feeding",
+        "active": false,
+        "attribution": "Hirschfelden Hunting Reserve bitmaps from theHunter:COTW",
+        "id": "canada_goose_feeding",
+        "url": "data/r0/t_canada_goose_feeding/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -11264.0,
+                5120.0
+            ],
+            [
+                -3072.0,
+                13312.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Canada Goose: resting",
+        "active": false,
+        "attribution": "Hirschfelden Hunting Reserve bitmaps from theHunter:COTW",
+        "id": "canada_goose_resting",
+        "url": "data/r0/t_canada_goose_resting/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -11264.0,
+                5120.0
+            ],
+            [
+                -3072.0,
+                13312.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "EU Bison: spawn",
+        "active": false,
+        "attribution": "Hirschfelden Hunting Reserve bitmaps from theHunter:COTW",
+        "id": "eu_bison_spawn",
+        "url": "data/r0/t_eu_bison_spawn/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -11264.0,
+                5120.0
+            ],
+            [
+                -3072.0,
+                13312.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "EU Bison: drinking",
+        "active": false,
+        "attribution": "Hirschfelden Hunting Reserve bitmaps from theHunter:COTW",
+        "id": "eu_bison_drinking",
+        "url": "data/r0/t_eu_bison_drinking/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -11264.0,
+                5120.0
+            ],
+            [
+                -3072.0,
+                13312.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "EU Bison: feeding",
+        "active": false,
+        "attribution": "Hirschfelden Hunting Reserve bitmaps from theHunter:COTW",
+        "id": "eu_bison_feeding",
+        "url": "data/r0/t_eu_bison_feeding/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -11264.0,
+                5120.0
+            ],
+            [
+                -3072.0,
+                13312.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "EU Bison: resting",
+        "active": false,
+        "attribution": "Hirschfelden Hunting Reserve bitmaps from theHunter:COTW",
+        "id": "eu_bison_resting",
+        "url": "data/r0/t_eu_bison_resting/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -11264.0,
+                5120.0
+            ],
+            [
+                -3072.0,
+                13312.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "EU Rabbit: spawn",
+        "active": false,
+        "attribution": "Hirschfelden Hunting Reserve bitmaps from theHunter:COTW",
+        "id": "eu_rabbit_spawn",
+        "url": "data/r0/t_eu_rabbit_spawn/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -11264.0,
+                5120.0
+            ],
+            [
+                -3072.0,
+                13312.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "EU Rabbit: feeding",
+        "active": false,
+        "attribution": "Hirschfelden Hunting Reserve bitmaps from theHunter:COTW",
+        "id": "eu_rabbit_feeding",
+        "url": "data/r0/t_eu_rabbit_feeding/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -11264.0,
+                5120.0
+            ],
+            [
+                -3072.0,
+                13312.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Fallow Deer: spawn",
+        "active": false,
+        "attribution": "Hirschfelden Hunting Reserve bitmaps from theHunter:COTW",
+        "id": "fallow_deer_spawn",
+        "url": "data/r0/t_fallow_deer_spawn/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -11264.0,
+                5120.0
+            ],
+            [
+                -3072.0,
+                13312.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Fallow Deer: drinking",
+        "active": false,
+        "attribution": "Hirschfelden Hunting Reserve bitmaps from theHunter:COTW",
+        "id": "fallow_deer_drinking",
+        "url": "data/r0/t_fallow_deer_drinking/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -11264.0,
+                5120.0
+            ],
+            [
+                -3072.0,
+                13312.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Fallow Deer: feeding",
+        "active": false,
+        "attribution": "Hirschfelden Hunting Reserve bitmaps from theHunter:COTW",
+        "id": "fallow_deer_feeding",
+        "url": "data/r0/t_fallow_deer_feeding/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -11264.0,
+                5120.0
+            ],
+            [
+                -3072.0,
+                13312.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Fallow Deer: resting",
+        "active": false,
+        "attribution": "Hirschfelden Hunting Reserve bitmaps from theHunter:COTW",
+        "id": "fallow_deer_resting",
+        "url": "data/r0/t_fallow_deer_resting/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -11264.0,
+                5120.0
+            ],
+            [
+                -3072.0,
+                13312.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Red Deer: spawn",
+        "active": false,
+        "attribution": "Hirschfelden Hunting Reserve bitmaps from theHunter:COTW",
+        "id": "red_deer_spawn",
+        "url": "data/r0/t_red_deer_spawn/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -11264.0,
+                5120.0
+            ],
+            [
+                -3072.0,
+                13312.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Red Deer: drinking",
+        "active": false,
+        "attribution": "Hirschfelden Hunting Reserve bitmaps from theHunter:COTW",
+        "id": "red_deer_drinking",
+        "url": "data/r0/t_red_deer_drinking/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -11264.0,
+                5120.0
+            ],
+            [
+                -3072.0,
+                13312.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Red Deer: feeding",
+        "active": false,
+        "attribution": "Hirschfelden Hunting Reserve bitmaps from theHunter:COTW",
+        "id": "red_deer_feeding",
+        "url": "data/r0/t_red_deer_feeding/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -11264.0,
+                5120.0
+            ],
+            [
+                -3072.0,
+                13312.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Red Deer: resting",
+        "active": false,
+        "attribution": "Hirschfelden Hunting Reserve bitmaps from theHunter:COTW",
+        "id": "red_deer_resting",
+        "url": "data/r0/t_red_deer_resting/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -11264.0,
+                5120.0
+            ],
+            [
+                -3072.0,
+                13312.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Red Fox: spawn",
+        "active": false,
+        "attribution": "Hirschfelden Hunting Reserve bitmaps from theHunter:COTW",
+        "id": "red_fox_spawn",
+        "url": "data/r0/t_red_fox_spawn/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -11264.0,
+                5120.0
+            ],
+            [
+                -3072.0,
+                13312.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Red Fox: drinking",
+        "active": false,
+        "attribution": "Hirschfelden Hunting Reserve bitmaps from theHunter:COTW",
+        "id": "red_fox_drinking",
+        "url": "data/r0/t_red_fox_drinking/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -11264.0,
+                5120.0
+            ],
+            [
+                -3072.0,
+                13312.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Red Fox: feeding",
+        "active": false,
+        "attribution": "Hirschfelden Hunting Reserve bitmaps from theHunter:COTW",
+        "id": "red_fox_feeding",
+        "url": "data/r0/t_red_fox_feeding/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -11264.0,
+                5120.0
+            ],
+            [
+                -3072.0,
+                13312.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Red Fox: resting",
+        "active": false,
+        "attribution": "Hirschfelden Hunting Reserve bitmaps from theHunter:COTW",
+        "id": "red_fox_resting",
+        "url": "data/r0/t_red_fox_resting/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -11264.0,
+                5120.0
+            ],
+            [
+                -3072.0,
+                13312.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Roe Deer: spawn",
+        "active": false,
+        "attribution": "Hirschfelden Hunting Reserve bitmaps from theHunter:COTW",
+        "id": "roe_deer_spawn",
+        "url": "data/r0/t_roe_deer_spawn/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -11264.0,
+                5120.0
+            ],
+            [
+                -3072.0,
+                13312.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Roe Deer: drinking",
+        "active": false,
+        "attribution": "Hirschfelden Hunting Reserve bitmaps from theHunter:COTW",
+        "id": "roe_deer_drinking",
+        "url": "data/r0/t_roe_deer_drinking/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -11264.0,
+                5120.0
+            ],
+            [
+                -3072.0,
+                13312.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Roe Deer: feeding",
+        "active": false,
+        "attribution": "Hirschfelden Hunting Reserve bitmaps from theHunter:COTW",
+        "id": "roe_deer_feeding",
+        "url": "data/r0/t_roe_deer_feeding/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -11264.0,
+                5120.0
+            ],
+            [
+                -3072.0,
+                13312.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Roe Deer: resting",
+        "active": false,
+        "attribution": "Hirschfelden Hunting Reserve bitmaps from theHunter:COTW",
+        "id": "roe_deer_resting",
+        "url": "data/r0/t_roe_deer_resting/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -11264.0,
+                5120.0
+            ],
+            [
+                -3072.0,
+                13312.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Wild Boar: spawn",
+        "active": false,
+        "attribution": "Hirschfelden Hunting Reserve bitmaps from theHunter:COTW",
+        "id": "wild_boar_spawn",
+        "url": "data/r0/t_wild_boar_spawn/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -11264.0,
+                5120.0
+            ],
+            [
+                -3072.0,
+                13312.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Wild Boar: drinking",
+        "active": false,
+        "attribution": "Hirschfelden Hunting Reserve bitmaps from theHunter:COTW",
+        "id": "wild_boar_drinking",
+        "url": "data/r0/t_wild_boar_drinking/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -11264.0,
+                5120.0
+            ],
+            [
+                -3072.0,
+                13312.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Wild Boar: feeding",
+        "active": false,
+        "attribution": "Hirschfelden Hunting Reserve bitmaps from theHunter:COTW",
+        "id": "wild_boar_feeding",
+        "url": "data/r0/t_wild_boar_feeding/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -11264.0,
+                5120.0
+            ],
+            [
+                -3072.0,
+                13312.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Wild Boar: resting",
+        "active": false,
+        "attribution": "Hirschfelden Hunting Reserve bitmaps from theHunter:COTW",
+        "id": "wild_boar_resting",
+        "url": "data/r0/t_wild_boar_resting/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -11264.0,
+                5120.0
+            ],
+            [
+                -3072.0,
+                13312.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Animal Forbidden Map: forbidden",
+        "active": false,
+        "attribution": "Hirschfelden Hunting Reserve bitmaps from theHunter:COTW",
+        "id": "animal_forbidden_map_forbidden",
+        "url": "data/r0/t_animal_forbidden_map_forbidden/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -11264.0,
+                5120.0
+            ],
+            [
+                -3072.0,
+                13312.0
+            ]
+        ]
+    },
+    {
+        "layer_type": "image",
+        "overlay": true,
+        "name": "Flee Map: flee",
+        "active": false,
+        "attribution": "Hirschfelden Hunting Reserve bitmaps from theHunter:COTW",
+        "id": "flee_map_flee",
+        "url": "data/r0/t_flee_map_flee/full.png",
+        "opacity": 0.5,
+        "bounds": [
+            [
+                -11264.0,
+                5120.0
+            ],
+            [
+                -3072.0,
+                13312.0
+            ]
+        ]
+    }
+]

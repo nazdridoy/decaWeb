@@ -1,0 +1,546 @@
+{
+  "hunting_blind": [
+    [
+      [
+        -7116.591796875,
+        8536.0048828125
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -6965.01904296875,
+        9451.51171875
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -6461.53173828125,
+        10429.0537109375
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -5945.19970703125,
+        9762.6953125
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -5203.7294921875,
+        9044.890625
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -5775.39404296875,
+        8707.423828125
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -6012.720703125,
+        8206.1650390625
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -5663.25537109375,
+        7881.982421875
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -5311.103515625,
+        7274.6865234375
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -5087.84326171875,
+        6326.6904296875
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -5199.64404296875,
+        5479.171875
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -5661.68896484375,
+        4813.63916015625
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -6555.04248046875,
+        4708.9541015625
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -7258.7001953125,
+        4408.12890625
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -7974.72802734375,
+        4620.0556640625
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -8224.60546875,
+        4523.0029296875
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -8633.849609375,
+        4764.13330078125
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -8152.06982421875,
+        5175.46337890625
+      ],
+      "hunting_blind_name",
+      "Ground blind"
+    ],
+    [
+      [
+        -8245.962890625,
+        8662.2998046875
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -10026.6962890625,
+        9618.69140625
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -8019.41552734375,
+        8285.8134765625
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -8415.263671875,
+        7388.82958984375
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -6841.40234375,
+        7507.7080078125
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -7428.552734375,
+        6189.166015625
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -7883.82861328125,
+        6090.75244140625
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -8348.08984375,
+        6191.78271484375
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -8867.5703125,
+        5163.8876953125
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -10868.61328125,
+        4451.6884765625
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -10493.3544921875,
+        6145.27685546875
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -10168.873046875,
+        7390.13330078125
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -9831.7880859375,
+        10651.7265625
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -6437.67431640625,
+        6086.53125
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ],
+    [
+      [
+        -8428.2158203125,
+        9148.384765625
+      ],
+      "hunting_stand_name",
+      "Hunting stand"
+    ]
+  ],
+  "landmark": [
+    [
+      [
+        -8901.9677734375,
+        4319.61376953125
+      ],
+      "patagonia_landmark_01_name",
+      "Titanosaurio"
+    ],
+    [
+      [
+        -7794.50927734375,
+        7141.1318359375
+      ],
+      "patagonia_landmark_02_name",
+      "Cementerio del Penitente"
+    ],
+    [
+      [
+        -8475.14453125,
+        8770.615234375
+      ],
+      "patagonia_landmark_03_name",
+      "Leyenda de la Baya de Calafate"
+    ],
+    [
+      [
+        -11460.4423828125,
+        11470.009765625
+      ],
+      "patagonia_landmark_04_name",
+      "El Fin del Mundo"
+    ],
+    [
+      [
+        -6177.48876953125,
+        9230.2021484375
+      ],
+      "patagonia_landmark_05_name",
+      "Los Gauchos"
+    ],
+    [
+      [
+        -10431.193359375,
+        4444.4521484375
+      ],
+      "patagonia_landmark_06_name",
+      "Los Bagualeros"
+    ],
+    [
+      [
+        -7190.89794921875,
+        10481.552734375
+      ],
+      "patagonia_landmark_07_name",
+      "Cueva de las Manos"
+    ],
+    [
+      [
+        -9637.0166015625,
+        6609.6923828125
+      ],
+      "patagonia_landmark_08_name",
+      "Lagos Subterr\u00e1neos"
+    ],
+    [
+      [
+        -6738.140625,
+        6395.1640625
+      ],
+      "patagonia_landmark_09_name",
+      "Ebothrium Coccineum"
+    ],
+    [
+      [
+        -5198.40966796875,
+        7390.4423828125
+      ],
+      "patagonia_landmark_10_name",
+      "Nothofagus"
+    ],
+    [
+      [
+        -9646.796875,
+        11235.7705078125
+      ],
+      "patagonia_landmark_11_name",
+      "Guarida de los Pumas Mimados"
+    ],
+    [
+      [
+        -6800.80126953125,
+        6972.361328125
+      ],
+      "patagonia_landmark_12_name",
+      "Paso de Vientos Cambiantes"
+    ]
+  ],
+  "lookout_point": [
+    [
+      [
+        -8480.98046875,
+        8384.1103515625
+      ],
+      "lookout_patagonia_01_name",
+      "Mirador de Magallanes"
+    ],
+    [
+      [
+        -9876.4794921875,
+        9803.966796875
+      ],
+      "lookout_patagonia_03_name",
+      "Mirador de Perito Moreno"
+    ],
+    [
+      [
+        -5812.12890625,
+        10059.560546875
+      ],
+      "lookout_patagonia_03_name",
+      "Mirador de Perito Moreno"
+    ],
+    [
+      [
+        -5852.08349609375,
+        7650.82373046875
+      ],
+      "lookout_patagonia_04_name",
+      "Mirador de Tito"
+    ],
+    [
+      [
+        -5948.421875,
+        5263.89990234375
+      ],
+      "lookout_patagonia_05_name",
+      "Mirador de Guevara"
+    ],
+    [
+      [
+        -7907.771484375,
+        6405.6240234375
+      ],
+      "lookout_patagonia_06_name",
+      "Mirador de Pastore"
+    ],
+    [
+      [
+        -8568.8447265625,
+        4899.7138671875
+      ],
+      "lookout_patagonia_07_name",
+      "Mirador de Fontana"
+    ],
+    [
+      [
+        -11452.720703125,
+        5109.66796875
+      ],
+      "lookout_patagonia_08_name",
+      "Mirador de Ameghino"
+    ],
+    [
+      [
+        -10209.3125,
+        7659.62939453125
+      ],
+      "lookout_patagonia_09_name",
+      "Mirador de Frey"
+    ]
+  ],
+  "outpost": [
+    [
+      [
+        -8362.4140625,
+        7819.36376953125
+      ],
+      "outpost_patagonia_01_name",
+      "Casita de Martita"
+    ],
+    [
+      [
+        -10395.771484375,
+        9779.236328125
+      ],
+      "outpost_patagonia_02_name",
+      "Casita de Cordoba"
+    ],
+    [
+      [
+        -9324.9951171875,
+        10633.0859375
+      ],
+      "outpost_patagonia_03_name",
+      "Casita de Mendoza"
+    ],
+    [
+      [
+        -6561.32861328125,
+        10432.0107421875
+      ],
+      "outpost_patagonia_04_name",
+      "Casita de La Negra"
+    ],
+    [
+      [
+        -4746.154296875,
+        9695.2138671875
+      ],
+      "outpost_patagonia_05_name",
+      "Casita de Pappo"
+    ],
+    [
+      [
+        -6129.75390625,
+        8224.681640625
+      ],
+      "outpost_patagonia_06_name",
+      "Casita de Ushuaia"
+    ],
+    [
+      [
+        -5534.138671875,
+        6909.7373046875
+      ],
+      "outpost_patagonia_07_name",
+      "Casita de Cristal"
+    ],
+    [
+      [
+        -5294.38720703125,
+        5109.875
+      ],
+      "outpost_patagonia_08_name",
+      "Casita del Papa Francisco"
+    ],
+    [
+      [
+        -7157.90478515625,
+        4674.51220703125
+      ],
+      "outpost_patagonia_09_name",
+      "Casita de Bariloche"
+    ],
+    [
+      [
+        -7432.8203125,
+        6653.98779296875
+      ],
+      "outpost_patagonia_10_name",
+      "Casita de Sabina"
+    ],
+    [
+      [
+        -8333.3720703125,
+        5367.50341796875
+      ],
+      "outpost_patagonia_11_name",
+      "Casita de B\u00edr\u00f3"
+    ],
+    [
+      [
+        -10505.251953125,
+        5000.41796875
+      ],
+      "outpost_patagonia_12_name",
+      "Casita de Cornaro"
+    ],
+    [
+      [
+        -10309.1650390625,
+        7136.3759765625
+      ],
+      "outpost_patagonia_13_name",
+      "Casita de Cordoba"
+    ]
+  ]
+}
